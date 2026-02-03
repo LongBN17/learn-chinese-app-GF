@@ -12,7 +12,7 @@
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', 'SimHei', Arial, sans-serif;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       min-height: 100vh;
       padding: 20px;
@@ -20,11 +20,11 @@
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 0 auto;
       background: white;
-      border-radius: 20px;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      border-radius: 24px;
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.3);
       overflow: hidden;
     }
 
@@ -33,138 +33,359 @@
       color: white;
       padding: 30px;
       text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+      animation: rotate 20s linear infinite;
+    }
+
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
     }
 
     .header h1 {
-      font-size: 32px;
+      font-size: 42px;
       margin-bottom: 10px;
       font-weight: 700;
+      position: relative;
+      z-index: 1;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
     }
 
     .header .subtitle {
-      opacity: 0.9;
-      font-size: 16px;
+      opacity: 0.95;
+      font-size: 18px;
+      position: relative;
+      z-index: 1;
     }
 
     .stats-bar {
-      display: flex;
-      justify-content: space-around;
-      padding: 20px;
-      background: #f8f9fa;
-      border-bottom: 1px solid #e9ecef;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      padding: 25px;
+      background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+      border-bottom: 2px solid #e9ecef;
     }
 
     .stat {
       text-align: center;
+      padding: 15px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease;
+    }
+
+    .stat:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
     }
 
     .stat-label {
-      font-size: 12px;
+      font-size: 11px;
       color: #6c757d;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-bottom: 5px;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+      font-weight: 600;
     }
 
     .stat-value {
-      font-size: 24px;
+      font-size: 28px;
       font-weight: 700;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .tabs {
+      display: flex;
+      background: #f8f9fa;
+      border-bottom: 2px solid #e9ecef;
+      padding: 0 30px;
+    }
+
+    .tab {
+      padding: 20px 30px;
+      background: transparent;
+      border: none;
+      border-bottom: 3px solid transparent;
+      font-size: 16px;
+      font-weight: 600;
+      color: #6b7280;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .tab:hover {
       color: #667eea;
+      background: rgba(102, 126, 234, 0.05);
+    }
+
+    .tab.active {
+      color: #667eea;
+      border-bottom-color: #667eea;
+      background: white;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
     }
 
     .main-content {
-      padding: 40px;
+      padding: 50px;
+    }
+
+    .card-container {
+      perspective: 1000px;
+      margin-bottom: 40px;
     }
 
     .card {
-      background: #fff;
-      border: 2px solid #e9ecef;
-      border-radius: 16px;
-      padding: 40px;
-      margin-bottom: 30px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-      transition: all 0.3s ease;
+      background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+      border: none;
+      border-radius: 24px;
+      padding: 60px 40px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background: linear-gradient(90deg, #667eea, #764ba2, #f093fb, #4facfe);
+      background-size: 200% 100%;
+      animation: gradient 3s ease infinite;
+    }
+
+    @keyframes gradient {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
     }
 
     .card:hover {
-      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+      transform: translateY(-5px);
+      box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+    }
+
+    .card.flip {
+      animation: flipCard 0.6s ease-in-out;
+    }
+
+    @keyframes flipCard {
+      0% { transform: rotateY(0deg); }
+      50% { transform: rotateY(90deg); }
+      100% { transform: rotateY(0deg); }
+    }
+
+    .term-container {
+      text-align: center;
+      margin-bottom: 30px;
     }
 
     .term {
-      font-size: 48px;
+      font-size: 72px;
       font-weight: 700;
       color: #111827;
-      text-align: center;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
       line-height: 1.2;
-      font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
+      font-family: 'Microsoft YaHei', 'SimHei', 'STHeiti', sans-serif;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+      display: inline-block;
+      padding: 20px 40px;
+      background: linear-gradient(135deg, #fff5f5 0%, #fff9e6 100%);
+      border-radius: 16px;
+      border: 3px solid #f0f0f0;
+      box-shadow: inset 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .pinyin-container {
+      margin-bottom: 25px;
     }
 
     .pinyin {
-      font-size: 24px;
-      color: #667eea;
+      font-size: 32px;
       text-align: center;
-      margin-bottom: 15px;
-      font-weight: 500;
+      margin-bottom: 10px;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+
+    .pinyin-syllable {
+      display: inline-block;
+      padding: 8px 16px;
+      margin: 4px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+      border: 2px solid #667eea30;
+      font-weight: 600;
+      color: #667eea;
+      transition: all 0.3s ease;
+    }
+
+    .pinyin-syllable:hover {
+      background: linear-gradient(135deg, #667eea25 0%, #764ba225 100%);
+      transform: scale(1.05);
+    }
+
+    .meaning-container {
+      margin-bottom: 30px;
     }
 
     .meaning {
-      font-size: 20px;
+      font-size: 26px;
       color: #374151;
       text-align: center;
-      margin-bottom: 15px;
-      font-weight: 500;
+      font-weight: 600;
+      padding: 20px 30px;
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      border-radius: 12px;
+      border-left: 5px solid #3b82f6;
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
     }
 
     .example {
-      font-size: 16px;
+      font-size: 18px;
       color: #6b7280;
       text-align: center;
       font-style: italic;
-      margin-bottom: 20px;
-      padding: 15px;
-      background: #f8f9fa;
-      border-radius: 8px;
+      margin-bottom: 25px;
+      padding: 20px;
+      background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+      border-radius: 12px;
+      border: 2px dashed #d1d5db;
+      line-height: 1.6;
+    }
+
+    .example::before {
+      content: '💡 ';
+      margin-right: 8px;
     }
 
     .hint {
       display: none;
-      font-size: 14px;
+      font-size: 16px;
       color: #9ca3af;
       text-align: center;
-      margin-top: 10px;
+      margin-top: 15px;
+      padding: 15px;
+      background: #fff9e6;
+      border-radius: 8px;
+      border-left: 4px solid #fbbf24;
     }
 
     .hint.show {
       display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .progress-bar-container {
+      margin: 30px 0;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 12px;
+    }
+
+    .progress-bar-label {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: #6b7280;
+      font-weight: 600;
+    }
+
+    .progress-bar {
+      height: 12px;
+      background: #e5e7eb;
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #667eea, #764ba2);
+      border-radius: 6px;
+      transition: width 0.5s ease;
+      box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
     }
 
     .actions {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 15px;
       margin-top: 30px;
     }
 
     .btn {
-      padding: 16px 24px;
+      padding: 18px 28px;
       border: none;
-      border-radius: 12px;
+      border-radius: 14px;
       font-size: 16px;
-      font-weight: 600;
+      font-weight: 700;
       cursor: pointer;
-      transition: all 0.2s ease;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      letter-spacing: 1px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .btn::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+      transform: translate(-50%, -50%);
+      transition: width 0.6s, height 0.6s;
+    }
+
+    .btn:hover::before {
+      width: 300px;
+      height: 300px;
     }
 
     .btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
     }
 
     .btn:active {
-      transform: translateY(0);
+      transform: translateY(-1px) scale(0.98);
     }
 
     .btn-primary {
@@ -173,113 +394,141 @@
     }
 
     .btn-success {
-      background: #10b981;
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
       color: white;
     }
 
     .btn-danger {
-      background: #ef4444;
+      background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
       color: white;
     }
 
     .btn-secondary {
-      background: #6b7280;
+      background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
       color: white;
     }
 
     .btn-info {
-      background: #3b82f6;
+      background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
       color: white;
+    }
+
+    .btn-icon {
+      margin-right: 8px;
+      font-size: 20px;
     }
 
     .settings {
       padding: 30px;
-      background: #f8f9fa;
-      border-top: 1px solid #e9ecef;
+      background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+      border-top: 2px solid #e9ecef;
     }
 
     .settings h3 {
-      margin-bottom: 20px;
+      margin-bottom: 25px;
       color: #374151;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
 
     .setting-item {
-      margin-bottom: 15px;
+      margin-bottom: 20px;
+      padding: 15px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
 
     .setting-item label {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 15px;
       color: #374151;
+      font-weight: 500;
     }
 
     .setting-item input[type="checkbox"] {
-      width: 20px;
-      height: 20px;
+      width: 22px;
+      height: 22px;
       cursor: pointer;
+      accent-color: #667eea;
     }
 
-    .setting-item input[type="number"] {
-      padding: 8px 12px;
-      border: 1px solid #d1d5db;
-      border-radius: 6px;
-      width: 100px;
+    .setting-item input[type="number"],
+    .setting-item select {
+      padding: 10px 15px;
+      border: 2px solid #d1d5db;
+      border-radius: 8px;
+      width: 150px;
       font-size: 14px;
-    }
-
-    .progress-info {
-      text-align: center;
-      color: #6b7280;
-      font-size: 14px;
-      margin-top: 20px;
+      margin-left: auto;
     }
 
     .shortcuts {
       text-align: center;
       color: #9ca3af;
-      font-size: 12px;
-      margin-top: 15px;
-      padding: 10px;
-      background: #f8f9fa;
-      border-radius: 8px;
+      font-size: 13px;
+      margin-top: 20px;
+      padding: 15px;
+      background: linear-gradient(135deg, #f8f9fa 0%, #f3f4f6 100%);
+      border-radius: 10px;
+      border: 1px solid #e5e7eb;
     }
 
     .shortcuts span {
-      margin: 0 5px;
+      margin: 0 8px;
+      padding: 4px 8px;
+      background: white;
+      border-radius: 6px;
+      font-weight: 600;
     }
 
-    .empty-state {
+    .empty-state, .loading {
       text-align: center;
-      padding: 60px 20px;
+      padding: 80px 20px;
       color: #6b7280;
     }
 
-    .empty-state h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
+    .empty-state h2, .loading h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
       color: #374151;
     }
 
-    .loading {
-      text-align: center;
-      padding: 60px 20px;
-      color: #6b7280;
+    .flip-animation {
+      animation: cardFlip 0.6s ease-in-out;
+    }
+
+    @keyframes cardFlip {
+      0% { transform: rotateY(0deg); opacity: 1; }
+      50% { transform: rotateY(90deg); opacity: 0.5; }
+      100% { transform: rotateY(0deg); opacity: 1; }
     }
 
     @media (max-width: 768px) {
       .term {
-        font-size: 36px;
+        font-size: 48px;
+        padding: 15px 25px;
       }
 
       .pinyin {
+        font-size: 24px;
+      }
+
+      .meaning {
         font-size: 20px;
       }
 
       .actions {
         grid-template-columns: 1fr;
+      }
+
+      .stats-bar {
+        grid-template-columns: repeat(2, 1fr);
       }
     }
   </style>
@@ -288,56 +537,118 @@
   <div class="container">
     <div class="header">
       <h1>学习中文</h1>
-      <div class="subtitle">Learn Chinese - Desktop App</div>
+      <div class="subtitle">Learn Chinese - Visual Learning App</div>
     </div>
 
-    <div class="stats-bar">
+    <div class="stats-bar" id="statsBar">
       <div class="stat">
-        <div class="stat-label">Today</div>
+        <div class="stat-label">📅 Today</div>
         <div class="stat-value" id="todayCount">0</div>
       </div>
       <div class="stat">
-        <div class="stat-label">Streak</div>
+        <div class="stat-label">🔥 Streak</div>
         <div class="stat-value" id="streak">0</div>
       </div>
       <div class="stat">
-        <div class="stat-label">Known</div>
+        <div class="stat-label">✅ Known</div>
         <div class="stat-value" id="knownCount">0</div>
       </div>
       <div class="stat">
-        <div class="stat-label">Due</div>
+        <div class="stat-label">⏰ Due</div>
         <div class="stat-value" id="dueCount">0</div>
       </div>
     </div>
 
+    <div class="tabs">
+      <button class="tab active" id="tabLearn" data-tab="learn">
+        📖 Học (Learn)
+      </button>
+      <button class="tab" id="tabPractice" data-tab="practice">
+        🎯 Luyện tập (Practice)
+      </button>
+    </div>
+
     <div class="main-content">
-      <div id="cardContainer">
-        <div class="card">
-          <div class="loading">Loading content...</div>
+      <!-- Tab 1: Learn (Chỉ đọc thông tin) -->
+      <div class="tab-content active" id="contentLearn">
+        <div class="card-container">
+          <div class="card" id="cardLearn">
+            <div class="loading">
+              <h2>Loading content...</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="actions" style="grid-template-columns: repeat(2, 1fr);">
+          <button class="btn btn-info" id="speakLearnBtn">
+            <span class="btn-icon">🔊</span> Speak
+          </button>
+          <button class="btn btn-primary" id="nextLearnBtn">
+            <span class="btn-icon">➡️</span> Next
+          </button>
+        </div>
+
+        <div class="shortcuts">
+          <strong>Keyboard Shortcuts:</strong>
+          <span><strong>N</strong> Next</span>
+          <span><strong>S</strong> Speak</span>
         </div>
       </div>
 
-      <div class="actions">
-        <button class="btn btn-info" id="speakBtn">🔊 Speak</button>
-        <button class="btn btn-secondary" id="hintBtn">💡 Hint</button>
-        <button class="btn btn-danger" id="againBtn">❌ Again</button>
-        <button class="btn btn-success" id="knownBtn">✅ Known</button>
-        <button class="btn btn-primary" id="nextBtn">➡️ Next</button>
-        <button class="btn btn-secondary" id="settingsBtn">⚙️ Settings</button>
-      </div>
+      <!-- Tab 2: Practice (Có SRS, Known/Again) -->
+      <div class="tab-content" id="contentPractice">
+        <div class="card-container">
+          <div class="card" id="cardPractice">
+            <div class="loading">
+              <h2>Loading content...</h2>
+            </div>
+          </div>
+        </div>
 
-      <div class="progress-info" id="progressInfo"></div>
-      <div class="shortcuts" id="shortcuts">
-        <span><strong>N</strong> Next</span>
-        <span><strong>Space</strong> Hint</span>
-        <span><strong>Enter</strong> Known</span>
-        <span><strong>Backspace</strong> Again</span>
-        <span><strong>S</strong> Speak</span>
+        <div class="progress-bar-container" id="progressBarContainer" style="display: none;">
+          <div class="progress-bar-label">
+            <span>Progress</span>
+            <span id="progressText">0%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-bar-fill" id="progressBarFill" style="width: 0%"></div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-info" id="speakPracticeBtn">
+            <span class="btn-icon">🔊</span> Speak
+          </button>
+          <button class="btn btn-secondary" id="hintBtn">
+            <span class="btn-icon">💡</span> Hint
+          </button>
+          <button class="btn btn-danger" id="againBtn">
+            <span class="btn-icon">❌</span> Again
+          </button>
+          <button class="btn btn-success" id="knownBtn">
+            <span class="btn-icon">✅</span> Known
+          </button>
+          <button class="btn btn-primary" id="nextPracticeBtn">
+            <span class="btn-icon">➡️</span> Next
+          </button>
+          <button class="btn btn-secondary" id="settingsBtn">
+            <span class="btn-icon">⚙️</span> Settings
+          </button>
+        </div>
+
+        <div class="shortcuts">
+          <strong>Keyboard Shortcuts:</strong>
+          <span><strong>N</strong> Next</span>
+          <span><strong>Space</strong> Hint</span>
+          <span><strong>Enter</strong> Known</span>
+          <span><strong>Backspace</strong> Again</span>
+          <span><strong>S</strong> Speak</span>
+        </div>
       </div>
     </div>
 
     <div class="settings" id="settingsPanel" style="display: none;">
-      <h3>Settings</h3>
+      <h3>⚙️ Settings</h3>
       <div class="setting-item">
         <label>
           <input type="checkbox" id="autoSpeakInput">
@@ -384,11 +695,13 @@
     // ===== STATE =====
     let allData = [];
     let currentItem = null;
+    let currentLearnItem = null;
     let showHints = false;
     let autoSpeak = false;
     let dailyGoal = 20;
     let reviewOnly = false;
     let contentType = 'all';
+    let currentTab = 'learn';
 
     // ===== UTILITIES =====
     function makeId(item) {
@@ -406,7 +719,7 @@
       return `${yyyy}-${mm}-${dd}`;
     }
 
-    // ===== STORAGE (localStorage instead of chrome.storage) =====
+    // ===== STORAGE =====
     function loadProgress() {
       try {
         const data = localStorage.getItem('srsProgressById');
@@ -545,10 +858,30 @@
       }
     }
 
-    // ===== RENDER =====
-    function render(item) {
+    // ===== RENDER LEARN TAB (Chỉ hiển thị thông tin) =====
+    function renderLearn(item) {
       if (!item) {
-        document.getElementById('cardContainer').innerHTML = '<div class="card"><div class="empty-state"><h2>No items found</h2><p>Please check your content.json file</p></div></div>';
+        document.getElementById('cardLearn').innerHTML = '<div class="empty-state"><h2>No items found</h2><p>Please check your content.json file</p></div>';
+        return;
+      }
+
+      currentLearnItem = item;
+      const card = document.getElementById('cardLearn');
+      card.classList.add('flip-animation');
+      setTimeout(() => card.classList.remove('flip-animation'), 600);
+
+      let html = renderCardContent(item, false);
+      document.getElementById('cardLearn').innerHTML = html;
+
+      if (autoSpeak && item.type === 'word' && item.pinyin) {
+        setTimeout(() => speak(item.pinyin), 300);
+      }
+    }
+
+    // ===== RENDER PRACTICE TAB (Có SRS) =====
+    function renderPractice(item) {
+      if (!item) {
+        document.getElementById('cardPractice').innerHTML = '<div class="empty-state"><h2>No items found</h2><p>Please check your content.json file</p></div>';
         return;
       }
 
@@ -559,43 +892,89 @@
       const id = makeId(item);
       const progress = progressById[id];
 
-      let html = '<div class="card">';
+      const card = document.getElementById('cardPractice');
+      card.classList.add('flip-animation');
+      setTimeout(() => card.classList.remove('flip-animation'), 600);
 
-      if (item.type === 'word') {
-        html += `<div class="term">${item.term || ''}</div>`;
-        html += `<div class="pinyin">${item.pinyin || ''}</div>`;
-        html += `<div class="meaning">${item.meaning || ''}</div>`;
-        if (item.example) {
-          html += `<div class="example">${item.example}</div>`;
-        }
-      } else if (item.type === 'alphabet') {
-        html += `<div class="term" style="font-size: 32px;">${item.title || ''}</div>`;
-        html += `<div class="pinyin">${item.focus || ''}</div>`;
-        html += `<div class="meaning">${item.meaning || ''}</div>`;
-        if (item.examples && Array.isArray(item.examples)) {
-          html += `<div class="example">${item.examples.join('<br>')}</div>`;
-        }
-      } else if (item.type === 'quiz') {
-        html += `<div class="term" style="font-size: 24px;">${item.question || ''}</div>`;
-        if (item.options && Array.isArray(item.options)) {
-          html += `<div class="example">${item.options.map((opt, i) => `${i + 1}. ${opt}`).join('<br>')}</div>`;
-        }
-        html += `<div class="hint" id="quizHint">Answer: ${item.options?.[item.answer] || ''}<br>${item.explain || ''}</div>`;
-      }
-
+      let html = renderCardContent(item, true);
+      
       if (progress) {
         const box = progress.box || 0;
-        const nextDue = progress.nextDueMs ? new Date(progress.nextDueMs).toLocaleString('vi-VN') : 'N/A';
-        html += `<div class="progress-info">Box: ${box} | Next review: ${nextDue}</div>`;
+        const progressPercent = Math.min((box / 6) * 100, 100);
+        document.getElementById('progressBarContainer').style.display = 'block';
+        document.getElementById('progressBarFill').style.width = progressPercent + '%';
+        document.getElementById('progressText').textContent = Math.round(progressPercent) + '%';
+      } else {
+        document.getElementById('progressBarContainer').style.display = 'none';
       }
 
-      html += '</div>';
-
-      document.getElementById('cardContainer').innerHTML = html;
+      document.getElementById('cardPractice').innerHTML = html;
 
       if (autoSpeak && item.type === 'word' && item.pinyin) {
         setTimeout(() => speak(item.pinyin), 300);
       }
+    }
+
+    // ===== RENDER CARD CONTENT (Dùng chung) =====
+    function renderCardContent(item, showProgress = false) {
+      let html = '';
+
+      if (item.type === 'word') {
+        html += '<div class="term-container">';
+        html += `<div class="term">${item.term || ''}</div>`;
+        html += '</div>';
+        
+        html += '<div class="pinyin-container">';
+        if (item.pinyin) {
+          const syllables = item.pinyin.split(' ');
+          html += '<div class="pinyin">';
+          syllables.forEach(syl => {
+            html += `<span class="pinyin-syllable">${syl}</span>`;
+          });
+          html += '</div>';
+        }
+        html += '</div>';
+        
+        html += '<div class="meaning-container">';
+        html += `<div class="meaning">${item.meaning || ''}</div>`;
+        html += '</div>';
+        
+        if (item.example) {
+          html += `<div class="example">${item.example}</div>`;
+        }
+      } else if (item.type === 'alphabet') {
+        html += '<div class="term-container">';
+        html += `<div class="term" style="font-size: 48px;">${item.title || ''}</div>`;
+        html += '</div>';
+        
+        html += '<div class="pinyin-container">';
+        html += `<div class="pinyin">${item.focus || ''}</div>`;
+        html += '</div>';
+        
+        html += '<div class="meaning-container">';
+        html += `<div class="meaning">${item.meaning || ''}</div>`;
+        html += '</div>';
+        
+        if (item.examples && Array.isArray(item.examples)) {
+          html += `<div class="example">${item.examples.join('<br>')}</div>`;
+        }
+      } else if (item.type === 'quiz') {
+        html += '<div class="term-container">';
+        html += `<div class="term" style="font-size: 32px;">${item.question || ''}</div>`;
+        html += '</div>';
+        
+        if (item.options && Array.isArray(item.options)) {
+          html += '<div class="example">';
+          item.options.forEach((opt, i) => {
+            html += `${i + 1}. ${opt}<br>`;
+          });
+          html += '</div>';
+        }
+        
+        html += `<div class="hint" id="quizHint">Answer: ${item.options?.[item.answer] || ''}<br>${item.explain || ''}</div>`;
+      }
+
+      return html;
     }
 
     // ===== ACTIONS =====
@@ -610,7 +989,7 @@
       if (progress.box < SRS_INTERVALS_MS.length) {
         progress.box += 1;
       } else {
-        progress.box = 99; // mastered
+        progress.box = 99;
       }
 
       if (progress.box < 99) {
@@ -624,7 +1003,7 @@
 
       bumpDailyCount();
       updateStats();
-      loadNext();
+      loadNextPractice();
     }
 
     function markAgain() {
@@ -643,12 +1022,17 @@
 
       bumpDailyCount();
       updateStats();
-      loadNext();
+      loadNextPractice();
     }
 
-    function loadNext() {
+    function loadNextLearn() {
       const item = getRandomItem();
-      render(item);
+      renderLearn(item);
+    }
+
+    function loadNextPractice() {
+      const item = getRandomItem();
+      renderPractice(item);
     }
 
     function toggleHint() {
@@ -674,7 +1058,6 @@
     // ===== INIT =====
     async function init() {
       try {
-        // Try multiple paths for content.json
         const paths = [
           './data/content.json',
           'data/content.json',
@@ -700,20 +1083,16 @@
         }
 
         if (!loaded) {
-          throw new Error('Cannot load content.json. Please use a local web server (see instructions below).');
+          throw new Error('Cannot load content.json. Please use a local web server.');
         }
 
-        // Load settings
         loadSettings();
         document.getElementById('autoSpeakInput').checked = autoSpeak;
         document.getElementById('reviewOnlyInput').checked = reviewOnly;
         document.getElementById('dailyGoalInput').value = dailyGoal;
         document.getElementById('contentTypeInput').value = contentType;
 
-        // Update stats
         updateStats();
-
-        // Load first item
         loadNext();
       } catch (error) {
         console.error('Init error:', error);
@@ -726,25 +1105,64 @@
                <strong>Python:</strong><br>
                <code style="background: #f8f9fa; padding: 5px 10px; border-radius: 4px;">cd c:\\Users\\Tester\\python\\learn_chinese<br>python -m http.server 8000</code><br><br>
                Then open: <code style="background: #f8f9fa; padding: 5px 10px; border-radius: 4px;">http://localhost:8000/app.html</code>
-             </p>
-             <p style="margin-top: 15px; color: #6c757d; font-size: 14px;">
-               Or double-click <code>start_server.bat</code> if available.
              </p>`
           : `<h2>Error loading content</h2>
              <p>Please make sure <code>data/content.json</code> exists</p>
              <p style="color: #6c757d; font-size: 14px;">Error: ${error.message}</p>`;
         
-        document.getElementById('cardContainer').innerHTML = 
-          `<div class="card"><div class="empty-state">${errorMsg}</div></div>`;
+        document.getElementById('cardLearn').innerHTML = 
+          `<div class="empty-state">${errorMsg}</div>`;
+        document.getElementById('cardPractice').innerHTML = 
+          `<div class="empty-state">${errorMsg}</div>`;
+      }
+    }
+
+    // ===== TAB SWITCHING =====
+    function switchTab(tabName) {
+      currentTab = tabName;
+      
+      // Update tab buttons
+      document.querySelectorAll('.tab').forEach(tab => {
+        tab.classList.remove('active');
+      });
+      document.getElementById(`tab${tabName.charAt(0).toUpperCase() + tabName.slice(1)}`).classList.add('active');
+      
+      // Update tab content
+      document.querySelectorAll('.tab-content').forEach(content => {
+        content.classList.remove('active');
+      });
+      document.getElementById(`content${tabName.charAt(0).toUpperCase() + tabName.slice(1)}`).classList.add('active');
+      
+      // Show/hide stats bar (chỉ hiện ở Practice tab)
+      document.getElementById('statsBar').style.display = tabName === 'practice' ? 'grid' : 'none';
+      
+      // Load content for current tab
+      if (tabName === 'learn') {
+        loadNextLearn();
+      } else {
+        loadNextPractice();
       }
     }
 
     // ===== EVENT LISTENERS =====
-    document.getElementById('nextBtn').addEventListener('click', loadNext);
+    // Tab switching
+    document.getElementById('tabLearn').addEventListener('click', () => switchTab('learn'));
+    document.getElementById('tabPractice').addEventListener('click', () => switchTab('practice'));
+    
+    // Learn tab buttons
+    document.getElementById('nextLearnBtn').addEventListener('click', loadNextLearn);
+    document.getElementById('speakLearnBtn').addEventListener('click', () => {
+      if (currentLearnItem && currentLearnItem.pinyin) {
+        speak(currentLearnItem.pinyin);
+      }
+    });
+    
+    // Practice tab buttons
+    document.getElementById('nextPracticeBtn').addEventListener('click', loadNextPractice);
     document.getElementById('knownBtn').addEventListener('click', markKnown);
     document.getElementById('againBtn').addEventListener('click', markAgain);
     document.getElementById('hintBtn').addEventListener('click', toggleHint);
-    document.getElementById('speakBtn').addEventListener('click', () => {
+    document.getElementById('speakPracticeBtn').addEventListener('click', () => {
       if (currentItem && currentItem.pinyin) {
         speak(currentItem.pinyin);
       }
@@ -773,26 +1191,42 @@
     document.getElementById('contentTypeInput').addEventListener('change', (e) => {
       contentType = e.target.value;
       saveSettings();
-      loadNext();
+      if (currentTab === 'learn') {
+        loadNextLearn();
+      } else {
+        loadNextPractice();
+      }
     });
 
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
 
-      if (e.key === 'n' || e.key === 'N') {
-        loadNext();
-      } else if (e.key === ' ') {
-        e.preventDefault();
-        toggleHint();
-      } else if (e.key === 'Enter') {
-        markKnown();
-      } else if (e.key === 'Backspace') {
-        e.preventDefault();
-        markAgain();
-      } else if (e.key === 's' || e.key === 'S') {
-        if (currentItem && currentItem.pinyin) {
-          speak(currentItem.pinyin);
+      if (currentTab === 'learn') {
+        // Learn tab shortcuts
+        if (e.key === 'n' || e.key === 'N') {
+          loadNextLearn();
+        } else if (e.key === 's' || e.key === 'S') {
+          if (currentLearnItem && currentLearnItem.pinyin) {
+            speak(currentLearnItem.pinyin);
+          }
+        }
+      } else {
+        // Practice tab shortcuts
+        if (e.key === 'n' || e.key === 'N') {
+          loadNextPractice();
+        } else if (e.key === ' ') {
+          e.preventDefault();
+          toggleHint();
+        } else if (e.key === 'Enter') {
+          markKnown();
+        } else if (e.key === 'Backspace') {
+          e.preventDefault();
+          markAgain();
+        } else if (e.key === 's' || e.key === 'S') {
+          if (currentItem && currentItem.pinyin) {
+            speak(currentItem.pinyin);
+          }
         }
       }
     });
