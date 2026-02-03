@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Chinese - App</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .header .subtitle {
+      opacity: 0.9;
+      font-size: 16px;
+    }
+
+    .stats-bar {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      background: #f8f9fa;
+      border-bottom: 1px solid #e9ecef;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: #6c757d;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 5px;
+    }
+
+    .stat-value {
+      font-size: 24px;
+      font-weight: 700;
+      color: #667eea;
+    }
+
+    .main-content {
+      padding: 40px;
+    }
+
+    .card {
+      background: #fff;
+      border: 2px solid #e9ecef;
+      border-radius: 16px;
+      padding: 40px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .term {
+      font-size: 48px;
+      font-weight: 700;
+      color: #111827;
+      text-align: center;
+      margin-bottom: 15px;
+      line-height: 1.2;
+      font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
+    }
+
+    .pinyin {
+      font-size: 24px;
+      color: #667eea;
+      text-align: center;
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+
+    .meaning {
+      font-size: 20px;
+      color: #374151;
+      text-align: center;
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+
+    .example {
+      font-size: 16px;
+      color: #6b7280;
+      text-align: center;
+      font-style: italic;
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #f8f9fa;
+      border-radius: 8px;
+    }
+
+    .hint {
+      display: none;
+      font-size: 14px;
+      color: #9ca3af;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .hint.show {
+      display: block;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .btn {
+      padding: 16px 24px;
+      border: none;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .btn-success {
+      background: #10b981;
+      color: white;
+    }
+
+    .btn-danger {
+      background: #ef4444;
+      color: white;
+    }
+
+    .btn-secondary {
+      background: #6b7280;
+      color: white;
+    }
+
+    .btn-info {
+      background: #3b82f6;
+      color: white;
+    }
+
+    .settings {
+      padding: 30px;
+      background: #f8f9fa;
+      border-top: 1px solid #e9ecef;
+    }
+
+    .settings h3 {
+      margin-bottom: 20px;
+      color: #374151;
+    }
+
+    .setting-item {
+      margin-bottom: 15px;
+    }
+
+    .setting-item label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      font-size: 14px;
+      color: #374151;
+    }
+
+    .setting-item input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+
+    .setting-item input[type="number"] {
+      padding: 8px 12px;
+      border: 1px solid #d1d5db;
+      border-radius: 6px;
+      width: 100px;
+      font-size: 14px;
+    }
+
+    .progress-info {
+      text-align: center;
+      color: #6b7280;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+
+    .shortcuts {
+      text-align: center;
+      color: #9ca3af;
+      font-size: 12px;
+      margin-top: 15px;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 8px;
+    }
+
+    .shortcuts span {
+      margin: 0 5px;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: #6b7280;
+    }
+
+    .empty-state h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #374151;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 60px 20px;
+      color: #6b7280;
+    }
+
+    @media (max-width: 768px) {
+      .term {
+        font-size: 36px;
+      }
+
+      .pinyin {
+        font-size: 20px;
+      }
+
+      .actions {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>学习中文</h1>
+      <div class="subtitle">Learn Chinese - Desktop App</div>
+    </div>
+
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-label">Today</div>
+        <div class="stat-value" id="todayCount">0</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Streak</div>
+        <div class="stat-value" id="streak">0</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Known</div>
+        <div class="stat-value" id="knownCount">0</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Due</div>
+        <div class="stat-value" id="dueCount">0</div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div id="cardContainer">
+        <div class="card">
+          <div class="loading">Loading content...</div>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button class="btn btn-info" id="speakBtn">🔊 Speak</button>
+        <button class="btn btn-secondary" id="hintBtn">💡 Hint</button>
+        <button class="btn btn-danger" id="againBtn">❌ Again</button>
+        <button class="btn btn-success" id="knownBtn">✅ Known</button>
+        <button class="btn btn-primary" id="nextBtn">➡️ Next</button>
+        <button class="btn btn-secondary" id="settingsBtn">⚙️ Settings</button>
+      </div>
+
+      <div class="progress-info" id="progressInfo"></div>
+      <div class="shortcuts" id="shortcuts">
+        <span><strong>N</strong> Next</span>
+        <span><strong>Space</strong> Hint</span>
+        <span><strong>Enter</strong> Known</span>
+        <span><strong>Backspace</strong> Again</span>
+        <span><strong>S</strong> Speak</span>
+      </div>
+    </div>
+
+    <div class="settings" id="settingsPanel" style="display: none;">
+      <h3>Settings</h3>
+      <div class="setting-item">
+        <label>
+          <input type="checkbox" id="autoSpeakInput">
+          Auto speak on next
+        </label>
+      </div>
+      <div class="setting-item">
+        <label>
+          <input type="checkbox" id="reviewOnlyInput">
+          Review only (due cards)
+        </label>
+      </div>
+      <div class="setting-item">
+        <label>
+          Daily goal:
+          <input type="number" id="dailyGoalInput" min="1" max="100" value="20">
+        </label>
+      </div>
+      <div class="setting-item">
+        <label>
+          Content type:
+          <select id="contentTypeInput">
+            <option value="all">All</option>
+            <option value="alphabet">Alphabet</option>
+            <option value="word">Words</option>
+            <option value="quiz">Quizzes</option>
+          </select>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ===== CONFIG =====
+    const SRS_INTERVALS_MS = [
+      10 * 60 * 1000,    // 10m
+      60 * 60 * 1000,    // 1h
+      24 * 60 * 60 * 1000,  // 1d
+      3 * 24 * 60 * 60 * 1000,  // 3d
+      7 * 24 * 60 * 60 * 1000,  // 7d
+      14 * 24 * 60 * 60 * 1000, // 14d
+    ];
+
+    // ===== STATE =====
+    let allData = [];
+    let currentItem = null;
+    let showHints = false;
+    let autoSpeak = false;
+    let dailyGoal = 20;
+    let reviewOnly = false;
+    let contentType = 'all';
+
+    // ===== UTILITIES =====
+    function makeId(item) {
+      if (item.id) return String(item.id);
+      if (item.type === "word") return `word:${item.term}:${item.pinyin || ""}`;
+      if (item.type === "alphabet") return `alphabet:${item.title}:${item.focus || ""}`;
+      if (item.type === "quiz") return `quiz:${item.question}:${(item.options || []).join("|")}`;
+      return `${item.type}:${JSON.stringify(item).slice(0, 80)}`;
+    }
+
+    function dayKey(d = new Date()) {
+      const yyyy = d.getFullYear();
+      const mm = String(d.getMonth() + 1).padStart(2, "0");
+      const dd = String(d.getDate()).padStart(2, "0");
+      return `${yyyy}-${mm}-${dd}`;
+    }
+
+    // ===== STORAGE (localStorage instead of chrome.storage) =====
+    function loadProgress() {
+      try {
+        const data = localStorage.getItem('srsProgressById');
+        return data ? JSON.parse(data) : {};
+      } catch (e) {
+        return {};
+      }
+    }
+
+    function saveProgress(progressById) {
+      try {
+        localStorage.setItem('srsProgressById', JSON.stringify(progressById));
+      } catch (e) {
+        console.error('Failed to save progress:', e);
+      }
+    }
+
+    function loadDailyProgress() {
+      try {
+        const data = localStorage.getItem('dailyProgress');
+        return data ? JSON.parse(data) : { day: dayKey(), count: 0, streak: 0, lastDay: null };
+      } catch (e) {
+        return { day: dayKey(), count: 0, streak: 0, lastDay: null };
+      }
+    }
+
+    function saveDailyProgress(dp) {
+      try {
+        localStorage.setItem('dailyProgress', JSON.stringify(dp));
+      } catch (e) {
+        console.error('Failed to save daily progress:', e);
+      }
+    }
+
+    function loadSettings() {
+      try {
+        autoSpeak = localStorage.getItem('setting_autoSpeak') === 'true';
+        reviewOnly = localStorage.getItem('setting_reviewOnly') === 'true';
+        dailyGoal = parseInt(localStorage.getItem('setting_dailyGoal')) || 20;
+        contentType = localStorage.getItem('setting_contentType') || 'all';
+      } catch (e) {
+        console.error('Failed to load settings:', e);
+      }
+    }
+
+    function saveSettings() {
+      try {
+        localStorage.setItem('setting_autoSpeak', String(autoSpeak));
+        localStorage.setItem('setting_reviewOnly', String(reviewOnly));
+        localStorage.setItem('setting_dailyGoal', String(dailyGoal));
+        localStorage.setItem('setting_contentType', contentType);
+      } catch (e) {
+        console.error('Failed to save settings:', e);
+      }
+    }
+
+    // ===== DAILY PROGRESS =====
+    function bumpDailyCount() {
+      const key = dayKey();
+      const dp = loadDailyProgress();
+
+      if (dp.day !== key) {
+        const prevDay = dp.day;
+        const prevCount = dp.count || 0;
+        const newStreak = prevCount > 0 && dp.lastDay === prevDay ? (dp.streak || 0) + 1 : prevCount > 0 ? 1 : 0;
+        dp.day = key;
+        dp.count = 0;
+        dp.lastDay = prevDay;
+        dp.streak = newStreak;
+      }
+
+      dp.count = (dp.count || 0) + 1;
+      saveDailyProgress(dp);
+      return dp;
+    }
+
+    function getDailyProgress() {
+      const key = dayKey();
+      const dp = loadDailyProgress();
+      if (dp.day !== key) {
+        return { day: key, count: 0, streak: dp.streak || 0, lastDay: dp.day || null };
+      }
+      return dp;
+    }
+
+    // ===== SRS =====
+    function computeDueStats(items, progressById, now) {
+      let due = 0;
+      let known = 0;
+      for (const item of items) {
+        const id = makeId(item);
+        const p = progressById[id];
+        if (!p) continue;
+        if (p.box >= 99) known += 1;
+        if (p.nextDueMs != null && p.nextDueMs <= now && p.box < 99) due += 1;
+      }
+      return { due, known, total: items.length };
+    }
+
+    // ===== GET RANDOM ITEM =====
+    function getRandomItem() {
+      let data = allData;
+      if (contentType !== 'all' && contentType !== 'random') {
+        data = allData.filter(item => item.type === contentType);
+      }
+      if (data.length === 0) data = allData;
+
+      const progressById = loadProgress();
+      const now = Date.now();
+
+      const dueItems = data.filter(item => {
+        const p = progressById[makeId(item)];
+        return p && p.box < 99 && p.nextDueMs != null && p.nextDueMs <= now;
+      });
+
+      const unseenItems = data.filter(item => !progressById[makeId(item)]);
+
+      const pickFrom = dueItems.length
+        ? dueItems
+        : reviewOnly
+          ? (unseenItems.length ? unseenItems : data)
+          : unseenItems.length
+            ? unseenItems
+            : data;
+
+      return pickFrom[Math.floor(Math.random() * pickFrom.length)];
+    }
+
+    // ===== SPEAK =====
+    function speak(text, lang = 'zh-CN') {
+      if ('speechSynthesis' in window) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = lang;
+        utterance.rate = 0.8;
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+
+    // ===== RENDER =====
+    function render(item) {
+      if (!item) {
+        document.getElementById('cardContainer').innerHTML = '<div class="card"><div class="empty-state"><h2>No items found</h2><p>Please check your content.json file</p></div></div>';
+        return;
+      }
+
+      currentItem = item;
+      showHints = false;
+
+      const progressById = loadProgress();
+      const id = makeId(item);
+      const progress = progressById[id];
+
+      let html = '<div class="card">';
+
+      if (item.type === 'word') {
+        html += `<div class="term">${item.term || ''}</div>`;
+        html += `<div class="pinyin">${item.pinyin || ''}</div>`;
+        html += `<div class="meaning">${item.meaning || ''}</div>`;
+        if (item.example) {
+          html += `<div class="example">${item.example}</div>`;
+        }
+      } else if (item.type === 'alphabet') {
+        html += `<div class="term" style="font-size: 32px;">${item.title || ''}</div>`;
+        html += `<div class="pinyin">${item.focus || ''}</div>`;
+        html += `<div class="meaning">${item.meaning || ''}</div>`;
+        if (item.examples && Array.isArray(item.examples)) {
+          html += `<div class="example">${item.examples.join('<br>')}</div>`;
+        }
+      } else if (item.type === 'quiz') {
+        html += `<div class="term" style="font-size: 24px;">${item.question || ''}</div>`;
+        if (item.options && Array.isArray(item.options)) {
+          html += `<div class="example">${item.options.map((opt, i) => `${i + 1}. ${opt}`).join('<br>')}</div>`;
+        }
+        html += `<div class="hint" id="quizHint">Answer: ${item.options?.[item.answer] || ''}<br>${item.explain || ''}</div>`;
+      }
+
+      if (progress) {
+        const box = progress.box || 0;
+        const nextDue = progress.nextDueMs ? new Date(progress.nextDueMs).toLocaleString('vi-VN') : 'N/A';
+        html += `<div class="progress-info">Box: ${box} | Next review: ${nextDue}</div>`;
+      }
+
+      html += '</div>';
+
+      document.getElementById('cardContainer').innerHTML = html;
+
+      if (autoSpeak && item.type === 'word' && item.pinyin) {
+        setTimeout(() => speak(item.pinyin), 300);
+      }
+    }
+
+    // ===== ACTIONS =====
+    function markKnown() {
+      if (!currentItem) return;
+
+      const progressById = loadProgress();
+      const id = makeId(currentItem);
+      const progress = progressById[id] || { box: 0, nextDueMs: null };
+      const now = Date.now();
+
+      if (progress.box < SRS_INTERVALS_MS.length) {
+        progress.box += 1;
+      } else {
+        progress.box = 99; // mastered
+      }
+
+      if (progress.box < 99) {
+        progress.nextDueMs = now + SRS_INTERVALS_MS[progress.box - 1];
+      } else {
+        progress.nextDueMs = null;
+      }
+
+      progressById[id] = progress;
+      saveProgress(progressById);
+
+      bumpDailyCount();
+      updateStats();
+      loadNext();
+    }
+
+    function markAgain() {
+      if (!currentItem) return;
+
+      const progressById = loadProgress();
+      const id = makeId(currentItem);
+      const progress = progressById[id] || { box: 0, nextDueMs: null };
+      const now = Date.now();
+
+      progress.box = 0;
+      progress.nextDueMs = now + SRS_INTERVALS_MS[0];
+
+      progressById[id] = progress;
+      saveProgress(progressById);
+
+      bumpDailyCount();
+      updateStats();
+      loadNext();
+    }
+
+    function loadNext() {
+      const item = getRandomItem();
+      render(item);
+    }
+
+    function toggleHint() {
+      showHints = !showHints;
+      const hintEl = document.getElementById('quizHint');
+      if (hintEl) {
+        hintEl.classList.toggle('show', showHints);
+      }
+    }
+
+    function updateStats() {
+      const dp = getDailyProgress();
+      document.getElementById('todayCount').textContent = dp.count || 0;
+      document.getElementById('streak').textContent = dp.streak || 0;
+
+      const progressById = loadProgress();
+      const now = Date.now();
+      const stats = computeDueStats(allData, progressById, now);
+      document.getElementById('knownCount').textContent = stats.known || 0;
+      document.getElementById('dueCount').textContent = stats.due || 0;
+    }
+
+    // ===== INIT =====
+    async function init() {
+      try {
+        // Try multiple paths for content.json
+        const paths = [
+          './data/content.json',
+          'data/content.json',
+          '../data/content.json',
+          './content.json'
+        ];
+
+        let loaded = false;
+        for (const path of paths) {
+          try {
+            const response = await fetch(path);
+            if (response.ok) {
+              allData = await response.json();
+              if (Array.isArray(allData)) {
+                loaded = true;
+                console.log(`Loaded content.json from: ${path}`);
+                break;
+              }
+            }
+          } catch (e) {
+            console.log(`Failed to load from ${path}:`, e.message);
+          }
+        }
+
+        if (!loaded) {
+          throw new Error('Cannot load content.json. Please use a local web server (see instructions below).');
+        }
+
+        // Load settings
+        loadSettings();
+        document.getElementById('autoSpeakInput').checked = autoSpeak;
+        document.getElementById('reviewOnlyInput').checked = reviewOnly;
+        document.getElementById('dailyGoalInput').value = dailyGoal;
+        document.getElementById('contentTypeInput').value = contentType;
+
+        // Update stats
+        updateStats();
+
+        // Load first item
+        loadNext();
+      } catch (error) {
+        console.error('Init error:', error);
+        const isFileProtocol = window.location.protocol === 'file:';
+        const errorMsg = isFileProtocol 
+          ? `<h2>⚠️ CORS Error - Need Local Server</h2>
+             <p><strong>Browsers block loading local files for security.</strong></p>
+             <p style="margin-top: 20px; padding: 15px; background: #fff3cd; border-radius: 8px;">
+               <strong>Solution:</strong> Use a local web server:<br><br>
+               <strong>Python:</strong><br>
+               <code style="background: #f8f9fa; padding: 5px 10px; border-radius: 4px;">cd c:\\Users\\Tester\\python\\learn_chinese<br>python -m http.server 8000</code><br><br>
+               Then open: <code style="background: #f8f9fa; padding: 5px 10px; border-radius: 4px;">http://localhost:8000/app.html</code>
+             </p>
+             <p style="margin-top: 15px; color: #6c757d; font-size: 14px;">
+               Or double-click <code>start_server.bat</code> if available.
+             </p>`
+          : `<h2>Error loading content</h2>
+             <p>Please make sure <code>data/content.json</code> exists</p>
+             <p style="color: #6c757d; font-size: 14px;">Error: ${error.message}</p>`;
+        
+        document.getElementById('cardContainer').innerHTML = 
+          `<div class="card"><div class="empty-state">${errorMsg}</div></div>`;
+      }
+    }
+
+    // ===== EVENT LISTENERS =====
+    document.getElementById('nextBtn').addEventListener('click', loadNext);
+    document.getElementById('knownBtn').addEventListener('click', markKnown);
+    document.getElementById('againBtn').addEventListener('click', markAgain);
+    document.getElementById('hintBtn').addEventListener('click', toggleHint);
+    document.getElementById('speakBtn').addEventListener('click', () => {
+      if (currentItem && currentItem.pinyin) {
+        speak(currentItem.pinyin);
+      }
+    });
+
+    document.getElementById('settingsBtn').addEventListener('click', () => {
+      const panel = document.getElementById('settingsPanel');
+      panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+    });
+
+    document.getElementById('autoSpeakInput').addEventListener('change', (e) => {
+      autoSpeak = e.target.checked;
+      saveSettings();
+    });
+
+    document.getElementById('reviewOnlyInput').addEventListener('change', (e) => {
+      reviewOnly = e.target.checked;
+      saveSettings();
+    });
+
+    document.getElementById('dailyGoalInput').addEventListener('change', (e) => {
+      dailyGoal = parseInt(e.target.value) || 20;
+      saveSettings();
+    });
+
+    document.getElementById('contentTypeInput').addEventListener('change', (e) => {
+      contentType = e.target.value;
+      saveSettings();
+      loadNext();
+    });
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+
+      if (e.key === 'n' || e.key === 'N') {
+        loadNext();
+      } else if (e.key === ' ') {
+        e.preventDefault();
+        toggleHint();
+      } else if (e.key === 'Enter') {
+        markKnown();
+      } else if (e.key === 'Backspace') {
+        e.preventDefault();
+        markAgain();
+      } else if (e.key === 's' || e.key === 'S') {
+        if (currentItem && currentItem.pinyin) {
+          speak(currentItem.pinyin);
+        }
+      }
+    });
+
+    // Start app
+    init();
+  </script>
+</body>
+</html>

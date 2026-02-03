@@ -1,0 +1,7703 @@
+[
+  {
+    "type": "alphabet",
+    "title": "Initials (thanh mẫu): b p m f",
+    "focus": "b, p, m, f",
+    "meaning": "b/p khác nhau ở bật hơi: p bật hơi mạnh hơn b.",
+    "examples": [
+      "b p m f"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Initials (thanh mẫu): d t n l",
+    "focus": "d, t, n, l",
+    "meaning": "d/t khác nhau ở bật hơi.",
+    "examples": [
+      "d t n l"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Initials (thanh mẫu): g k h",
+    "focus": "g, k, h",
+    "meaning": "g/k khác nhau ở bật hơi.",
+    "examples": [
+      "g k h"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Initials (thanh mẫu): j q x",
+    "focus": "j, q, x",
+    "meaning": "Đều phát âm với lưỡi ở vị trí trước.",
+    "examples": [
+      "j q x"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Initials (thanh mẫu): zh ch sh r",
+    "focus": "zh, ch, sh, r",
+    "meaning": "Đây là các âm cuộn lưỡi (retroflex).",
+    "examples": [
+      "zh ch sh r"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Initials (thanh mẫu): z c s",
+    "focus": "z, c, s",
+    "meaning": "Phát âm với đầu lưỡi chạm răng.",
+    "examples": [
+      "z c s"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Initials (thanh mẫu): y w",
+    "focus": "y, w",
+    "meaning": "Y/w là bán nguyên âm, dùng làm initial.",
+    "examples": [
+      "y w"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Finals (vận mẫu): a o e i u ü",
+    "focus": "a, o, e, i, u, ü",
+    "meaning": "ü thường viết là 'u' sau j/q/x/y (ví dụ: xué).",
+    "examples": [
+      "a o e i u ü"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Finals (vận mẫu): ai ei ao ou",
+    "focus": "ai, ei, ao, ou",
+    "meaning": "Các vận mẫu kép cơ bản.",
+    "examples": [
+      "ai ei ao ou"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Finals (vận mẫu): an en ang eng ong",
+    "focus": "an, en, ang, eng, ong",
+    "meaning": "Vận mẫu kết thúc bằng n/ng.",
+    "examples": [
+      "an en ang eng ong"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Finals (vận mẫu): ia iao ian iang iong",
+    "focus": "ia, iao, ian, iang, iong",
+    "meaning": "Vận mẫu bắt đầu bằng i.",
+    "examples": [
+      "ia iao ian iang iong"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Finals (vận mẫu): ua uo uai uei uan uen uang ueng",
+    "focus": "ua, uo, uai, uei, uan, uen, uang, ueng",
+    "meaning": "Vận mẫu bắt đầu bằng u.",
+    "examples": [
+      "ua uo uai uei uan uen uang ueng"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Finals (vận mẫu): üe üan ün",
+    "focus": "üe, üan, ün",
+    "meaning": "Vận mẫu bắt đầu bằng ü.",
+    "examples": [
+      "üe üan ün"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Tone practice: mā",
+    "focus": "mā má mǎ mà ma",
+    "meaning": "Ví dụ với 'ma': 5 thanh điệu",
+    "examples": [
+      "mā má mǎ mà ma"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Tone practice: bā",
+    "focus": "bā bá bǎ bà",
+    "meaning": "Ví dụ với 'ba': 4 thanh điệu",
+    "examples": [
+      "bā bá bǎ bà"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Tone practice: nǐ",
+    "focus": "nǐ hǎo",
+    "meaning": "Chào hỏi: nǐ (thanh 3) + hǎo (thanh 3)",
+    "examples": [
+      "nǐ hǎo"
+    ]
+  },
+  {
+    "type": "alphabet",
+    "title": "Tone practice: xièxie",
+    "focus": "xièxie",
+    "meaning": "Cảm ơn: xiè (thanh 4) + xie (nhẹ)",
+    "examples": [
+      "xièxie"
+    ]
+  },
+  {
+    "type": "word",
+    "term": "你好",
+    "pinyin": "nǐ hǎo",
+    "meaning": "Xin chào",
+    "example": "你好！"
+  },
+  {
+    "type": "word",
+    "term": "谢谢",
+    "pinyin": "xièxie",
+    "meaning": "Cảm ơn",
+    "example": "谢谢你！"
+  },
+  {
+    "type": "word",
+    "term": "对不起",
+    "pinyin": "duìbuqǐ",
+    "meaning": "Xin lỗi",
+    "example": "对不起。"
+  },
+  {
+    "type": "word",
+    "term": "没关系",
+    "pinyin": "méiguānxi",
+    "meaning": "Không sao",
+    "example": "没关系。"
+  },
+  {
+    "type": "word",
+    "term": "是",
+    "pinyin": "shì",
+    "meaning": "là/đúng",
+    "example": "我是学生。"
+  },
+  {
+    "type": "word",
+    "term": "不",
+    "pinyin": "bù",
+    "meaning": "không",
+    "example": "不是。"
+  },
+  {
+    "type": "word",
+    "term": "我",
+    "pinyin": "wǒ",
+    "meaning": "tôi/mình",
+    "example": "我是越南人。"
+  },
+  {
+    "type": "word",
+    "term": "你",
+    "pinyin": "nǐ",
+    "meaning": "bạn",
+    "example": "你好吗？"
+  },
+  {
+    "type": "word",
+    "term": "他",
+    "pinyin": "tā",
+    "meaning": "anh ấy/ông ấy",
+    "example": "他是老师。"
+  },
+  {
+    "type": "word",
+    "term": "她",
+    "pinyin": "tā",
+    "meaning": "cô ấy/bà ấy",
+    "example": "她很好。"
+  },
+  {
+    "type": "word",
+    "term": "我们",
+    "pinyin": "wǒmen",
+    "meaning": "chúng tôi",
+    "example": "我们是朋友。"
+  },
+  {
+    "type": "word",
+    "term": "你们",
+    "pinyin": "nǐmen",
+    "meaning": "các bạn",
+    "example": "你们好！"
+  },
+  {
+    "type": "word",
+    "term": "他们",
+    "pinyin": "tāmen",
+    "meaning": "họ (nam)",
+    "example": "他们是学生。"
+  },
+  {
+    "type": "word",
+    "term": "这",
+    "pinyin": "zhè",
+    "meaning": "này/đây",
+    "example": "这是什么？"
+  },
+  {
+    "type": "word",
+    "term": "那",
+    "pinyin": "nà",
+    "meaning": "kia/đó",
+    "example": "那是什么？"
+  },
+  {
+    "type": "word",
+    "term": "什么",
+    "pinyin": "shénme",
+    "meaning": "cái gì",
+    "example": "你叫什么名字？"
+  },
+  {
+    "type": "word",
+    "term": "谁",
+    "pinyin": "shéi",
+    "meaning": "ai",
+    "example": "你是谁？"
+  },
+  {
+    "type": "word",
+    "term": "哪",
+    "pinyin": "nǎ",
+    "meaning": "nào",
+    "example": "哪个？"
+  },
+  {
+    "type": "word",
+    "term": "多少",
+    "pinyin": "duōshao",
+    "meaning": "bao nhiêu",
+    "example": "多少钱？"
+  },
+  {
+    "type": "word",
+    "term": "几",
+    "pinyin": "jǐ",
+    "meaning": "mấy",
+    "example": "你几岁？"
+  },
+  {
+    "type": "word",
+    "term": "一",
+    "pinyin": "yī",
+    "meaning": "một",
+    "example": "一个"
+  },
+  {
+    "type": "word",
+    "term": "二",
+    "pinyin": "èr",
+    "meaning": "hai",
+    "example": "二十"
+  },
+  {
+    "type": "word",
+    "term": "三",
+    "pinyin": "sān",
+    "meaning": "ba",
+    "example": "三个"
+  },
+  {
+    "type": "word",
+    "term": "四",
+    "pinyin": "sì",
+    "meaning": "bốn",
+    "example": "四个"
+  },
+  {
+    "type": "word",
+    "term": "五",
+    "pinyin": "wǔ",
+    "meaning": "năm",
+    "example": "五个"
+  },
+  {
+    "type": "word",
+    "term": "六",
+    "pinyin": "liù",
+    "meaning": "sáu",
+    "example": "六个"
+  },
+  {
+    "type": "word",
+    "term": "七",
+    "pinyin": "qī",
+    "meaning": "bảy",
+    "example": "七个"
+  },
+  {
+    "type": "word",
+    "term": "八",
+    "pinyin": "bā",
+    "meaning": "tám",
+    "example": "八个"
+  },
+  {
+    "type": "word",
+    "term": "九",
+    "pinyin": "jiǔ",
+    "meaning": "chín",
+    "example": "九个"
+  },
+  {
+    "type": "word",
+    "term": "十",
+    "pinyin": "shí",
+    "meaning": "mười",
+    "example": "十个"
+  },
+  {
+    "type": "word",
+    "term": "零",
+    "pinyin": "líng",
+    "meaning": "số không",
+    "example": "零一"
+  },
+  {
+    "type": "word",
+    "term": "百",
+    "pinyin": "bǎi",
+    "meaning": "trăm",
+    "example": "一百"
+  },
+  {
+    "type": "word",
+    "term": "千",
+    "pinyin": "qiān",
+    "meaning": "nghìn",
+    "example": "一千"
+  },
+  {
+    "type": "word",
+    "term": "万",
+    "pinyin": "wàn",
+    "meaning": "vạn",
+    "example": "一万"
+  },
+  {
+    "type": "word",
+    "term": "个",
+    "pinyin": "ge",
+    "meaning": "cái (lượng từ)",
+    "example": "一个苹果"
+  },
+  {
+    "type": "word",
+    "term": "人",
+    "pinyin": "rén",
+    "meaning": "người",
+    "example": "中国人"
+  },
+  {
+    "type": "word",
+    "term": "学生",
+    "pinyin": "xuésheng",
+    "meaning": "học sinh",
+    "example": "我是学生。"
+  },
+  {
+    "type": "word",
+    "term": "老师",
+    "pinyin": "lǎoshī",
+    "meaning": "giáo viên",
+    "example": "他是老师。"
+  },
+  {
+    "type": "word",
+    "term": "朋友",
+    "pinyin": "péngyou",
+    "meaning": "bạn",
+    "example": "我们是朋友。"
+  },
+  {
+    "type": "word",
+    "term": "家",
+    "pinyin": "jiā",
+    "meaning": "nhà/gia đình",
+    "example": "我家"
+  },
+  {
+    "type": "word",
+    "term": "爸爸",
+    "pinyin": "bàba",
+    "meaning": "bố",
+    "example": "我爸爸"
+  },
+  {
+    "type": "word",
+    "term": "妈妈",
+    "pinyin": "māma",
+    "meaning": "mẹ",
+    "example": "我妈妈"
+  },
+  {
+    "type": "word",
+    "term": "哥哥",
+    "pinyin": "gēge",
+    "meaning": "anh trai",
+    "example": "我哥哥"
+  },
+  {
+    "type": "word",
+    "term": "弟弟",
+    "pinyin": "dìdi",
+    "meaning": "em trai",
+    "example": "我弟弟"
+  },
+  {
+    "type": "word",
+    "term": "姐姐",
+    "pinyin": "jiějie",
+    "meaning": "chị gái",
+    "example": "我姐姐"
+  },
+  {
+    "type": "word",
+    "term": "妹妹",
+    "pinyin": "mèimei",
+    "meaning": "em gái",
+    "example": "我妹妹"
+  },
+  {
+    "type": "word",
+    "term": "孩子",
+    "pinyin": "háizi",
+    "meaning": "con/trẻ em",
+    "example": "一个孩子"
+  },
+  {
+    "type": "word",
+    "term": "男",
+    "pinyin": "nán",
+    "meaning": "nam",
+    "example": "男人"
+  },
+  {
+    "type": "word",
+    "term": "女",
+    "pinyin": "nǚ",
+    "meaning": "nữ",
+    "example": "女人"
+  },
+  {
+    "type": "word",
+    "term": "年",
+    "pinyin": "nián",
+    "meaning": "năm/tuổi",
+    "example": "今年"
+  },
+  {
+    "type": "word",
+    "term": "岁",
+    "pinyin": "suì",
+    "meaning": "tuổi",
+    "example": "你几岁？"
+  },
+  {
+    "type": "word",
+    "term": "今天",
+    "pinyin": "jīntiān",
+    "meaning": "hôm nay",
+    "example": "今天很好。"
+  },
+  {
+    "type": "word",
+    "term": "明天",
+    "pinyin": "míngtiān",
+    "meaning": "ngày mai",
+    "example": "明天见。"
+  },
+  {
+    "type": "word",
+    "term": "昨天",
+    "pinyin": "zuótiān",
+    "meaning": "hôm qua",
+    "example": "昨天"
+  },
+  {
+    "type": "word",
+    "term": "现在",
+    "pinyin": "xiànzài",
+    "meaning": "bây giờ",
+    "example": "现在几点？"
+  },
+  {
+    "type": "word",
+    "term": "点",
+    "pinyin": "diǎn",
+    "meaning": "giờ/điểm",
+    "example": "三点"
+  },
+  {
+    "type": "word",
+    "term": "分",
+    "pinyin": "fēn",
+    "meaning": "phút",
+    "example": "三点十分"
+  },
+  {
+    "type": "word",
+    "term": "早上",
+    "pinyin": "zǎoshang",
+    "meaning": "buổi sáng",
+    "example": "早上好！"
+  },
+  {
+    "type": "word",
+    "term": "中午",
+    "pinyin": "zhōngwǔ",
+    "meaning": "buổi trưa",
+    "example": "中午"
+  },
+  {
+    "type": "word",
+    "term": "下午",
+    "pinyin": "xiàwǔ",
+    "meaning": "buổi chiều",
+    "example": "下午"
+  },
+  {
+    "type": "word",
+    "term": "晚上",
+    "pinyin": "wǎnshang",
+    "meaning": "buổi tối",
+    "example": "晚上好！"
+  },
+  {
+    "type": "word",
+    "term": "年",
+    "pinyin": "nián",
+    "meaning": "năm",
+    "example": "2024年"
+  },
+  {
+    "type": "word",
+    "term": "月",
+    "pinyin": "yuè",
+    "meaning": "tháng",
+    "example": "一月"
+  },
+  {
+    "type": "word",
+    "term": "日",
+    "pinyin": "rì",
+    "meaning": "ngày",
+    "example": "一日"
+  },
+  {
+    "type": "word",
+    "term": "星期",
+    "pinyin": "xīngqī",
+    "meaning": "tuần",
+    "example": "星期一"
+  },
+  {
+    "type": "word",
+    "term": "天",
+    "pinyin": "tiān",
+    "meaning": "ngày/trời",
+    "example": "今天"
+  },
+  {
+    "type": "word",
+    "term": "好",
+    "pinyin": "hǎo",
+    "meaning": "tốt/được",
+    "example": "很好"
+  },
+  {
+    "type": "word",
+    "term": "很",
+    "pinyin": "hěn",
+    "meaning": "rất",
+    "example": "很好"
+  },
+  {
+    "type": "word",
+    "term": "大",
+    "pinyin": "dà",
+    "meaning": "to/lớn",
+    "example": "很大"
+  },
+  {
+    "type": "word",
+    "term": "小",
+    "pinyin": "xiǎo",
+    "meaning": "nhỏ/bé",
+    "example": "很小"
+  },
+  {
+    "type": "word",
+    "term": "多",
+    "pinyin": "duō",
+    "meaning": "nhiều",
+    "example": "很多"
+  },
+  {
+    "type": "word",
+    "term": "少",
+    "pinyin": "shǎo",
+    "meaning": "ít",
+    "example": "很少"
+  },
+  {
+    "type": "word",
+    "term": "新",
+    "pinyin": "xīn",
+    "meaning": "mới",
+    "example": "新的"
+  },
+  {
+    "type": "word",
+    "term": "旧",
+    "pinyin": "jiù",
+    "meaning": "cũ",
+    "example": "旧的"
+  },
+  {
+    "type": "word",
+    "term": "高",
+    "pinyin": "gāo",
+    "meaning": "cao",
+    "example": "很高"
+  },
+  {
+    "type": "word",
+    "term": "低",
+    "pinyin": "dī",
+    "meaning": "thấp",
+    "example": "很低"
+  },
+  {
+    "type": "word",
+    "term": "长",
+    "pinyin": "cháng",
+    "meaning": "dài",
+    "example": "很长"
+  },
+  {
+    "type": "word",
+    "term": "短",
+    "pinyin": "duǎn",
+    "meaning": "ngắn",
+    "example": "很短"
+  },
+  {
+    "type": "word",
+    "term": "热",
+    "pinyin": "rè",
+    "meaning": "nóng",
+    "example": "很热"
+  },
+  {
+    "type": "word",
+    "term": "冷",
+    "pinyin": "lěng",
+    "meaning": "lạnh",
+    "example": "很冷"
+  },
+  {
+    "type": "word",
+    "term": "快",
+    "pinyin": "kuài",
+    "meaning": "nhanh",
+    "example": "很快"
+  },
+  {
+    "type": "word",
+    "term": "慢",
+    "pinyin": "màn",
+    "meaning": "chậm",
+    "example": "很慢"
+  },
+  {
+    "type": "word",
+    "term": "对",
+    "pinyin": "duì",
+    "meaning": "đúng",
+    "example": "对"
+  },
+  {
+    "type": "word",
+    "term": "错",
+    "pinyin": "cuò",
+    "meaning": "sai",
+    "example": "错了"
+  },
+  {
+    "type": "word",
+    "term": "有",
+    "pinyin": "yǒu",
+    "meaning": "có",
+    "example": "有吗？"
+  },
+  {
+    "type": "word",
+    "term": "没有",
+    "pinyin": "méiyǒu",
+    "meaning": "không có",
+    "example": "没有。"
+  },
+  {
+    "type": "word",
+    "term": "在",
+    "pinyin": "zài",
+    "meaning": "ở/tại",
+    "example": "在家"
+  },
+  {
+    "type": "word",
+    "term": "来",
+    "pinyin": "lái",
+    "meaning": "đến",
+    "example": "来中国"
+  },
+  {
+    "type": "word",
+    "term": "去",
+    "pinyin": "qù",
+    "meaning": "đi",
+    "example": "去学校"
+  },
+  {
+    "type": "word",
+    "term": "回",
+    "pinyin": "huí",
+    "meaning": "về",
+    "example": "回家"
+  },
+  {
+    "type": "word",
+    "term": "到",
+    "pinyin": "dào",
+    "meaning": "đến",
+    "example": "到了"
+  },
+  {
+    "type": "word",
+    "term": "看",
+    "pinyin": "kàn",
+    "meaning": "xem/nhìn",
+    "example": "看书"
+  },
+  {
+    "type": "word",
+    "term": "听",
+    "pinyin": "tīng",
+    "meaning": "nghe",
+    "example": "听音乐"
+  },
+  {
+    "type": "word",
+    "term": "说",
+    "pinyin": "shuō",
+    "meaning": "nói",
+    "example": "说中文"
+  },
+  {
+    "type": "word",
+    "term": "读",
+    "pinyin": "dú",
+    "meaning": "đọc",
+    "example": "读书"
+  },
+  {
+    "type": "word",
+    "term": "写",
+    "pinyin": "xiě",
+    "meaning": "viết",
+    "example": "写字"
+  },
+  {
+    "type": "word",
+    "term": "做",
+    "pinyin": "zuò",
+    "meaning": "làm",
+    "example": "做什么？"
+  },
+  {
+    "type": "word",
+    "term": "吃",
+    "pinyin": "chī",
+    "meaning": "ăn",
+    "example": "吃饭"
+  },
+  {
+    "type": "word",
+    "term": "喝",
+    "pinyin": "hē",
+    "meaning": "uống",
+    "example": "喝水"
+  },
+  {
+    "type": "word",
+    "term": "买",
+    "pinyin": "mǎi",
+    "meaning": "mua",
+    "example": "买东西"
+  },
+  {
+    "type": "word",
+    "term": "卖",
+    "pinyin": "mài",
+    "meaning": "bán",
+    "example": "卖东西"
+  },
+  {
+    "type": "word",
+    "term": "给",
+    "pinyin": "gěi",
+    "meaning": "cho/tặng",
+    "example": "给我"
+  },
+  {
+    "type": "word",
+    "term": "拿",
+    "pinyin": "ná",
+    "meaning": "cầm/lấy",
+    "example": "拿书"
+  },
+  {
+    "type": "word",
+    "term": "用",
+    "pinyin": "yòng",
+    "meaning": "dùng",
+    "example": "用电脑"
+  },
+  {
+    "type": "word",
+    "term": "要",
+    "pinyin": "yào",
+    "meaning": "muốn/cần",
+    "example": "要什么？"
+  },
+  {
+    "type": "word",
+    "term": "想",
+    "pinyin": "xiǎng",
+    "meaning": "muốn/nghĩ",
+    "example": "想家"
+  },
+  {
+    "type": "word",
+    "term": "知道",
+    "pinyin": "zhīdào",
+    "meaning": "biết",
+    "example": "知道"
+  },
+  {
+    "type": "word",
+    "term": "会",
+    "pinyin": "huì",
+    "meaning": "biết/có thể",
+    "example": "会说中文"
+  },
+  {
+    "type": "word",
+    "term": "能",
+    "pinyin": "néng",
+    "meaning": "có thể",
+    "example": "能来吗？"
+  },
+  {
+    "type": "word",
+    "term": "可以",
+    "pinyin": "kěyǐ",
+    "meaning": "có thể",
+    "example": "可以"
+  },
+  {
+    "type": "word",
+    "term": "应该",
+    "pinyin": "yīnggāi",
+    "meaning": "nên",
+    "example": "应该"
+  },
+  {
+    "type": "word",
+    "term": "喜欢",
+    "pinyin": "xǐhuan",
+    "meaning": "thích",
+    "example": "喜欢"
+  },
+  {
+    "type": "word",
+    "term": "爱",
+    "pinyin": "ài",
+    "meaning": "yêu",
+    "example": "爱"
+  },
+  {
+    "type": "word",
+    "term": "学校",
+    "pinyin": "xuéxiào",
+    "meaning": "trường học",
+    "example": "在学校"
+  },
+  {
+    "type": "word",
+    "term": "教室",
+    "pinyin": "jiàoshì",
+    "meaning": "lớp học",
+    "example": "在教室"
+  },
+  {
+    "type": "word",
+    "term": "书",
+    "pinyin": "shū",
+    "meaning": "sách",
+    "example": "一本书"
+  },
+  {
+    "type": "word",
+    "term": "本",
+    "pinyin": "běn",
+    "meaning": "quyển (lượng từ)",
+    "example": "一本书"
+  },
+  {
+    "type": "word",
+    "term": "字",
+    "pinyin": "zì",
+    "meaning": "chữ",
+    "example": "汉字"
+  },
+  {
+    "type": "word",
+    "term": "词",
+    "pinyin": "cí",
+    "meaning": "từ",
+    "example": "词语"
+  },
+  {
+    "type": "word",
+    "term": "句",
+    "pinyin": "jù",
+    "meaning": "câu",
+    "example": "句子"
+  },
+  {
+    "type": "word",
+    "term": "话",
+    "pinyin": "huà",
+    "meaning": "lời nói",
+    "example": "说话"
+  },
+  {
+    "type": "word",
+    "term": "中文",
+    "pinyin": "Zhōngwén",
+    "meaning": "tiếng Trung",
+    "example": "说中文"
+  },
+  {
+    "type": "word",
+    "term": "汉语",
+    "pinyin": "Hànyǔ",
+    "meaning": "tiếng Hán",
+    "example": "学汉语"
+  },
+  {
+    "type": "word",
+    "term": "中国",
+    "pinyin": "Zhōngguó",
+    "meaning": "Trung Quốc",
+    "example": "在中国"
+  },
+  {
+    "type": "word",
+    "term": "北京",
+    "pinyin": "Běijīng",
+    "meaning": "Bắc Kinh",
+    "example": "在北京"
+  },
+  {
+    "type": "word",
+    "term": "上海",
+    "pinyin": "Shànghǎi",
+    "meaning": "Thượng Hải",
+    "example": "在上海"
+  },
+  {
+    "type": "word",
+    "term": "饭",
+    "pinyin": "fàn",
+    "meaning": "cơm",
+    "example": "吃饭"
+  },
+  {
+    "type": "word",
+    "term": "菜",
+    "pinyin": "cài",
+    "meaning": "rau/món ăn",
+    "example": "点菜"
+  },
+  {
+    "type": "word",
+    "term": "水",
+    "pinyin": "shuǐ",
+    "meaning": "nước",
+    "example": "喝水"
+  },
+  {
+    "type": "word",
+    "term": "茶",
+    "pinyin": "chá",
+    "meaning": "trà",
+    "example": "喝茶"
+  },
+  {
+    "type": "word",
+    "term": "咖啡",
+    "pinyin": "kāfēi",
+    "meaning": "cà phê",
+    "example": "喝咖啡"
+  },
+  {
+    "type": "word",
+    "term": "酒",
+    "pinyin": "jiǔ",
+    "meaning": "rượu",
+    "example": "喝酒"
+  },
+  {
+    "type": "word",
+    "term": "苹果",
+    "pinyin": "píngguǒ",
+    "meaning": "táo",
+    "example": "一个苹果"
+  },
+  {
+    "type": "word",
+    "term": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "meaning": "chuối",
+    "example": "一根香蕉"
+  },
+  {
+    "type": "word",
+    "term": "橘子",
+    "pinyin": "júzi",
+    "meaning": "cam",
+    "example": "一个橘子"
+  },
+  {
+    "type": "word",
+    "term": "西瓜",
+    "pinyin": "xīguā",
+    "meaning": "dưa hấu",
+    "example": "一个西瓜"
+  },
+  {
+    "type": "word",
+    "term": "米饭",
+    "pinyin": "mǐfàn",
+    "meaning": "cơm",
+    "example": "一碗米饭"
+  },
+  {
+    "type": "word",
+    "term": "面条",
+    "pinyin": "miàntiáo",
+    "meaning": "mì",
+    "example": "一碗面条"
+  },
+  {
+    "type": "word",
+    "term": "包子",
+    "pinyin": "bāozi",
+    "meaning": "bánh bao",
+    "example": "一个包子"
+  },
+  {
+    "type": "word",
+    "term": "饺子",
+    "pinyin": "jiǎozi",
+    "meaning": "bánh chẻo",
+    "example": "一盘饺子"
+  },
+  {
+    "type": "word",
+    "term": "衣服",
+    "pinyin": "yīfu",
+    "meaning": "quần áo",
+    "example": "买衣服"
+  },
+  {
+    "type": "word",
+    "term": "裤子",
+    "pinyin": "kùzi",
+    "meaning": "quần",
+    "example": "一条裤子"
+  },
+  {
+    "type": "word",
+    "term": "鞋",
+    "pinyin": "xié",
+    "meaning": "giày",
+    "example": "一双鞋"
+  },
+  {
+    "type": "word",
+    "term": "帽子",
+    "pinyin": "màozi",
+    "meaning": "mũ",
+    "example": "一顶帽子"
+  },
+  {
+    "type": "word",
+    "term": "钱",
+    "pinyin": "qián",
+    "meaning": "tiền",
+    "example": "多少钱？"
+  },
+  {
+    "type": "word",
+    "term": "元",
+    "pinyin": "yuán",
+    "meaning": "đồng (tiền)",
+    "example": "十元"
+  },
+  {
+    "type": "word",
+    "term": "块",
+    "pinyin": "kuài",
+    "meaning": "đồng (tiền)",
+    "example": "十块"
+  },
+  {
+    "type": "word",
+    "term": "手机",
+    "pinyin": "shǒujī",
+    "meaning": "điện thoại",
+    "example": "一部手机"
+  },
+  {
+    "type": "word",
+    "term": "电脑",
+    "pinyin": "diànnǎo",
+    "meaning": "máy tính",
+    "example": "一台电脑"
+  },
+  {
+    "type": "word",
+    "term": "电视",
+    "pinyin": "diànshì",
+    "meaning": "TV",
+    "example": "看电视"
+  },
+  {
+    "type": "word",
+    "term": "车",
+    "pinyin": "chē",
+    "meaning": "xe",
+    "example": "一辆车"
+  },
+  {
+    "type": "word",
+    "term": "汽车",
+    "pinyin": "qìchē",
+    "meaning": "ô tô",
+    "example": "一辆汽车"
+  },
+  {
+    "type": "word",
+    "term": "自行车",
+    "pinyin": "zìxíngchē",
+    "meaning": "xe đạp",
+    "example": "一辆自行车"
+  },
+  {
+    "type": "word",
+    "term": "飞机",
+    "pinyin": "fēijī",
+    "meaning": "máy bay",
+    "example": "一架飞机"
+  },
+  {
+    "type": "word",
+    "term": "火车",
+    "pinyin": "huǒchē",
+    "meaning": "tàu hỏa",
+    "example": "一列火车"
+  },
+  {
+    "type": "word",
+    "term": "医院",
+    "pinyin": "yīyuàn",
+    "meaning": "bệnh viện",
+    "example": "在医院"
+  },
+  {
+    "type": "word",
+    "term": "医生",
+    "pinyin": "yīshēng",
+    "meaning": "bác sĩ",
+    "example": "看医生"
+  },
+  {
+    "type": "word",
+    "term": "病",
+    "pinyin": "bìng",
+    "meaning": "bệnh",
+    "example": "生病"
+  },
+  {
+    "type": "word",
+    "term": "药",
+    "pinyin": "yào",
+    "meaning": "thuốc",
+    "example": "吃药"
+  },
+  {
+    "type": "word",
+    "term": "身体",
+    "pinyin": "shēntǐ",
+    "meaning": "cơ thể",
+    "example": "身体好"
+  },
+  {
+    "type": "word",
+    "term": "头",
+    "pinyin": "tóu",
+    "meaning": "đầu",
+    "example": "头疼"
+  },
+  {
+    "type": "word",
+    "term": "眼",
+    "pinyin": "yǎn",
+    "meaning": "mắt",
+    "example": "眼睛"
+  },
+  {
+    "type": "word",
+    "term": "眼睛",
+    "pinyin": "yǎnjing",
+    "meaning": "mắt",
+    "example": "大眼睛"
+  },
+  {
+    "type": "word",
+    "term": "耳",
+    "pinyin": "ěr",
+    "meaning": "tai",
+    "example": "耳朵"
+  },
+  {
+    "type": "word",
+    "term": "鼻子",
+    "pinyin": "bízi",
+    "meaning": "mũi",
+    "example": "高鼻子"
+  },
+  {
+    "type": "word",
+    "term": "嘴",
+    "pinyin": "zuǐ",
+    "meaning": "miệng",
+    "example": "嘴巴"
+  },
+  {
+    "type": "word",
+    "term": "手",
+    "pinyin": "shǒu",
+    "meaning": "tay",
+    "example": "手"
+  },
+  {
+    "type": "word",
+    "term": "脚",
+    "pinyin": "jiǎo",
+    "meaning": "chân",
+    "example": "脚"
+  },
+  {
+    "type": "word",
+    "term": "心",
+    "pinyin": "xīn",
+    "meaning": "tim/tâm",
+    "example": "心"
+  },
+  {
+    "type": "word",
+    "term": "颜色",
+    "pinyin": "yánsè",
+    "meaning": "màu sắc",
+    "example": "什么颜色？"
+  },
+  {
+    "type": "word",
+    "term": "红",
+    "pinyin": "hóng",
+    "meaning": "đỏ",
+    "example": "红色"
+  },
+  {
+    "type": "word",
+    "term": "黄",
+    "pinyin": "huáng",
+    "meaning": "vàng",
+    "example": "黄色"
+  },
+  {
+    "type": "word",
+    "term": "蓝",
+    "pinyin": "lán",
+    "meaning": "xanh dương",
+    "example": "蓝色"
+  },
+  {
+    "type": "word",
+    "term": "绿",
+    "pinyin": "lǜ",
+    "meaning": "xanh lá",
+    "example": "绿色"
+  },
+  {
+    "type": "word",
+    "term": "白",
+    "pinyin": "bái",
+    "meaning": "trắng",
+    "example": "白色"
+  },
+  {
+    "type": "word",
+    "term": "黑",
+    "pinyin": "hēi",
+    "meaning": "đen",
+    "example": "黑色"
+  },
+  {
+    "type": "word",
+    "term": "房间",
+    "pinyin": "fángjiān",
+    "meaning": "phòng",
+    "example": "一个房间"
+  },
+  {
+    "type": "word",
+    "term": "门",
+    "pinyin": "mén",
+    "meaning": "cửa",
+    "example": "开门"
+  },
+  {
+    "type": "word",
+    "term": "窗",
+    "pinyin": "chuāng",
+    "meaning": "cửa sổ",
+    "example": "窗户"
+  },
+  {
+    "type": "word",
+    "term": "桌子",
+    "pinyin": "zhuōzi",
+    "meaning": "bàn",
+    "example": "一张桌子"
+  },
+  {
+    "type": "word",
+    "term": "椅子",
+    "pinyin": "yǐzi",
+    "meaning": "ghế",
+    "example": "一把椅子"
+  },
+  {
+    "type": "word",
+    "term": "床",
+    "pinyin": "chuáng",
+    "meaning": "giường",
+    "example": "一张床"
+  },
+  {
+    "type": "word",
+    "term": "灯",
+    "pinyin": "dēng",
+    "meaning": "đèn",
+    "example": "开灯"
+  },
+  {
+    "type": "word",
+    "term": "工作",
+    "pinyin": "gōngzuò",
+    "meaning": "công việc",
+    "example": "工作"
+  },
+  {
+    "type": "word",
+    "term": "学习",
+    "pinyin": "xuéxí",
+    "meaning": "học tập",
+    "example": "学习中文"
+  },
+  {
+    "type": "word",
+    "term": "休息",
+    "pinyin": "xiūxi",
+    "meaning": "nghỉ ngơi",
+    "example": "休息"
+  },
+  {
+    "type": "word",
+    "term": "睡觉",
+    "pinyin": "shuìjiào",
+    "meaning": "ngủ",
+    "example": "睡觉"
+  },
+  {
+    "type": "word",
+    "term": "起床",
+    "pinyin": "qǐchuáng",
+    "meaning": "thức dậy",
+    "example": "起床"
+  },
+  {
+    "type": "word",
+    "term": "洗澡",
+    "pinyin": "xǐzǎo",
+    "meaning": "tắm",
+    "example": "洗澡"
+  },
+  {
+    "type": "word",
+    "term": "运动",
+    "pinyin": "yùndòng",
+    "meaning": "thể thao",
+    "example": "做运动"
+  },
+  {
+    "type": "word",
+    "term": "玩",
+    "pinyin": "wán",
+    "meaning": "chơi",
+    "example": "玩"
+  },
+  {
+    "type": "word",
+    "term": "游戏",
+    "pinyin": "yóuxì",
+    "meaning": "trò chơi",
+    "example": "玩游戏"
+  },
+  {
+    "type": "word",
+    "term": "电影",
+    "pinyin": "diànyǐng",
+    "meaning": "phim",
+    "example": "看电影"
+  },
+  {
+    "type": "word",
+    "term": "音乐",
+    "pinyin": "yīnyuè",
+    "meaning": "âm nhạc",
+    "example": "听音乐"
+  },
+  {
+    "type": "word",
+    "term": "歌",
+    "pinyin": "gē",
+    "meaning": "bài hát",
+    "example": "唱歌"
+  },
+  {
+    "type": "word",
+    "term": "跳舞",
+    "pinyin": "tiàowǔ",
+    "meaning": "nhảy",
+    "example": "跳舞"
+  },
+  {
+    "type": "word",
+    "term": "画",
+    "pinyin": "huà",
+    "meaning": "vẽ/bức tranh",
+    "example": "画画"
+  },
+  {
+    "type": "word",
+    "term": "照片",
+    "pinyin": "zhàopiàn",
+    "meaning": "ảnh",
+    "example": "一张照片"
+  },
+  {
+    "type": "word",
+    "term": "礼物",
+    "pinyin": "lǐwù",
+    "meaning": "quà",
+    "example": "一个礼物"
+  },
+  {
+    "type": "word",
+    "term": "生日",
+    "pinyin": "shēngrì",
+    "meaning": "sinh nhật",
+    "example": "生日快乐！"
+  },
+  {
+    "type": "word",
+    "term": "节日",
+    "pinyin": "jiérì",
+    "meaning": "ngày lễ",
+    "example": "节日"
+  },
+  {
+    "type": "word",
+    "term": "春节",
+    "pinyin": "Chūnjié",
+    "meaning": "Tết Nguyên Đán",
+    "example": "过春节"
+  },
+  {
+    "type": "word",
+    "term": "快乐",
+    "pinyin": "kuàilè",
+    "meaning": "vui vẻ",
+    "example": "快乐"
+  },
+  {
+    "type": "word",
+    "term": "高兴",
+    "pinyin": "gāoxìng",
+    "meaning": "vui",
+    "example": "很高兴"
+  },
+  {
+    "type": "word",
+    "term": "难过",
+    "pinyin": "nánguò",
+    "meaning": "buồn",
+    "example": "很难过"
+  },
+  {
+    "type": "word",
+    "term": "累",
+    "pinyin": "lèi",
+    "meaning": "mệt",
+    "example": "很累"
+  },
+  {
+    "type": "word",
+    "term": "饿",
+    "pinyin": "è",
+    "meaning": "đói",
+    "example": "饿了"
+  },
+  {
+    "type": "word",
+    "term": "渴",
+    "pinyin": "kě",
+    "meaning": "khát",
+    "example": "渴了"
+  },
+  {
+    "type": "word",
+    "term": "忙",
+    "pinyin": "máng",
+    "meaning": "bận",
+    "example": "很忙"
+  },
+  {
+    "type": "word",
+    "term": "闲",
+    "pinyin": "xián",
+    "meaning": "rảnh",
+    "example": "很闲"
+  },
+  {
+    "type": "word",
+    "term": "容易",
+    "pinyin": "róngyì",
+    "meaning": "dễ",
+    "example": "很容易"
+  },
+  {
+    "type": "word",
+    "term": "难",
+    "pinyin": "nán",
+    "meaning": "khó",
+    "example": "很难"
+  },
+  {
+    "type": "word",
+    "term": "重要",
+    "pinyin": "zhòngyào",
+    "meaning": "quan trọng",
+    "example": "很重要"
+  },
+  {
+    "type": "word",
+    "term": "简单",
+    "pinyin": "jiǎndān",
+    "meaning": "đơn giản",
+    "example": "很简单"
+  },
+  {
+    "type": "word",
+    "term": "复杂",
+    "pinyin": "fùzá",
+    "meaning": "phức tạp",
+    "example": "很复杂"
+  },
+  {
+    "type": "word",
+    "term": "干净",
+    "pinyin": "gānjìng",
+    "meaning": "sạch",
+    "example": "很干净"
+  },
+  {
+    "type": "word",
+    "term": "脏",
+    "pinyin": "zāng",
+    "meaning": "bẩn",
+    "example": "很脏"
+  },
+  {
+    "type": "word",
+    "term": "漂亮",
+    "pinyin": "piàoliang",
+    "meaning": "đẹp",
+    "example": "很漂亮"
+  },
+  {
+    "type": "word",
+    "term": "帅",
+    "pinyin": "shuài",
+    "meaning": "đẹp trai",
+    "example": "很帅"
+  },
+  {
+    "type": "word",
+    "term": "美",
+    "pinyin": "měi",
+    "meaning": "đẹp",
+    "example": "很美"
+  },
+  {
+    "type": "word",
+    "term": "丑",
+    "pinyin": "chǒu",
+    "meaning": "xấu",
+    "example": "很丑"
+  },
+  {
+    "type": "word",
+    "term": "年轻",
+    "pinyin": "niánqīng",
+    "meaning": "trẻ",
+    "example": "很年轻"
+  },
+  {
+    "type": "word",
+    "term": "老",
+    "pinyin": "lǎo",
+    "meaning": "già",
+    "example": "老了"
+  },
+  {
+    "type": "word",
+    "term": "聪明",
+    "pinyin": "cōngmíng",
+    "meaning": "thông minh",
+    "example": "很聪明"
+  },
+  {
+    "type": "word",
+    "term": "笨",
+    "pinyin": "bèn",
+    "meaning": "ngốc",
+    "example": "很笨"
+  },
+  {
+    "type": "word",
+    "term": "努力",
+    "pinyin": "nǔlì",
+    "meaning": "chăm chỉ",
+    "example": "很努力"
+  },
+  {
+    "type": "word",
+    "term": "懒",
+    "pinyin": "lǎn",
+    "meaning": "lười",
+    "example": "很懒"
+  },
+  {
+    "type": "word",
+    "term": "认真",
+    "pinyin": "rènzhēn",
+    "meaning": "nghiêm túc",
+    "example": "很认真"
+  },
+  {
+    "type": "word",
+    "term": "马虎",
+    "pinyin": "mǎhu",
+    "meaning": "cẩu thả",
+    "example": "很马虎"
+  },
+  {
+    "type": "word",
+    "term": "友好",
+    "pinyin": "yǒuhǎo",
+    "meaning": "thân thiện",
+    "example": "很友好"
+  },
+  {
+    "type": "word",
+    "term": "客气",
+    "pinyin": "kèqi",
+    "meaning": "lịch sự",
+    "example": "很客气"
+  },
+  {
+    "type": "word",
+    "term": "礼貌",
+    "pinyin": "lǐmào",
+    "meaning": "lễ phép",
+    "example": "有礼貌"
+  },
+  {
+    "type": "word",
+    "term": "粗鲁",
+    "pinyin": "cūlǔ",
+    "meaning": "thô lỗ",
+    "example": "很粗鲁"
+  },
+  {
+    "type": "word",
+    "term": "安静",
+    "pinyin": "ānjìng",
+    "meaning": "yên tĩnh",
+    "example": "很安静"
+  },
+  {
+    "type": "word",
+    "term": "吵",
+    "pinyin": "chǎo",
+    "meaning": "ồn",
+    "example": "很吵"
+  },
+  {
+    "type": "word",
+    "term": "安全",
+    "pinyin": "ānquán",
+    "meaning": "an toàn",
+    "example": "很安全"
+  },
+  {
+    "type": "word",
+    "term": "危险",
+    "pinyin": "wēixiǎn",
+    "meaning": "nguy hiểm",
+    "example": "很危险"
+  },
+  {
+    "type": "word",
+    "term": "健康",
+    "pinyin": "jiànkāng",
+    "meaning": "khỏe mạnh",
+    "example": "很健康"
+  },
+  {
+    "type": "word",
+    "term": "病",
+    "pinyin": "bìng",
+    "meaning": "ốm",
+    "example": "病了"
+  },
+  {
+    "type": "word",
+    "term": "舒服",
+    "pinyin": "shūfu",
+    "meaning": "thoải mái",
+    "example": "很舒服"
+  },
+  {
+    "type": "word",
+    "term": "不舒服",
+    "pinyin": "bù shūfu",
+    "meaning": "khó chịu",
+    "example": "不舒服"
+  },
+  {
+    "type": "word",
+    "term": "疼",
+    "pinyin": "téng",
+    "meaning": "đau",
+    "example": "头疼"
+  },
+  {
+    "type": "word",
+    "term": "痛",
+    "pinyin": "tòng",
+    "meaning": "đau",
+    "example": "肚子痛"
+  },
+  {
+    "type": "word",
+    "term": "累",
+    "pinyin": "lèi",
+    "meaning": "mệt",
+    "example": "很累"
+  },
+  {
+    "type": "word",
+    "term": "困",
+    "pinyin": "kùn",
+    "meaning": "buồn ngủ",
+    "example": "很困"
+  },
+  {
+    "type": "word",
+    "term": "饿",
+    "pinyin": "è",
+    "meaning": "đói",
+    "example": "饿了"
+  },
+  {
+    "type": "word",
+    "term": "饱",
+    "pinyin": "bǎo",
+    "meaning": "no",
+    "example": "饱了"
+  },
+  {
+    "type": "word",
+    "term": "渴",
+    "pinyin": "kě",
+    "meaning": "khát",
+    "example": "渴了"
+  },
+  {
+    "type": "word",
+    "term": "渴",
+    "pinyin": "kě",
+    "meaning": "khát",
+    "example": "渴了"
+  },
+  {
+    "type": "quiz",
+    "question": "Pinyin 'mǎ' là thanh mấy?",
+    "options": [
+      "Thanh 1",
+      "Thanh 2",
+      "Thanh 3",
+      "Thanh 4"
+    ],
+    "answer": 2,
+    "explain": "mǎ có dấu mũ (ˇ) là thanh 3."
+  },
+  {
+    "type": "quiz",
+    "question": "Trong các lựa chọn sau, cái nào là vận mẫu (final)?",
+    "options": [
+      "zh",
+      "sh",
+      "ü",
+      "r"
+    ],
+    "answer": 2,
+    "explain": "ü là vận mẫu. zh/sh là cụm thanh mẫu."
+  },
+  {
+    "type": "quiz",
+    "question": "Chọn câu chào đúng:",
+    "options": [
+      "谢谢",
+      "你好",
+      "对不起",
+      "没关系"
+    ],
+    "answer": 1,
+    "explain": "你好 = xin chào."
+  },
+  {
+    "type": "quiz",
+    "question": "'wǒ' là chữ nào?",
+    "options": [
+      "我",
+      "你",
+      "他",
+      "她"
+    ],
+    "answer": 0,
+    "explain": "我 = wǒ = tôi."
+  },
+  {
+    "type": "quiz",
+    "question": "Số '5' trong tiếng Trung là:",
+    "options": [
+      "五",
+      "三",
+      "七",
+      "九"
+    ],
+    "answer": 0,
+    "explain": "五 = wǔ = năm."
+  },
+  {
+    "type": "quiz",
+    "question": "'nǐ hǎo' nghĩa là gì?",
+    "options": [
+      "Cảm ơn",
+      "Xin chào",
+      "Xin lỗi",
+      "Không sao"
+    ],
+    "answer": 1,
+    "explain": "nǐ hǎo = xin chào."
+  },
+  {
+    "type": "quiz",
+    "question": "Chữ '中' đọc là:",
+    "options": [
+      "zhōng",
+      "zhòng",
+      "zhǒng",
+      "zhóng"
+    ],
+    "answer": 0,
+    "explain": "中 = zhōng (thanh 1) = giữa/Trung Quốc."
+  },
+  {
+    "type": "quiz",
+    "question": "Âm nào KHÔNG phải là thanh mẫu (initial)?",
+    "options": [
+      "b",
+      "p",
+      "a",
+      "m"
+    ],
+    "answer": 2,
+    "explain": "a là vận mẫu (final), không phải thanh mẫu."
+  },
+  {
+    "type": "quiz",
+    "question": "'xièxie' nghĩa là:",
+    "options": [
+      "Xin chào",
+      "Cảm ơn",
+      "Xin lỗi",
+      "Tạm biệt"
+    ],
+    "answer": 1,
+    "explain": "xièxie = cảm ơn."
+  },
+  {
+    "type": "quiz",
+    "question": "Chữ nào có nghĩa là 'tôi'?",
+    "options": [
+      "你",
+      "我",
+      "他",
+      "她"
+    ],
+    "answer": 1,
+    "explain": "我 = wǒ = tôi."
+  },
+  {
+    "type": "word",
+    "term": "你好吗？",
+    "pinyin": "nǐ hǎo ma?",
+    "meaning": "Bạn khỏe không?",
+    "example": "你好吗？我很好。"
+  },
+  {
+    "type": "word",
+    "term": "再见",
+    "pinyin": "zàijiàn",
+    "meaning": "Tạm biệt",
+    "example": "再见！"
+  },
+  {
+    "type": "word",
+    "term": "明天见",
+    "pinyin": "míngtiān jiàn",
+    "meaning": "Ngày mai gặp lại",
+    "example": "明天见！"
+  },
+  {
+    "type": "word",
+    "term": "请",
+    "pinyin": "qǐng",
+    "meaning": "Xin mời/làm ơn",
+    "example": "请坐。"
+  },
+  {
+    "type": "word",
+    "term": "请问",
+    "pinyin": "qǐngwèn",
+    "meaning": "Xin hỏi",
+    "example": "请问，厕所在哪儿？"
+  },
+  {
+    "type": "word",
+    "term": "不客气",
+    "pinyin": "bù kèqi",
+    "meaning": "Không có gì",
+    "example": "不客气。"
+  },
+  {
+    "type": "word",
+    "term": "不用谢",
+    "pinyin": "bùyòng xiè",
+    "meaning": "Không cần cảm ơn",
+    "example": "不用谢。"
+  },
+  {
+    "type": "word",
+    "term": "不好意思",
+    "pinyin": "bù hǎoyìsi",
+    "meaning": "Xin lỗi (ngại)",
+    "example": "不好意思。"
+  },
+  {
+    "type": "word",
+    "term": "打扰了",
+    "pinyin": "dǎrǎo le",
+    "meaning": "Xin lỗi làm phiền",
+    "example": "打扰了。"
+  },
+  {
+    "type": "word",
+    "term": "怎么样？",
+    "pinyin": "zěnmeyàng?",
+    "meaning": "Thế nào?",
+    "example": "这个怎么样？"
+  },
+  {
+    "type": "word",
+    "term": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "meaning": "như thế nào",
+    "example": "你觉得怎么样？"
+  },
+  {
+    "type": "word",
+    "term": "十",
+    "pinyin": "shí",
+    "meaning": "10",
+    "example": "十个"
+  },
+  {
+    "type": "word",
+    "term": "十一",
+    "pinyin": "shíyī",
+    "meaning": "11",
+    "example": "十一个"
+  },
+  {
+    "type": "word",
+    "term": "十二",
+    "pinyin": "shíèr",
+    "meaning": "12",
+    "example": "十二个"
+  },
+  {
+    "type": "word",
+    "term": "十三",
+    "pinyin": "shísān",
+    "meaning": "13",
+    "example": "十三个"
+  },
+  {
+    "type": "word",
+    "term": "十四",
+    "pinyin": "shísì",
+    "meaning": "14",
+    "example": "十四个"
+  },
+  {
+    "type": "word",
+    "term": "十五",
+    "pinyin": "shíwǔ",
+    "meaning": "15",
+    "example": "十五个"
+  },
+  {
+    "type": "word",
+    "term": "十六",
+    "pinyin": "shíliù",
+    "meaning": "16",
+    "example": "十六个"
+  },
+  {
+    "type": "word",
+    "term": "十七",
+    "pinyin": "shíqī",
+    "meaning": "17",
+    "example": "十七个"
+  },
+  {
+    "type": "word",
+    "term": "十八",
+    "pinyin": "shíbā",
+    "meaning": "18",
+    "example": "十八个"
+  },
+  {
+    "type": "word",
+    "term": "十九",
+    "pinyin": "shíjiǔ",
+    "meaning": "19",
+    "example": "十九个"
+  },
+  {
+    "type": "word",
+    "term": "二十",
+    "pinyin": "èrshí",
+    "meaning": "20",
+    "example": "二十个"
+  },
+  {
+    "type": "word",
+    "term": "二十一",
+    "pinyin": "èrshíyī",
+    "meaning": "21",
+    "example": "二十一个"
+  },
+  {
+    "type": "word",
+    "term": "二十二",
+    "pinyin": "èrshíèr",
+    "meaning": "22",
+    "example": "二十二个"
+  },
+  {
+    "type": "word",
+    "term": "二十三",
+    "pinyin": "èrshísān",
+    "meaning": "23",
+    "example": "二十三个"
+  },
+  {
+    "type": "word",
+    "term": "二十四",
+    "pinyin": "èrshísì",
+    "meaning": "24",
+    "example": "二十四个"
+  },
+  {
+    "type": "word",
+    "term": "二十五",
+    "pinyin": "èrshíwǔ",
+    "meaning": "25",
+    "example": "二十五个"
+  },
+  {
+    "type": "word",
+    "term": "二十六",
+    "pinyin": "èrshíliù",
+    "meaning": "26",
+    "example": "二十六个"
+  },
+  {
+    "type": "word",
+    "term": "二十七",
+    "pinyin": "èrshíqī",
+    "meaning": "27",
+    "example": "二十七个"
+  },
+  {
+    "type": "word",
+    "term": "二十八",
+    "pinyin": "èrshíbā",
+    "meaning": "28",
+    "example": "二十八个"
+  },
+  {
+    "type": "word",
+    "term": "二十九",
+    "pinyin": "èrshíjiǔ",
+    "meaning": "29",
+    "example": "二十九个"
+  },
+  {
+    "type": "word",
+    "term": "三十",
+    "pinyin": "sānshí",
+    "meaning": "30",
+    "example": "三十个"
+  },
+  {
+    "type": "word",
+    "term": "三十一",
+    "pinyin": "sānshíyī",
+    "meaning": "31",
+    "example": "三十一个"
+  },
+  {
+    "type": "word",
+    "term": "三十二",
+    "pinyin": "sānshíèr",
+    "meaning": "32",
+    "example": "三十二个"
+  },
+  {
+    "type": "word",
+    "term": "三十三",
+    "pinyin": "sānshísān",
+    "meaning": "33",
+    "example": "三十三个"
+  },
+  {
+    "type": "word",
+    "term": "三十四",
+    "pinyin": "sānshísì",
+    "meaning": "34",
+    "example": "三十四个"
+  },
+  {
+    "type": "word",
+    "term": "三十五",
+    "pinyin": "sānshíwǔ",
+    "meaning": "35",
+    "example": "三十五个"
+  },
+  {
+    "type": "word",
+    "term": "三十六",
+    "pinyin": "sānshíliù",
+    "meaning": "36",
+    "example": "三十六个"
+  },
+  {
+    "type": "word",
+    "term": "三十七",
+    "pinyin": "sānshíqī",
+    "meaning": "37",
+    "example": "三十七个"
+  },
+  {
+    "type": "word",
+    "term": "三十八",
+    "pinyin": "sānshíbā",
+    "meaning": "38",
+    "example": "三十八个"
+  },
+  {
+    "type": "word",
+    "term": "三十九",
+    "pinyin": "sānshíjiǔ",
+    "meaning": "39",
+    "example": "三十九个"
+  },
+  {
+    "type": "word",
+    "term": "四十",
+    "pinyin": "sìshí",
+    "meaning": "40",
+    "example": "四十个"
+  },
+  {
+    "type": "word",
+    "term": "四十一",
+    "pinyin": "sìshíyī",
+    "meaning": "41",
+    "example": "四十一个"
+  },
+  {
+    "type": "word",
+    "term": "四十二",
+    "pinyin": "sìshíèr",
+    "meaning": "42",
+    "example": "四十二个"
+  },
+  {
+    "type": "word",
+    "term": "四十三",
+    "pinyin": "sìshísān",
+    "meaning": "43",
+    "example": "四十三个"
+  },
+  {
+    "type": "word",
+    "term": "四十四",
+    "pinyin": "sìshísì",
+    "meaning": "44",
+    "example": "四十四个"
+  },
+  {
+    "type": "word",
+    "term": "四十五",
+    "pinyin": "sìshíwǔ",
+    "meaning": "45",
+    "example": "四十五个"
+  },
+  {
+    "type": "word",
+    "term": "四十六",
+    "pinyin": "sìshíliù",
+    "meaning": "46",
+    "example": "四十六个"
+  },
+  {
+    "type": "word",
+    "term": "四十七",
+    "pinyin": "sìshíqī",
+    "meaning": "47",
+    "example": "四十七个"
+  },
+  {
+    "type": "word",
+    "term": "四十八",
+    "pinyin": "sìshíbā",
+    "meaning": "48",
+    "example": "四十八个"
+  },
+  {
+    "type": "word",
+    "term": "四十九",
+    "pinyin": "sìshíjiǔ",
+    "meaning": "49",
+    "example": "四十九个"
+  },
+  {
+    "type": "word",
+    "term": "五十",
+    "pinyin": "wǔshí",
+    "meaning": "50",
+    "example": "五十个"
+  },
+  {
+    "type": "word",
+    "term": "五十一",
+    "pinyin": "wǔshíyī",
+    "meaning": "51",
+    "example": "五十一个"
+  },
+  {
+    "type": "word",
+    "term": "五十二",
+    "pinyin": "wǔshíèr",
+    "meaning": "52",
+    "example": "五十二个"
+  },
+  {
+    "type": "word",
+    "term": "五十三",
+    "pinyin": "wǔshísān",
+    "meaning": "53",
+    "example": "五十三个"
+  },
+  {
+    "type": "word",
+    "term": "五十四",
+    "pinyin": "wǔshísì",
+    "meaning": "54",
+    "example": "五十四个"
+  },
+  {
+    "type": "word",
+    "term": "五十五",
+    "pinyin": "wǔshíwǔ",
+    "meaning": "55",
+    "example": "五十五个"
+  },
+  {
+    "type": "word",
+    "term": "五十六",
+    "pinyin": "wǔshíliù",
+    "meaning": "56",
+    "example": "五十六个"
+  },
+  {
+    "type": "word",
+    "term": "五十七",
+    "pinyin": "wǔshíqī",
+    "meaning": "57",
+    "example": "五十七个"
+  },
+  {
+    "type": "word",
+    "term": "五十八",
+    "pinyin": "wǔshíbā",
+    "meaning": "58",
+    "example": "五十八个"
+  },
+  {
+    "type": "word",
+    "term": "五十九",
+    "pinyin": "wǔshíjiǔ",
+    "meaning": "59",
+    "example": "五十九个"
+  },
+  {
+    "type": "word",
+    "term": "条",
+    "pinyin": "tiáo",
+    "meaning": "cái (cho vật dài)",
+    "example": "一条鱼"
+  },
+  {
+    "type": "word",
+    "term": "张",
+    "pinyin": "zhāng",
+    "meaning": "tờ/tấm",
+    "example": "一张纸"
+  },
+  {
+    "type": "word",
+    "term": "把",
+    "pinyin": "bǎ",
+    "meaning": "cái (cho đồ vật có tay cầm)",
+    "example": "一把椅子"
+  },
+  {
+    "type": "word",
+    "term": "只",
+    "pinyin": "zhī",
+    "meaning": "con (cho động vật nhỏ)",
+    "example": "一只猫"
+  },
+  {
+    "type": "word",
+    "term": "支",
+    "pinyin": "zhī",
+    "meaning": "cây/cái",
+    "example": "一支笔"
+  },
+  {
+    "type": "word",
+    "term": "件",
+    "pinyin": "jiàn",
+    "meaning": "cái (cho quần áo)",
+    "example": "一件衣服"
+  },
+  {
+    "type": "word",
+    "term": "双",
+    "pinyin": "shuāng",
+    "meaning": "đôi",
+    "example": "一双鞋"
+  },
+  {
+    "type": "word",
+    "term": "次",
+    "pinyin": "cì",
+    "meaning": "lần",
+    "example": "一次"
+  },
+  {
+    "type": "word",
+    "term": "遍",
+    "pinyin": "biàn",
+    "meaning": "lần (đọc/xem)",
+    "example": "看一遍"
+  },
+  {
+    "type": "word",
+    "term": "走",
+    "pinyin": "zǒu",
+    "meaning": "đi bộ",
+    "example": "走路"
+  },
+  {
+    "type": "word",
+    "term": "跑",
+    "pinyin": "pǎo",
+    "meaning": "chạy",
+    "example": "跑步"
+  },
+  {
+    "type": "word",
+    "term": "坐",
+    "pinyin": "zuò",
+    "meaning": "ngồi",
+    "example": "请坐"
+  },
+  {
+    "type": "word",
+    "term": "站",
+    "pinyin": "zhàn",
+    "meaning": "đứng",
+    "example": "站起来"
+  },
+  {
+    "type": "word",
+    "term": "睡",
+    "pinyin": "shuì",
+    "meaning": "ngủ",
+    "example": "睡觉"
+  },
+  {
+    "type": "word",
+    "term": "醒",
+    "pinyin": "xǐng",
+    "meaning": "tỉnh",
+    "example": "醒了"
+  },
+  {
+    "type": "word",
+    "term": "开",
+    "pinyin": "kāi",
+    "meaning": "mở/bật",
+    "example": "开门"
+  },
+  {
+    "type": "word",
+    "term": "关",
+    "pinyin": "guān",
+    "meaning": "đóng/tắt",
+    "example": "关门"
+  },
+  {
+    "type": "word",
+    "term": "进",
+    "pinyin": "jìn",
+    "meaning": "vào",
+    "example": "进来"
+  },
+  {
+    "type": "word",
+    "term": "出",
+    "pinyin": "chū",
+    "meaning": "ra",
+    "example": "出去"
+  },
+  {
+    "type": "word",
+    "term": "上",
+    "pinyin": "shàng",
+    "meaning": "lên/trên",
+    "example": "上楼"
+  },
+  {
+    "type": "word",
+    "term": "下",
+    "pinyin": "xià",
+    "meaning": "xuống/dưới",
+    "example": "下楼"
+  },
+  {
+    "type": "word",
+    "term": "起",
+    "pinyin": "qǐ",
+    "meaning": "dậy",
+    "example": "起床"
+  },
+  {
+    "type": "word",
+    "term": "穿",
+    "pinyin": "chuān",
+    "meaning": "mặc",
+    "example": "穿衣服"
+  },
+  {
+    "type": "word",
+    "term": "脱",
+    "pinyin": "tuō",
+    "meaning": "cởi",
+    "example": "脱衣服"
+  },
+  {
+    "type": "word",
+    "term": "洗",
+    "pinyin": "xǐ",
+    "meaning": "rửa/giặt",
+    "example": "洗手"
+  },
+  {
+    "type": "word",
+    "term": "刷",
+    "pinyin": "shuā",
+    "meaning": "chải",
+    "example": "刷牙"
+  },
+  {
+    "type": "word",
+    "term": "找",
+    "pinyin": "zhǎo",
+    "meaning": "tìm",
+    "example": "找东西"
+  },
+  {
+    "type": "word",
+    "term": "丢",
+    "pinyin": "diū",
+    "meaning": "mất",
+    "example": "丢了"
+  },
+  {
+    "type": "word",
+    "term": "放",
+    "pinyin": "fàng",
+    "meaning": "đặt",
+    "example": "放在"
+  },
+  {
+    "type": "word",
+    "term": "送",
+    "pinyin": "sòng",
+    "meaning": "tặng/gửi",
+    "example": "送礼物"
+  },
+  {
+    "type": "word",
+    "term": "收",
+    "pinyin": "shōu",
+    "meaning": "nhận",
+    "example": "收到"
+  },
+  {
+    "type": "word",
+    "term": "借",
+    "pinyin": "jiè",
+    "meaning": "mượn",
+    "example": "借书"
+  },
+  {
+    "type": "word",
+    "term": "还",
+    "pinyin": "huán",
+    "meaning": "trả",
+    "example": "还书"
+  },
+  {
+    "type": "word",
+    "term": "帮",
+    "pinyin": "bāng",
+    "meaning": "giúp",
+    "example": "帮忙"
+  },
+  {
+    "type": "word",
+    "term": "教",
+    "pinyin": "jiāo",
+    "meaning": "dạy",
+    "example": "教中文"
+  },
+  {
+    "type": "word",
+    "term": "学",
+    "pinyin": "xué",
+    "meaning": "học",
+    "example": "学中文"
+  },
+  {
+    "type": "word",
+    "term": "练习",
+    "pinyin": "liànxí",
+    "meaning": "luyện tập",
+    "example": "练习"
+  },
+  {
+    "type": "word",
+    "term": "考试",
+    "pinyin": "kǎoshì",
+    "meaning": "thi",
+    "example": "考试"
+  },
+  {
+    "type": "word",
+    "term": "问",
+    "pinyin": "wèn",
+    "meaning": "hỏi",
+    "example": "问问题"
+  },
+  {
+    "type": "word",
+    "term": "答",
+    "pinyin": "dá",
+    "meaning": "trả lời",
+    "example": "回答问题"
+  },
+  {
+    "type": "word",
+    "term": "告诉",
+    "pinyin": "gàosu",
+    "meaning": "nói cho biết",
+    "example": "告诉我"
+  },
+  {
+    "type": "word",
+    "term": "明白",
+    "pinyin": "míngbai",
+    "meaning": "hiểu",
+    "example": "明白了"
+  },
+  {
+    "type": "word",
+    "term": "懂",
+    "pinyin": "dǒng",
+    "meaning": "hiểu",
+    "example": "懂了"
+  },
+  {
+    "type": "word",
+    "term": "忘记",
+    "pinyin": "wàngjì",
+    "meaning": "quên",
+    "example": "忘记了"
+  },
+  {
+    "type": "word",
+    "term": "记得",
+    "pinyin": "jìde",
+    "meaning": "nhớ",
+    "example": "记得"
+  },
+  {
+    "type": "word",
+    "term": "认识",
+    "pinyin": "rènshi",
+    "meaning": "quen biết",
+    "example": "认识"
+  },
+  {
+    "type": "word",
+    "term": "见面",
+    "pinyin": "jiànmiàn",
+    "meaning": "gặp mặt",
+    "example": "见面"
+  },
+  {
+    "type": "word",
+    "term": "介绍",
+    "pinyin": "jièshào",
+    "meaning": "giới thiệu",
+    "example": "介绍"
+  },
+  {
+    "type": "word",
+    "term": "欢迎",
+    "pinyin": "huānyíng",
+    "meaning": "chào mừng",
+    "example": "欢迎"
+  },
+  {
+    "type": "word",
+    "term": "不谢",
+    "pinyin": "bùxiè",
+    "meaning": "không có gì",
+    "example": "不谢"
+  },
+  {
+    "type": "word",
+    "term": "让",
+    "pinyin": "ràng",
+    "meaning": "để cho",
+    "example": "让我"
+  },
+  {
+    "type": "word",
+    "term": "等",
+    "pinyin": "děng",
+    "meaning": "đợi",
+    "example": "等一下"
+  },
+  {
+    "type": "quiz",
+    "question": "Số '10' trong tiếng Trung là:",
+    "options": [
+      "十",
+      "一",
+      "二",
+      "三"
+    ],
+    "answer": 0,
+    "explain": "十 = shí = mười."
+  },
+  {
+    "type": "quiz",
+    "question": "'duōshao' nghĩa là:",
+    "options": [
+      "Bao nhiêu",
+      "Cái gì",
+      "Ai",
+      "Ở đâu"
+    ],
+    "answer": 0,
+    "explain": "多少 = duōshao = bao nhiêu."
+  },
+  {
+    "type": "quiz",
+    "question": "Chữ nào có nghĩa là 'nhà'?",
+    "options": [
+      "家",
+      "学校",
+      "医院",
+      "商店"
+    ],
+    "answer": 0,
+    "explain": "家 = jiā = nhà."
+  },
+  {
+    "type": "quiz",
+    "question": "'hěn' nghĩa là:",
+    "options": [
+      "Rất",
+      "Không",
+      "Có",
+      "Tốt"
+    ],
+    "answer": 0,
+    "explain": "很 = hěn = rất."
+  },
+  {
+    "type": "quiz",
+    "question": "Chữ nào có nghĩa là 'ăn'?",
+    "options": [
+      "吃",
+      "喝",
+      "看",
+      "听"
+    ],
+    "answer": 0,
+    "explain": "吃 = chī = ăn."
+  },
+  {
+    "type": "quiz",
+    "question": "'shū' nghĩa là:",
+    "options": [
+      "Sách",
+      "Bút",
+      "Giấy",
+      "Bàn"
+    ],
+    "answer": 0,
+    "explain": "书 = shū = sách."
+  },
+  {
+    "type": "quiz",
+    "question": "Chữ nào có nghĩa là 'nước'?",
+    "options": [
+      "水",
+      "茶",
+      "咖啡",
+      "酒"
+    ],
+    "answer": 0,
+    "explain": "水 = shuǐ = nước."
+  },
+  {
+    "type": "quiz",
+    "question": "'qián' nghĩa là:",
+    "options": [
+      "Tiền",
+      "Sách",
+      "Bút",
+      "Giấy"
+    ],
+    "answer": 0,
+    "explain": "钱 = qián = tiền."
+  },
+  {
+    "type": "quiz",
+    "question": "Chữ nào có nghĩa là 'màu đỏ'?",
+    "options": [
+      "红",
+      "黄",
+      "蓝",
+      "绿"
+    ],
+    "answer": 0,
+    "explain": "红 = hóng = đỏ."
+  },
+  {
+    "type": "quiz",
+    "question": "'zǎoshang' nghĩa là:",
+    "options": [
+      "Buổi sáng",
+      "Buổi trưa",
+      "Buổi chiều",
+      "Buổi tối"
+    ],
+    "answer": 0,
+    "explain": "早上 = zǎoshang = buổi sáng."
+  },
+  {
+    "type": "word",
+    "term": "叫什么名字？",
+    "pinyin": "jiào shénme míngzi?",
+    "meaning": "Tên gì?",
+    "example": "你叫什么名字？"
+  },
+  {
+    "type": "word",
+    "term": "几岁？",
+    "pinyin": "jǐ suì?",
+    "meaning": "Mấy tuổi?",
+    "example": "你几岁？"
+  },
+  {
+    "type": "word",
+    "term": "哪里人？",
+    "pinyin": "nǎlǐ rén?",
+    "meaning": "Người ở đâu?",
+    "example": "你是哪里人？"
+  },
+  {
+    "type": "word",
+    "term": "做什么工作？",
+    "pinyin": "zuò shénme gōngzuò?",
+    "meaning": "Làm nghề gì?",
+    "example": "你做什么工作？"
+  },
+  {
+    "type": "word",
+    "term": "在哪儿？",
+    "pinyin": "zài nǎr?",
+    "meaning": "Ở đâu?",
+    "example": "厕所在哪儿？"
+  },
+  {
+    "type": "word",
+    "term": "多少钱？",
+    "pinyin": "duōshao qián?",
+    "meaning": "Bao nhiêu tiền?",
+    "example": "这个多少钱？"
+  },
+  {
+    "type": "word",
+    "term": "什么时候？",
+    "pinyin": "shénme shíhou?",
+    "meaning": "Khi nào?",
+    "example": "什么时候？"
+  },
+  {
+    "type": "word",
+    "term": "为什么？",
+    "pinyin": "wèishénme?",
+    "meaning": "Tại sao?",
+    "example": "为什么？"
+  },
+  {
+    "type": "word",
+    "term": "怎么去？",
+    "pinyin": "zěnme qù?",
+    "meaning": "Đi như thế nào?",
+    "example": "怎么去？"
+  },
+  {
+    "type": "word",
+    "term": "可以吗？",
+    "pinyin": "kěyǐ ma?",
+    "meaning": "Được không?",
+    "example": "可以吗？"
+  },
+  {
+    "type": "word",
+    "term": "行吗？",
+    "pinyin": "xíng ma?",
+    "meaning": "Được không?",
+    "example": "行吗？"
+  },
+  {
+    "type": "word",
+    "term": "好吗？",
+    "pinyin": "hǎo ma?",
+    "meaning": "Được không?",
+    "example": "好吗？"
+  },
+  {
+    "type": "word",
+    "term": "要不要？",
+    "pinyin": "yào bù yào?",
+    "meaning": "Có muốn không?",
+    "example": "要不要？"
+  },
+  {
+    "type": "word",
+    "term": "有没有？",
+    "pinyin": "yǒu méiyǒu?",
+    "meaning": "Có không?",
+    "example": "有没有？"
+  },
+  {
+    "type": "word",
+    "term": "是不是？",
+    "pinyin": "shì bù shì?",
+    "meaning": "Có phải không?",
+    "example": "是不是？"
+  },
+  {
+    "type": "word",
+    "term": "会不会？",
+    "pinyin": "huì bù huì?",
+    "meaning": "Biết không?",
+    "example": "会不会？"
+  },
+  {
+    "type": "word",
+    "term": "能不能？",
+    "pinyin": "néng bù néng?",
+    "meaning": "Có thể không?",
+    "example": "能不能？"
+  },
+  {
+    "type": "word",
+    "term": "可不可以？",
+    "pinyin": "kě bù kěyǐ?",
+    "meaning": "Có thể không?",
+    "example": "可不可以？"
+  },
+  {
+    "type": "word",
+    "term": "应该不应该？",
+    "pinyin": "yīnggāi bù yīnggāi?",
+    "meaning": "Nên không?",
+    "example": "应该不应该？"
+  },
+  {
+    "type": "word",
+    "term": "喜欢不喜欢？",
+    "pinyin": "xǐhuan bù xǐhuan?",
+    "meaning": "Thích không?",
+    "example": "喜欢不喜欢？"
+  },
+  {
+    "type": "word",
+    "term": "去不去？",
+    "pinyin": "qù bù qù?",
+    "meaning": "Đi không?",
+    "example": "去不去？"
+  },
+  {
+    "type": "word",
+    "term": "来不来？",
+    "pinyin": "lái bù lái?",
+    "meaning": "Đến không?",
+    "example": "来不来？"
+  },
+  {
+    "type": "word",
+    "term": "吃不吃？",
+    "pinyin": "chī bù chī?",
+    "meaning": "Ăn không?",
+    "example": "吃不吃？"
+  },
+  {
+    "type": "word",
+    "term": "喝不喝？",
+    "pinyin": "hē bù hē?",
+    "meaning": "Uống không?",
+    "example": "喝不喝？"
+  },
+  {
+    "type": "word",
+    "term": "看不看？",
+    "pinyin": "kàn bù kàn?",
+    "meaning": "Xem không?",
+    "example": "看不看？"
+  },
+  {
+    "type": "word",
+    "term": "听不听？",
+    "pinyin": "tīng bù tīng?",
+    "meaning": "Nghe không?",
+    "example": "听不听？"
+  },
+  {
+    "type": "word",
+    "term": "说不说？",
+    "pinyin": "shuō bù shuō?",
+    "meaning": "Nói không?",
+    "example": "说不说？"
+  },
+  {
+    "type": "word",
+    "term": "读不读？",
+    "pinyin": "dú bù dú?",
+    "meaning": "Đọc không?",
+    "example": "读不读？"
+  },
+  {
+    "type": "word",
+    "term": "写不写？",
+    "pinyin": "xiě bù xiě?",
+    "meaning": "Viết không?",
+    "example": "写不写？"
+  },
+  {
+    "type": "word",
+    "term": "做不做？",
+    "pinyin": "zuò bù zuò?",
+    "meaning": "Làm không?",
+    "example": "做不做？"
+  },
+  {
+    "type": "word",
+    "term": "买不买？",
+    "pinyin": "mǎi bù mǎi?",
+    "meaning": "Mua không?",
+    "example": "买不买？"
+  },
+  {
+    "type": "word",
+    "term": "卖不卖？",
+    "pinyin": "mài bù mài?",
+    "meaning": "Bán không?",
+    "example": "卖不卖？"
+  },
+  {
+    "type": "word",
+    "term": "给不给？",
+    "pinyin": "gěi bù gěi?",
+    "meaning": "Cho không?",
+    "example": "给不给？"
+  },
+  {
+    "type": "word",
+    "term": "想不想？",
+    "pinyin": "xiǎng bù xiǎng?",
+    "meaning": "Muốn không?",
+    "example": "想不想？"
+  },
+  {
+    "type": "word",
+    "term": "知道不知道？",
+    "pinyin": "zhīdào bù zhīdào?",
+    "meaning": "Biết không?",
+    "example": "知道不知道？"
+  },
+  {
+    "type": "word",
+    "term": "可以不可以？",
+    "pinyin": "kěyǐ bù kěyǐ?",
+    "meaning": "Có thể không?",
+    "example": "可以不可以？"
+  },
+  {
+    "type": "word",
+    "term": "十",
+    "pinyin": "shí",
+    "meaning": "10",
+    "example": "十个"
+  },
+  {
+    "type": "word",
+    "term": "十一",
+    "pinyin": "shíyī",
+    "meaning": "11",
+    "example": "十一个"
+  },
+  {
+    "type": "word",
+    "term": "十二",
+    "pinyin": "shíèr",
+    "meaning": "12",
+    "example": "十二个"
+  },
+  {
+    "type": "word",
+    "term": "十三",
+    "pinyin": "shísān",
+    "meaning": "13",
+    "example": "十三个"
+  },
+  {
+    "type": "word",
+    "term": "十四",
+    "pinyin": "shísì",
+    "meaning": "14",
+    "example": "十四个"
+  },
+  {
+    "type": "word",
+    "term": "十五",
+    "pinyin": "shíwǔ",
+    "meaning": "15",
+    "example": "十五个"
+  },
+  {
+    "type": "word",
+    "term": "十六",
+    "pinyin": "shíliù",
+    "meaning": "16",
+    "example": "十六个"
+  },
+  {
+    "type": "word",
+    "term": "十七",
+    "pinyin": "shíqī",
+    "meaning": "17",
+    "example": "十七个"
+  },
+  {
+    "type": "word",
+    "term": "十八",
+    "pinyin": "shíbā",
+    "meaning": "18",
+    "example": "十八个"
+  },
+  {
+    "type": "word",
+    "term": "十九",
+    "pinyin": "shíjiǔ",
+    "meaning": "19",
+    "example": "十九个"
+  },
+  {
+    "type": "word",
+    "term": "二十",
+    "pinyin": "èrshí",
+    "meaning": "20",
+    "example": "二十个"
+  },
+  {
+    "type": "word",
+    "term": "二十一",
+    "pinyin": "èrshíyī",
+    "meaning": "21",
+    "example": "二十一个"
+  },
+  {
+    "type": "word",
+    "term": "二十二",
+    "pinyin": "èrshíèr",
+    "meaning": "22",
+    "example": "二十二个"
+  },
+  {
+    "type": "word",
+    "term": "二十三",
+    "pinyin": "èrshísān",
+    "meaning": "23",
+    "example": "二十三个"
+  },
+  {
+    "type": "word",
+    "term": "二十四",
+    "pinyin": "èrshísì",
+    "meaning": "24",
+    "example": "二十四个"
+  },
+  {
+    "type": "word",
+    "term": "二十五",
+    "pinyin": "èrshíwǔ",
+    "meaning": "25",
+    "example": "二十五个"
+  },
+  {
+    "type": "word",
+    "term": "二十六",
+    "pinyin": "èrshíliù",
+    "meaning": "26",
+    "example": "二十六个"
+  },
+  {
+    "type": "word",
+    "term": "二十七",
+    "pinyin": "èrshíqī",
+    "meaning": "27",
+    "example": "二十七个"
+  },
+  {
+    "type": "word",
+    "term": "二十八",
+    "pinyin": "èrshíbā",
+    "meaning": "28",
+    "example": "二十八个"
+  },
+  {
+    "type": "word",
+    "term": "二十九",
+    "pinyin": "èrshíjiǔ",
+    "meaning": "29",
+    "example": "二十九个"
+  },
+  {
+    "type": "word",
+    "term": "三十",
+    "pinyin": "sānshí",
+    "meaning": "30",
+    "example": "三十个"
+  },
+  {
+    "type": "word",
+    "term": "三十一",
+    "pinyin": "sānshíyī",
+    "meaning": "31",
+    "example": "三十一个"
+  },
+  {
+    "type": "word",
+    "term": "三十二",
+    "pinyin": "sānshíèr",
+    "meaning": "32",
+    "example": "三十二个"
+  },
+  {
+    "type": "word",
+    "term": "三十三",
+    "pinyin": "sānshísān",
+    "meaning": "33",
+    "example": "三十三个"
+  },
+  {
+    "type": "word",
+    "term": "三十四",
+    "pinyin": "sānshísì",
+    "meaning": "34",
+    "example": "三十四个"
+  },
+  {
+    "type": "word",
+    "term": "三十五",
+    "pinyin": "sānshíwǔ",
+    "meaning": "35",
+    "example": "三十五个"
+  },
+  {
+    "type": "word",
+    "term": "三十六",
+    "pinyin": "sānshíliù",
+    "meaning": "36",
+    "example": "三十六个"
+  },
+  {
+    "type": "word",
+    "term": "三十七",
+    "pinyin": "sānshíqī",
+    "meaning": "37",
+    "example": "三十七个"
+  },
+  {
+    "type": "word",
+    "term": "三十八",
+    "pinyin": "sānshíbā",
+    "meaning": "38",
+    "example": "三十八个"
+  },
+  {
+    "type": "word",
+    "term": "三十九",
+    "pinyin": "sānshíjiǔ",
+    "meaning": "39",
+    "example": "三十九个"
+  },
+  {
+    "type": "word",
+    "term": "四十",
+    "pinyin": "sìshí",
+    "meaning": "40",
+    "example": "四十个"
+  },
+  {
+    "type": "word",
+    "term": "四十一",
+    "pinyin": "sìshíyī",
+    "meaning": "41",
+    "example": "四十一个"
+  },
+  {
+    "type": "word",
+    "term": "四十二",
+    "pinyin": "sìshíèr",
+    "meaning": "42",
+    "example": "四十二个"
+  },
+  {
+    "type": "word",
+    "term": "四十三",
+    "pinyin": "sìshísān",
+    "meaning": "43",
+    "example": "四十三个"
+  },
+  {
+    "type": "word",
+    "term": "四十四",
+    "pinyin": "sìshísì",
+    "meaning": "44",
+    "example": "四十四个"
+  },
+  {
+    "type": "word",
+    "term": "四十五",
+    "pinyin": "sìshíwǔ",
+    "meaning": "45",
+    "example": "四十五个"
+  },
+  {
+    "type": "word",
+    "term": "四十六",
+    "pinyin": "sìshíliù",
+    "meaning": "46",
+    "example": "四十六个"
+  },
+  {
+    "type": "word",
+    "term": "四十七",
+    "pinyin": "sìshíqī",
+    "meaning": "47",
+    "example": "四十七个"
+  },
+  {
+    "type": "word",
+    "term": "四十八",
+    "pinyin": "sìshíbā",
+    "meaning": "48",
+    "example": "四十八个"
+  },
+  {
+    "type": "word",
+    "term": "四十九",
+    "pinyin": "sìshíjiǔ",
+    "meaning": "49",
+    "example": "四十九个"
+  },
+  {
+    "type": "word",
+    "term": "五十",
+    "pinyin": "wǔshí",
+    "meaning": "50",
+    "example": "五十个"
+  },
+  {
+    "type": "word",
+    "term": "五十一",
+    "pinyin": "wǔshíyī",
+    "meaning": "51",
+    "example": "五十一个"
+  },
+  {
+    "type": "word",
+    "term": "五十二",
+    "pinyin": "wǔshíèr",
+    "meaning": "52",
+    "example": "五十二个"
+  },
+  {
+    "type": "word",
+    "term": "五十三",
+    "pinyin": "wǔshísān",
+    "meaning": "53",
+    "example": "五十三个"
+  },
+  {
+    "type": "word",
+    "term": "五十四",
+    "pinyin": "wǔshísì",
+    "meaning": "54",
+    "example": "五十四个"
+  },
+  {
+    "type": "word",
+    "term": "五十五",
+    "pinyin": "wǔshíwǔ",
+    "meaning": "55",
+    "example": "五十五个"
+  },
+  {
+    "type": "word",
+    "term": "五十六",
+    "pinyin": "wǔshíliù",
+    "meaning": "56",
+    "example": "五十六个"
+  },
+  {
+    "type": "word",
+    "term": "五十七",
+    "pinyin": "wǔshíqī",
+    "meaning": "57",
+    "example": "五十七个"
+  },
+  {
+    "type": "word",
+    "term": "五十八",
+    "pinyin": "wǔshíbā",
+    "meaning": "58",
+    "example": "五十八个"
+  },
+  {
+    "type": "word",
+    "term": "五十九",
+    "pinyin": "wǔshíjiǔ",
+    "meaning": "59",
+    "example": "五十九个"
+  },
+  {
+    "type": "word",
+    "term": "停",
+    "pinyin": "tíng",
+    "meaning": "dừng",
+    "example": "停车"
+  },
+  {
+    "type": "word",
+    "term": "开始",
+    "pinyin": "kāishǐ",
+    "meaning": "bắt đầu",
+    "example": "开始"
+  },
+  {
+    "type": "word",
+    "term": "结束",
+    "pinyin": "jiéshù",
+    "meaning": "kết thúc",
+    "example": "结束"
+  },
+  {
+    "type": "word",
+    "term": "继续",
+    "pinyin": "jìxù",
+    "meaning": "tiếp tục",
+    "example": "继续"
+  },
+  {
+    "type": "word",
+    "term": "星期一",
+    "pinyin": "xīngqīyī",
+    "meaning": "Thứ hai",
+    "example": "星期一"
+  },
+  {
+    "type": "word",
+    "term": "星期二",
+    "pinyin": "xīngqī'èr",
+    "meaning": "Thứ ba",
+    "example": "星期二"
+  },
+  {
+    "type": "word",
+    "term": "星期三",
+    "pinyin": "xīngqīsān",
+    "meaning": "Thứ tư",
+    "example": "星期三"
+  },
+  {
+    "type": "word",
+    "term": "星期四",
+    "pinyin": "xīngqīsì",
+    "meaning": "Thứ năm",
+    "example": "星期四"
+  },
+  {
+    "type": "word",
+    "term": "星期五",
+    "pinyin": "xīngqīwǔ",
+    "meaning": "Thứ sáu",
+    "example": "星期五"
+  },
+  {
+    "type": "word",
+    "term": "星期六",
+    "pinyin": "xīngqīliù",
+    "meaning": "Thứ bảy",
+    "example": "星期六"
+  },
+  {
+    "type": "word",
+    "term": "星期日",
+    "pinyin": "xīngqīrì",
+    "meaning": "Chủ nhật",
+    "example": "星期日"
+  },
+  {
+    "type": "word",
+    "term": "星期天",
+    "pinyin": "xīngqītiān",
+    "meaning": "Chủ nhật",
+    "example": "星期天"
+  },
+  {
+    "type": "word",
+    "term": "一月",
+    "pinyin": "yīyuè",
+    "meaning": "Tháng một",
+    "example": "一月"
+  },
+  {
+    "type": "word",
+    "term": "二月",
+    "pinyin": "èryuè",
+    "meaning": "Tháng hai",
+    "example": "二月"
+  },
+  {
+    "type": "word",
+    "term": "三月",
+    "pinyin": "sānyuè",
+    "meaning": "Tháng ba",
+    "example": "三月"
+  },
+  {
+    "type": "word",
+    "term": "四月",
+    "pinyin": "sìyuè",
+    "meaning": "Tháng tư",
+    "example": "四月"
+  },
+  {
+    "type": "word",
+    "term": "五月",
+    "pinyin": "wǔyuè",
+    "meaning": "Tháng năm",
+    "example": "五月"
+  },
+  {
+    "type": "word",
+    "term": "六月",
+    "pinyin": "liùyuè",
+    "meaning": "Tháng sáu",
+    "example": "六月"
+  },
+  {
+    "type": "word",
+    "term": "七月",
+    "pinyin": "qīyuè",
+    "meaning": "Tháng bảy",
+    "example": "七月"
+  },
+  {
+    "type": "word",
+    "term": "八月",
+    "pinyin": "bāyuè",
+    "meaning": "Tháng tám",
+    "example": "八月"
+  },
+  {
+    "type": "word",
+    "term": "九月",
+    "pinyin": "jiǔyuè",
+    "meaning": "Tháng chín",
+    "example": "九月"
+  },
+  {
+    "type": "word",
+    "term": "十月",
+    "pinyin": "shíyuè",
+    "meaning": "Tháng mười",
+    "example": "十月"
+  },
+  {
+    "type": "word",
+    "term": "十一月",
+    "pinyin": "shíyīyuè",
+    "meaning": "Tháng mười một",
+    "example": "十一月"
+  },
+  {
+    "type": "word",
+    "term": "十二月",
+    "pinyin": "shí'èryuè",
+    "meaning": "Tháng mười hai",
+    "example": "十二月"
+  },
+  {
+    "type": "word",
+    "term": "坏",
+    "pinyin": "huài",
+    "meaning": "xấu/hỏng",
+    "example": "坏了"
+  },
+  {
+    "type": "word",
+    "term": "真",
+    "pinyin": "zhēn",
+    "meaning": "thật",
+    "example": "真的"
+  },
+  {
+    "type": "word",
+    "term": "假",
+    "pinyin": "jiǎ",
+    "meaning": "giả",
+    "example": "假的"
+  },
+  {
+    "type": "word",
+    "term": "早",
+    "pinyin": "zǎo",
+    "meaning": "sớm",
+    "example": "早上"
+  },
+  {
+    "type": "word",
+    "term": "晚",
+    "pinyin": "wǎn",
+    "meaning": "muộn",
+    "example": "晚上"
+  },
+  {
+    "type": "word",
+    "term": "前",
+    "pinyin": "qián",
+    "meaning": "trước",
+    "example": "前面"
+  },
+  {
+    "type": "word",
+    "term": "后",
+    "pinyin": "hòu",
+    "meaning": "sau",
+    "example": "后面"
+  },
+  {
+    "type": "word",
+    "term": "左",
+    "pinyin": "zuǒ",
+    "meaning": "trái",
+    "example": "左边"
+  },
+  {
+    "type": "word",
+    "term": "右",
+    "pinyin": "yòu",
+    "meaning": "phải",
+    "example": "右边"
+  },
+  {
+    "type": "word",
+    "term": "东",
+    "pinyin": "dōng",
+    "meaning": "đông",
+    "example": "东边"
+  },
+  {
+    "type": "word",
+    "term": "西",
+    "pinyin": "xī",
+    "meaning": "tây",
+    "example": "西边"
+  },
+  {
+    "type": "word",
+    "term": "南",
+    "pinyin": "nán",
+    "meaning": "nam",
+    "example": "南边"
+  },
+  {
+    "type": "word",
+    "term": "北",
+    "pinyin": "běi",
+    "meaning": "bắc",
+    "example": "北边"
+  },
+  {
+    "type": "word",
+    "term": "中",
+    "pinyin": "zhōng",
+    "meaning": "giữa",
+    "example": "中间"
+  },
+  {
+    "type": "word",
+    "term": "里",
+    "pinyin": "lǐ",
+    "meaning": "trong",
+    "example": "里面"
+  },
+  {
+    "type": "word",
+    "term": "外",
+    "pinyin": "wài",
+    "meaning": "ngoài",
+    "example": "外面"
+  },
+  {
+    "type": "word",
+    "term": "近",
+    "pinyin": "jìn",
+    "meaning": "gần",
+    "example": "很近"
+  },
+  {
+    "type": "word",
+    "term": "远",
+    "pinyin": "yuǎn",
+    "meaning": "xa",
+    "example": "很远"
+  },
+  {
+    "type": "word",
+    "term": "深",
+    "pinyin": "shēn",
+    "meaning": "sâu",
+    "example": "很深"
+  },
+  {
+    "type": "word",
+    "term": "浅",
+    "pinyin": "qiǎn",
+    "meaning": "nông",
+    "example": "很浅"
+  },
+  {
+    "type": "word",
+    "term": "厚",
+    "pinyin": "hòu",
+    "meaning": "dày",
+    "example": "很厚"
+  },
+  {
+    "type": "word",
+    "term": "薄",
+    "pinyin": "báo",
+    "meaning": "mỏng",
+    "example": "很薄"
+  },
+  {
+    "type": "word",
+    "term": "宽",
+    "pinyin": "kuān",
+    "meaning": "rộng",
+    "example": "很宽"
+  },
+  {
+    "type": "word",
+    "term": "窄",
+    "pinyin": "zhǎi",
+    "meaning": "hẹp",
+    "example": "很窄"
+  },
+  {
+    "type": "word",
+    "term": "重",
+    "pinyin": "zhòng",
+    "meaning": "nặng",
+    "example": "很重"
+  },
+  {
+    "type": "word",
+    "term": "轻",
+    "pinyin": "qīng",
+    "meaning": "nhẹ",
+    "example": "很轻"
+  },
+  {
+    "type": "word",
+    "term": "硬",
+    "pinyin": "yìng",
+    "meaning": "cứng",
+    "example": "很硬"
+  },
+  {
+    "type": "word",
+    "term": "软",
+    "pinyin": "ruǎn",
+    "meaning": "mềm",
+    "example": "很软"
+  },
+  {
+    "type": "word",
+    "term": "强",
+    "pinyin": "qiáng",
+    "meaning": "mạnh",
+    "example": "很强"
+  },
+  {
+    "type": "word",
+    "term": "弱",
+    "pinyin": "ruò",
+    "meaning": "yếu",
+    "example": "很弱"
+  },
+  {
+    "type": "word",
+    "term": "富",
+    "pinyin": "fù",
+    "meaning": "giàu",
+    "example": "很富"
+  },
+  {
+    "type": "word",
+    "term": "穷",
+    "pinyin": "qióng",
+    "meaning": "nghèo",
+    "example": "很穷"
+  },
+  {
+    "type": "word",
+    "term": "贵",
+    "pinyin": "guì",
+    "meaning": "đắt",
+    "example": "很贵"
+  },
+  {
+    "type": "word",
+    "term": "便宜",
+    "pinyin": "piányi",
+    "meaning": "rẻ",
+    "example": "很便宜"
+  },
+  {
+    "type": "word",
+    "term": "名字",
+    "pinyin": "míngzi",
+    "meaning": "tên",
+    "example": "你叫什么名字？"
+  },
+  {
+    "type": "word",
+    "term": "年龄",
+    "pinyin": "niánlíng",
+    "meaning": "tuổi",
+    "example": "年龄"
+  },
+  {
+    "type": "word",
+    "term": "国家",
+    "pinyin": "guójiā",
+    "meaning": "quốc gia",
+    "example": "国家"
+  },
+  {
+    "type": "word",
+    "term": "城市",
+    "pinyin": "chéngshì",
+    "meaning": "thành phố",
+    "example": "城市"
+  },
+  {
+    "type": "word",
+    "term": "地方",
+    "pinyin": "dìfang",
+    "meaning": "nơi chốn",
+    "example": "地方"
+  },
+  {
+    "type": "word",
+    "term": "地址",
+    "pinyin": "dìzhǐ",
+    "meaning": "địa chỉ",
+    "example": "地址"
+  },
+  {
+    "type": "word",
+    "term": "电话",
+    "pinyin": "diànhuà",
+    "meaning": "điện thoại",
+    "example": "电话号码"
+  },
+  {
+    "type": "word",
+    "term": "号码",
+    "pinyin": "hàomǎ",
+    "meaning": "số",
+    "example": "电话号码"
+  },
+  {
+    "type": "word",
+    "term": "邮箱",
+    "pinyin": "yóuxiāng",
+    "meaning": "email",
+    "example": "邮箱"
+  },
+  {
+    "type": "word",
+    "term": "路",
+    "pinyin": "lù",
+    "meaning": "đường",
+    "example": "一条路"
+  },
+  {
+    "type": "word",
+    "term": "街",
+    "pinyin": "jiē",
+    "meaning": "phố",
+    "example": "一条街"
+  },
+  {
+    "type": "word",
+    "term": "号",
+    "pinyin": "hào",
+    "meaning": "số nhà",
+    "example": "几号？"
+  },
+  {
+    "type": "word",
+    "term": "层",
+    "pinyin": "céng",
+    "meaning": "tầng",
+    "example": "几层？"
+  },
+  {
+    "type": "word",
+    "term": "厕所",
+    "pinyin": "cèsuǒ",
+    "meaning": "nhà vệ sinh",
+    "example": "厕所在哪儿？"
+  },
+  {
+    "type": "word",
+    "term": "厨房",
+    "pinyin": "chúfáng",
+    "meaning": "bếp",
+    "example": "厨房"
+  },
+  {
+    "type": "word",
+    "term": "客厅",
+    "pinyin": "kètīng",
+    "meaning": "phòng khách",
+    "example": "客厅"
+  },
+  {
+    "type": "word",
+    "term": "卧室",
+    "pinyin": "wòshì",
+    "meaning": "phòng ngủ",
+    "example": "卧室"
+  },
+  {
+    "type": "word",
+    "term": "阳台",
+    "pinyin": "yángtái",
+    "meaning": "ban công",
+    "example": "阳台"
+  },
+  {
+    "type": "word",
+    "term": "窗户",
+    "pinyin": "chuānghu",
+    "meaning": "cửa sổ",
+    "example": "窗户"
+  },
+  {
+    "type": "word",
+    "term": "墙",
+    "pinyin": "qiáng",
+    "meaning": "tường",
+    "example": "墙"
+  },
+  {
+    "type": "word",
+    "term": "地板",
+    "pinyin": "dìbǎn",
+    "meaning": "sàn nhà",
+    "example": "地板"
+  },
+  {
+    "type": "word",
+    "term": "天花板",
+    "pinyin": "tiānhuābǎn",
+    "meaning": "trần nhà",
+    "example": "天花板"
+  },
+  {
+    "type": "word",
+    "term": "开关",
+    "pinyin": "kāiguān",
+    "meaning": "công tắc",
+    "example": "开关"
+  },
+  {
+    "type": "word",
+    "term": "插座",
+    "pinyin": "chāzuò",
+    "meaning": "ổ cắm",
+    "example": "插座"
+  },
+  {
+    "type": "word",
+    "term": "钥匙",
+    "pinyin": "yàoshi",
+    "meaning": "chìa khóa",
+    "example": "钥匙"
+  },
+  {
+    "type": "word",
+    "term": "锁",
+    "pinyin": "suǒ",
+    "meaning": "khóa",
+    "example": "锁"
+  },
+  {
+    "type": "word",
+    "term": "包",
+    "pinyin": "bāo",
+    "meaning": "túi",
+    "example": "一个包"
+  },
+  {
+    "type": "word",
+    "term": "钱包",
+    "pinyin": "qiánbāo",
+    "meaning": "ví tiền",
+    "example": "钱包"
+  },
+  {
+    "type": "word",
+    "term": "卡",
+    "pinyin": "kǎ",
+    "meaning": "thẻ",
+    "example": "一张卡"
+  },
+  {
+    "type": "word",
+    "term": "身份证",
+    "pinyin": "shēnfènzhèng",
+    "meaning": "CMND",
+    "example": "身份证"
+  },
+  {
+    "type": "word",
+    "term": "护照",
+    "pinyin": "hùzhào",
+    "meaning": "hộ chiếu",
+    "example": "护照"
+  },
+  {
+    "type": "word",
+    "term": "票",
+    "pinyin": "piào",
+    "meaning": "vé",
+    "example": "一张票"
+  },
+  {
+    "type": "word",
+    "term": "车票",
+    "pinyin": "chēpiào",
+    "meaning": "vé xe",
+    "example": "车票"
+  },
+  {
+    "type": "word",
+    "term": "机票",
+    "pinyin": "jīpiào",
+    "meaning": "vé máy bay",
+    "example": "机票"
+  },
+  {
+    "type": "word",
+    "term": "电影票",
+    "pinyin": "diànyǐngpiào",
+    "meaning": "vé phim",
+    "example": "电影票"
+  },
+  {
+    "type": "word",
+    "term": "十",
+    "pinyin": "shí",
+    "meaning": "10",
+    "example": "十个"
+  },
+  {
+    "type": "word",
+    "term": "十一",
+    "pinyin": "shíyī",
+    "meaning": "11",
+    "example": "十一个"
+  },
+  {
+    "type": "word",
+    "term": "十二",
+    "pinyin": "shíèr",
+    "meaning": "12",
+    "example": "十二个"
+  },
+  {
+    "type": "word",
+    "term": "十三",
+    "pinyin": "shísān",
+    "meaning": "13",
+    "example": "十三个"
+  },
+  {
+    "type": "word",
+    "term": "十四",
+    "pinyin": "shísì",
+    "meaning": "14",
+    "example": "十四个"
+  },
+  {
+    "type": "word",
+    "term": "十五",
+    "pinyin": "shíwǔ",
+    "meaning": "15",
+    "example": "十五个"
+  },
+  {
+    "type": "word",
+    "term": "十六",
+    "pinyin": "shíliù",
+    "meaning": "16",
+    "example": "十六个"
+  },
+  {
+    "type": "word",
+    "term": "十七",
+    "pinyin": "shíqī",
+    "meaning": "17",
+    "example": "十七个"
+  },
+  {
+    "type": "word",
+    "term": "十八",
+    "pinyin": "shíbā",
+    "meaning": "18",
+    "example": "十八个"
+  },
+  {
+    "type": "word",
+    "term": "十九",
+    "pinyin": "shíjiǔ",
+    "meaning": "19",
+    "example": "十九个"
+  },
+  {
+    "type": "word",
+    "term": "二十",
+    "pinyin": "èrshí",
+    "meaning": "20",
+    "example": "二十个"
+  },
+  {
+    "type": "word",
+    "term": "二十一",
+    "pinyin": "èrshíyī",
+    "meaning": "21",
+    "example": "二十一个"
+  },
+  {
+    "type": "word",
+    "term": "二十二",
+    "pinyin": "èrshíèr",
+    "meaning": "22",
+    "example": "二十二个"
+  },
+  {
+    "type": "word",
+    "term": "二十三",
+    "pinyin": "èrshísān",
+    "meaning": "23",
+    "example": "二十三个"
+  },
+  {
+    "type": "word",
+    "term": "二十四",
+    "pinyin": "èrshísì",
+    "meaning": "24",
+    "example": "二十四个"
+  },
+  {
+    "type": "word",
+    "term": "二十五",
+    "pinyin": "èrshíwǔ",
+    "meaning": "25",
+    "example": "二十五个"
+  },
+  {
+    "type": "word",
+    "term": "二十六",
+    "pinyin": "èrshíliù",
+    "meaning": "26",
+    "example": "二十六个"
+  },
+  {
+    "type": "word",
+    "term": "二十七",
+    "pinyin": "èrshíqī",
+    "meaning": "27",
+    "example": "二十七个"
+  },
+  {
+    "type": "word",
+    "term": "二十八",
+    "pinyin": "èrshíbā",
+    "meaning": "28",
+    "example": "二十八个"
+  },
+  {
+    "type": "word",
+    "term": "二十九",
+    "pinyin": "èrshíjiǔ",
+    "meaning": "29",
+    "example": "二十九个"
+  },
+  {
+    "type": "word",
+    "term": "三十",
+    "pinyin": "sānshí",
+    "meaning": "30",
+    "example": "三十个"
+  },
+  {
+    "type": "word",
+    "term": "三十一",
+    "pinyin": "sānshíyī",
+    "meaning": "31",
+    "example": "三十一个"
+  },
+  {
+    "type": "word",
+    "term": "三十二",
+    "pinyin": "sānshíèr",
+    "meaning": "32",
+    "example": "三十二个"
+  },
+  {
+    "type": "word",
+    "term": "三十三",
+    "pinyin": "sānshísān",
+    "meaning": "33",
+    "example": "三十三个"
+  },
+  {
+    "type": "word",
+    "term": "三十四",
+    "pinyin": "sānshísì",
+    "meaning": "34",
+    "example": "三十四个"
+  },
+  {
+    "type": "word",
+    "term": "三十五",
+    "pinyin": "sānshíwǔ",
+    "meaning": "35",
+    "example": "三十五个"
+  },
+  {
+    "type": "word",
+    "term": "三十六",
+    "pinyin": "sānshíliù",
+    "meaning": "36",
+    "example": "三十六个"
+  },
+  {
+    "type": "word",
+    "term": "三十七",
+    "pinyin": "sānshíqī",
+    "meaning": "37",
+    "example": "三十七个"
+  },
+  {
+    "type": "word",
+    "term": "三十八",
+    "pinyin": "sānshíbā",
+    "meaning": "38",
+    "example": "三十八个"
+  },
+  {
+    "type": "word",
+    "term": "三十九",
+    "pinyin": "sānshíjiǔ",
+    "meaning": "39",
+    "example": "三十九个"
+  },
+  {
+    "type": "word",
+    "term": "四十",
+    "pinyin": "sìshí",
+    "meaning": "40",
+    "example": "四十个"
+  },
+  {
+    "type": "word",
+    "term": "四十一",
+    "pinyin": "sìshíyī",
+    "meaning": "41",
+    "example": "四十一个"
+  },
+  {
+    "type": "word",
+    "term": "四十二",
+    "pinyin": "sìshíèr",
+    "meaning": "42",
+    "example": "四十二个"
+  },
+  {
+    "type": "word",
+    "term": "四十三",
+    "pinyin": "sìshísān",
+    "meaning": "43",
+    "example": "四十三个"
+  },
+  {
+    "type": "word",
+    "term": "四十四",
+    "pinyin": "sìshísì",
+    "meaning": "44",
+    "example": "四十四个"
+  },
+  {
+    "type": "word",
+    "term": "四十五",
+    "pinyin": "sìshíwǔ",
+    "meaning": "45",
+    "example": "四十五个"
+  },
+  {
+    "type": "word",
+    "term": "四十六",
+    "pinyin": "sìshíliù",
+    "meaning": "46",
+    "example": "四十六个"
+  },
+  {
+    "type": "word",
+    "term": "四十七",
+    "pinyin": "sìshíqī",
+    "meaning": "47",
+    "example": "四十七个"
+  },
+  {
+    "type": "word",
+    "term": "四十八",
+    "pinyin": "sìshíbā",
+    "meaning": "48",
+    "example": "四十八个"
+  },
+  {
+    "type": "word",
+    "term": "四十九",
+    "pinyin": "sìshíjiǔ",
+    "meaning": "49",
+    "example": "四十九个"
+  },
+  {
+    "type": "word",
+    "term": "五十",
+    "pinyin": "wǔshí",
+    "meaning": "50",
+    "example": "五十个"
+  },
+  {
+    "type": "word",
+    "term": "五十一",
+    "pinyin": "wǔshíyī",
+    "meaning": "51",
+    "example": "五十一个"
+  },
+  {
+    "type": "word",
+    "term": "五十二",
+    "pinyin": "wǔshíèr",
+    "meaning": "52",
+    "example": "五十二个"
+  },
+  {
+    "type": "word",
+    "term": "五十三",
+    "pinyin": "wǔshísān",
+    "meaning": "53",
+    "example": "五十三个"
+  },
+  {
+    "type": "word",
+    "term": "五十四",
+    "pinyin": "wǔshísì",
+    "meaning": "54",
+    "example": "五十四个"
+  },
+  {
+    "type": "word",
+    "term": "五十五",
+    "pinyin": "wǔshíwǔ",
+    "meaning": "55",
+    "example": "五十五个"
+  },
+  {
+    "type": "word",
+    "term": "五十六",
+    "pinyin": "wǔshíliù",
+    "meaning": "56",
+    "example": "五十六个"
+  },
+  {
+    "type": "word",
+    "term": "五十七",
+    "pinyin": "wǔshíqī",
+    "meaning": "57",
+    "example": "五十七个"
+  },
+  {
+    "type": "word",
+    "term": "五十八",
+    "pinyin": "wǔshíbā",
+    "meaning": "58",
+    "example": "五十八个"
+  },
+  {
+    "type": "word",
+    "term": "五十九",
+    "pinyin": "wǔshíjiǔ",
+    "meaning": "59",
+    "example": "五十九个"
+  },
+  {
+    "type": "word",
+    "term": "完成",
+    "pinyin": "wánchéng",
+    "meaning": "hoàn thành",
+    "example": "完成了"
+  },
+  {
+    "type": "word",
+    "term": "准备",
+    "pinyin": "zhǔnbèi",
+    "meaning": "chuẩn bị",
+    "example": "准备"
+  },
+  {
+    "type": "word",
+    "term": "打算",
+    "pinyin": "dǎsuàn",
+    "meaning": "dự định",
+    "example": "打算"
+  },
+  {
+    "type": "word",
+    "term": "计划",
+    "pinyin": "jìhuà",
+    "meaning": "kế hoạch",
+    "example": "计划"
+  },
+  {
+    "type": "word",
+    "term": "希望",
+    "pinyin": "xīwàng",
+    "meaning": "hy vọng",
+    "example": "希望"
+  },
+  {
+    "type": "word",
+    "term": "馒头",
+    "pinyin": "mántou",
+    "meaning": "bánh màn thầu",
+    "example": "一个馒头"
+  },
+  {
+    "type": "word",
+    "term": "面包",
+    "pinyin": "miànbāo",
+    "meaning": "bánh mì",
+    "example": "一个面包"
+  },
+  {
+    "type": "word",
+    "term": "蛋糕",
+    "pinyin": "dàngāo",
+    "meaning": "bánh ngọt",
+    "example": "一个蛋糕"
+  },
+  {
+    "type": "word",
+    "term": "饼干",
+    "pinyin": "bǐnggān",
+    "meaning": "bánh quy",
+    "example": "一块饼干"
+  },
+  {
+    "type": "word",
+    "term": "糖",
+    "pinyin": "táng",
+    "meaning": "đường/kẹo",
+    "example": "一块糖"
+  },
+  {
+    "type": "word",
+    "term": "盐",
+    "pinyin": "yán",
+    "meaning": "muối",
+    "example": "盐"
+  },
+  {
+    "type": "word",
+    "term": "油",
+    "pinyin": "yóu",
+    "meaning": "dầu",
+    "example": "油"
+  },
+  {
+    "type": "word",
+    "term": "醋",
+    "pinyin": "cù",
+    "meaning": "giấm",
+    "example": "醋"
+  },
+  {
+    "type": "word",
+    "term": "酱油",
+    "pinyin": "jiàngyóu",
+    "meaning": "nước tương",
+    "example": "酱油"
+  },
+  {
+    "type": "word",
+    "term": "辣椒",
+    "pinyin": "làjiāo",
+    "meaning": "ớt",
+    "example": "辣椒"
+  },
+  {
+    "type": "word",
+    "term": "葱",
+    "pinyin": "cōng",
+    "meaning": "hành lá",
+    "example": "葱"
+  },
+  {
+    "type": "word",
+    "term": "蒜",
+    "pinyin": "suàn",
+    "meaning": "tỏi",
+    "example": "蒜"
+  },
+  {
+    "type": "word",
+    "term": "姜",
+    "pinyin": "jiāng",
+    "meaning": "gừng",
+    "example": "姜"
+  },
+  {
+    "type": "word",
+    "term": "肉",
+    "pinyin": "ròu",
+    "meaning": "thịt",
+    "example": "肉"
+  },
+  {
+    "type": "word",
+    "term": "牛肉",
+    "pinyin": "niúròu",
+    "meaning": "thịt bò",
+    "example": "牛肉"
+  },
+  {
+    "type": "word",
+    "term": "猪肉",
+    "pinyin": "zhūròu",
+    "meaning": "thịt lợn",
+    "example": "猪肉"
+  },
+  {
+    "type": "word",
+    "term": "鸡肉",
+    "pinyin": "jīròu",
+    "meaning": "thịt gà",
+    "example": "鸡肉"
+  },
+  {
+    "type": "word",
+    "term": "鱼",
+    "pinyin": "yú",
+    "meaning": "cá",
+    "example": "一条鱼"
+  },
+  {
+    "type": "word",
+    "term": "虾",
+    "pinyin": "xiā",
+    "meaning": "tôm",
+    "example": "一只虾"
+  },
+  {
+    "type": "word",
+    "term": "蛋",
+    "pinyin": "dàn",
+    "meaning": "trứng",
+    "example": "一个蛋"
+  },
+  {
+    "type": "word",
+    "term": "鸡蛋",
+    "pinyin": "jīdàn",
+    "meaning": "trứng gà",
+    "example": "一个鸡蛋"
+  },
+  {
+    "type": "word",
+    "term": "牛奶",
+    "pinyin": "niúnǎi",
+    "meaning": "sữa bò",
+    "example": "一杯牛奶"
+  },
+  {
+    "type": "word",
+    "term": "酸奶",
+    "pinyin": "suānnǎi",
+    "meaning": "sữa chua",
+    "example": "一杯酸奶"
+  },
+  {
+    "type": "word",
+    "term": "奶酪",
+    "pinyin": "nǎilào",
+    "meaning": "phô mai",
+    "example": "奶酪"
+  },
+  {
+    "type": "word",
+    "term": "黄油",
+    "pinyin": "huángyóu",
+    "meaning": "bơ",
+    "example": "黄油"
+  },
+  {
+    "type": "word",
+    "term": "果酱",
+    "pinyin": "guǒjiàng",
+    "meaning": "mứt",
+    "example": "果酱"
+  },
+  {
+    "type": "word",
+    "term": "蜂蜜",
+    "pinyin": "fēngmì",
+    "meaning": "mật ong",
+    "example": "蜂蜜"
+  },
+  {
+    "type": "word",
+    "term": "花生",
+    "pinyin": "huāshēng",
+    "meaning": "lạc",
+    "example": "花生"
+  },
+  {
+    "type": "word",
+    "term": "瓜子",
+    "pinyin": "guāzǐ",
+    "meaning": "hạt dưa",
+    "example": "瓜子"
+  },
+  {
+    "type": "word",
+    "term": "坚果",
+    "pinyin": "jiānguǒ",
+    "meaning": "hạt",
+    "example": "坚果"
+  },
+  {
+    "type": "word",
+    "term": "蔬菜",
+    "pinyin": "shūcài",
+    "meaning": "rau",
+    "example": "蔬菜"
+  },
+  {
+    "type": "word",
+    "term": "白菜",
+    "pinyin": "báicài",
+    "meaning": "cải thảo",
+    "example": "白菜"
+  },
+  {
+    "type": "word",
+    "term": "菠菜",
+    "pinyin": "bōcài",
+    "meaning": "rau chân vịt",
+    "example": "菠菜"
+  },
+  {
+    "type": "word",
+    "term": "芹菜",
+    "pinyin": "qíncài",
+    "meaning": "cần tây",
+    "example": "芹菜"
+  },
+  {
+    "type": "word",
+    "term": "胡萝卜",
+    "pinyin": "húluóbo",
+    "meaning": "cà rốt",
+    "example": "胡萝卜"
+  },
+  {
+    "type": "word",
+    "term": "土豆",
+    "pinyin": "tǔdòu",
+    "meaning": "khoai tây",
+    "example": "土豆"
+  },
+  {
+    "type": "word",
+    "term": "西红柿",
+    "pinyin": "xīhóngshì",
+    "meaning": "cà chua",
+    "example": "西红柿"
+  },
+  {
+    "type": "word",
+    "term": "黄瓜",
+    "pinyin": "huángguā",
+    "meaning": "dưa chuột",
+    "example": "黄瓜"
+  },
+  {
+    "type": "word",
+    "term": "茄子",
+    "pinyin": "qiézi",
+    "meaning": "cà tím",
+    "example": "茄子"
+  },
+  {
+    "type": "word",
+    "term": "豆角",
+    "pinyin": "dòujiǎo",
+    "meaning": "đậu que",
+    "example": "豆角"
+  },
+  {
+    "type": "word",
+    "term": "蘑菇",
+    "pinyin": "mógū",
+    "meaning": "nấm",
+    "example": "蘑菇"
+  },
+  {
+    "type": "word",
+    "term": "豆腐",
+    "pinyin": "dòufu",
+    "meaning": "đậu phụ",
+    "example": "豆腐"
+  },
+  {
+    "type": "word",
+    "term": "豆芽",
+    "pinyin": "dòuyá",
+    "meaning": "giá đỗ",
+    "example": "豆芽"
+  },
+  {
+    "type": "word",
+    "term": "玉米",
+    "pinyin": "yùmǐ",
+    "meaning": "ngô",
+    "example": "玉米"
+  },
+  {
+    "type": "word",
+    "term": "红薯",
+    "pinyin": "hóngshǔ",
+    "meaning": "khoai lang",
+    "example": "红薯"
+  },
+  {
+    "type": "word",
+    "term": "洋葱",
+    "pinyin": "yángcōng",
+    "meaning": "hành tây",
+    "example": "洋葱"
+  },
+  {
+    "type": "word",
+    "term": "青椒",
+    "pinyin": "qīngjiāo",
+    "meaning": "ớt xanh",
+    "example": "青椒"
+  },
+  {
+    "type": "word",
+    "term": "冬瓜",
+    "pinyin": "dōngguā",
+    "meaning": "bí đao",
+    "example": "冬瓜"
+  },
+  {
+    "type": "word",
+    "term": "南瓜",
+    "pinyin": "nánguā",
+    "meaning": "bí ngô",
+    "example": "南瓜"
+  },
+  {
+    "type": "word",
+    "term": "苦瓜",
+    "pinyin": "kǔguā",
+    "meaning": "mướp đắng",
+    "example": "苦瓜"
+  },
+  {
+    "type": "word",
+    "term": "丝瓜",
+    "pinyin": "sīguā",
+    "meaning": "mướp",
+    "example": "丝瓜"
+  },
+  {
+    "type": "word",
+    "term": "莲藕",
+    "pinyin": "lián'ǒu",
+    "meaning": "củ sen",
+    "example": "莲藕"
+  },
+  {
+    "type": "word",
+    "term": "萝卜",
+    "pinyin": "luóbo",
+    "meaning": "củ cải",
+    "example": "萝卜"
+  },
+  {
+    "type": "word",
+    "term": "白萝卜",
+    "pinyin": "báiluóbo",
+    "meaning": "củ cải trắng",
+    "example": "白萝卜"
+  },
+  {
+    "type": "word",
+    "term": "红萝卜",
+    "pinyin": "hóngluóbo",
+    "meaning": "củ cải đỏ",
+    "example": "红萝卜"
+  },
+  {
+    "type": "word",
+    "term": "韭菜",
+    "pinyin": "jiǔcài",
+    "meaning": "hẹ",
+    "example": "韭菜"
+  },
+  {
+    "type": "word",
+    "term": "香菜",
+    "pinyin": "xiāngcài",
+    "meaning": "rau mùi",
+    "example": "香菜"
+  },
+  {
+    "type": "word",
+    "term": "生菜",
+    "pinyin": "shēngcài",
+    "meaning": "xà lách",
+    "example": "生菜"
+  },
+  {
+    "type": "word",
+    "term": "卷心菜",
+    "pinyin": "juǎnxīncài",
+    "meaning": "bắp cải",
+    "example": "卷心菜"
+  },
+  {
+    "type": "word",
+    "term": "花菜",
+    "pinyin": "huācài",
+    "meaning": "súp lơ",
+    "example": "花菜"
+  },
+  {
+    "type": "word",
+    "term": "西兰花",
+    "pinyin": "xīlánhuā",
+    "meaning": "bông cải xanh",
+    "example": "西兰花"
+  },
+  {
+    "type": "word",
+    "term": "豌豆",
+    "pinyin": "wāndòu",
+    "meaning": "đậu Hà Lan",
+    "example": "豌豆"
+  },
+  {
+    "type": "word",
+    "term": "扁豆",
+    "pinyin": "biǎndòu",
+    "meaning": "đậu đũa",
+    "example": "扁豆"
+  },
+  {
+    "type": "word",
+    "term": "毛豆",
+    "pinyin": "máodòu",
+    "meaning": "đậu nành non",
+    "example": "毛豆"
+  },
+  {
+    "type": "word",
+    "term": "绿豆",
+    "pinyin": "lǜdòu",
+    "meaning": "đậu xanh",
+    "example": "绿豆"
+  },
+  {
+    "type": "word",
+    "term": "红豆",
+    "pinyin": "hóngdòu",
+    "meaning": "đậu đỏ",
+    "example": "红豆"
+  },
+  {
+    "type": "word",
+    "term": "黑豆",
+    "pinyin": "hēidòu",
+    "meaning": "đậu đen",
+    "example": "黑豆"
+  },
+  {
+    "type": "word",
+    "term": "黄豆",
+    "pinyin": "huángdòu",
+    "meaning": "đậu nành",
+    "example": "黄豆"
+  },
+  {
+    "type": "word",
+    "term": "蚕豆",
+    "pinyin": "cándòu",
+    "meaning": "đậu tằm",
+    "example": "蚕豆"
+  },
+  {
+    "type": "word",
+    "term": "豇豆",
+    "pinyin": "jiāngdòu",
+    "meaning": "đậu đũa",
+    "example": "豇豆"
+  },
+  {
+    "type": "word",
+    "term": "四季豆",
+    "pinyin": "sìjìdòu",
+    "meaning": "đậu cô ve",
+    "example": "四季豆"
+  },
+  {
+    "type": "word",
+    "term": "十",
+    "pinyin": "shí",
+    "meaning": "10",
+    "example": "十个"
+  },
+  {
+    "type": "word",
+    "term": "十一",
+    "pinyin": "shíyī",
+    "meaning": "11",
+    "example": "十一个"
+  },
+  {
+    "type": "word",
+    "term": "十二",
+    "pinyin": "shíèr",
+    "meaning": "12",
+    "example": "十二个"
+  },
+  {
+    "type": "word",
+    "term": "十三",
+    "pinyin": "shísān",
+    "meaning": "13",
+    "example": "十三个"
+  },
+  {
+    "type": "word",
+    "term": "十四",
+    "pinyin": "shísì",
+    "meaning": "14",
+    "example": "十四个"
+  },
+  {
+    "type": "word",
+    "term": "十五",
+    "pinyin": "shíwǔ",
+    "meaning": "15",
+    "example": "十五个"
+  },
+  {
+    "type": "word",
+    "term": "十六",
+    "pinyin": "shíliù",
+    "meaning": "16",
+    "example": "十六个"
+  },
+  {
+    "type": "word",
+    "term": "十七",
+    "pinyin": "shíqī",
+    "meaning": "17",
+    "example": "十七个"
+  },
+  {
+    "type": "word",
+    "term": "十八",
+    "pinyin": "shíbā",
+    "meaning": "18",
+    "example": "十八个"
+  },
+  {
+    "type": "word",
+    "term": "十九",
+    "pinyin": "shíjiǔ",
+    "meaning": "19",
+    "example": "十九个"
+  },
+  {
+    "type": "word",
+    "term": "二十",
+    "pinyin": "èrshí",
+    "meaning": "20",
+    "example": "二十个"
+  },
+  {
+    "type": "word",
+    "term": "二十一",
+    "pinyin": "èrshíyī",
+    "meaning": "21",
+    "example": "二十一个"
+  },
+  {
+    "type": "word",
+    "term": "二十二",
+    "pinyin": "èrshíèr",
+    "meaning": "22",
+    "example": "二十二个"
+  },
+  {
+    "type": "word",
+    "term": "二十三",
+    "pinyin": "èrshísān",
+    "meaning": "23",
+    "example": "二十三个"
+  },
+  {
+    "type": "word",
+    "term": "二十四",
+    "pinyin": "èrshísì",
+    "meaning": "24",
+    "example": "二十四个"
+  },
+  {
+    "type": "word",
+    "term": "二十五",
+    "pinyin": "èrshíwǔ",
+    "meaning": "25",
+    "example": "二十五个"
+  },
+  {
+    "type": "word",
+    "term": "二十六",
+    "pinyin": "èrshíliù",
+    "meaning": "26",
+    "example": "二十六个"
+  },
+  {
+    "type": "word",
+    "term": "二十七",
+    "pinyin": "èrshíqī",
+    "meaning": "27",
+    "example": "二十七个"
+  },
+  {
+    "type": "word",
+    "term": "二十八",
+    "pinyin": "èrshíbā",
+    "meaning": "28",
+    "example": "二十八个"
+  },
+  {
+    "type": "word",
+    "term": "二十九",
+    "pinyin": "èrshíjiǔ",
+    "meaning": "29",
+    "example": "二十九个"
+  },
+  {
+    "type": "word",
+    "term": "三十",
+    "pinyin": "sānshí",
+    "meaning": "30",
+    "example": "三十个"
+  },
+  {
+    "type": "word",
+    "term": "三十一",
+    "pinyin": "sānshíyī",
+    "meaning": "31",
+    "example": "三十一个"
+  },
+  {
+    "type": "word",
+    "term": "三十二",
+    "pinyin": "sānshíèr",
+    "meaning": "32",
+    "example": "三十二个"
+  },
+  {
+    "type": "word",
+    "term": "三十三",
+    "pinyin": "sānshísān",
+    "meaning": "33",
+    "example": "三十三个"
+  },
+  {
+    "type": "word",
+    "term": "三十四",
+    "pinyin": "sānshísì",
+    "meaning": "34",
+    "example": "三十四个"
+  },
+  {
+    "type": "word",
+    "term": "三十五",
+    "pinyin": "sānshíwǔ",
+    "meaning": "35",
+    "example": "三十五个"
+  },
+  {
+    "type": "word",
+    "term": "三十六",
+    "pinyin": "sānshíliù",
+    "meaning": "36",
+    "example": "三十六个"
+  },
+  {
+    "type": "word",
+    "term": "三十七",
+    "pinyin": "sānshíqī",
+    "meaning": "37",
+    "example": "三十七个"
+  },
+  {
+    "type": "word",
+    "term": "三十八",
+    "pinyin": "sānshíbā",
+    "meaning": "38",
+    "example": "三十八个"
+  },
+  {
+    "type": "word",
+    "term": "三十九",
+    "pinyin": "sānshíjiǔ",
+    "meaning": "39",
+    "example": "三十九个"
+  },
+  {
+    "type": "word",
+    "term": "四十",
+    "pinyin": "sìshí",
+    "meaning": "40",
+    "example": "四十个"
+  },
+  {
+    "type": "word",
+    "term": "四十一",
+    "pinyin": "sìshíyī",
+    "meaning": "41",
+    "example": "四十一个"
+  },
+  {
+    "type": "word",
+    "term": "四十二",
+    "pinyin": "sìshíèr",
+    "meaning": "42",
+    "example": "四十二个"
+  },
+  {
+    "type": "word",
+    "term": "四十三",
+    "pinyin": "sìshísān",
+    "meaning": "43",
+    "example": "四十三个"
+  },
+  {
+    "type": "word",
+    "term": "四十四",
+    "pinyin": "sìshísì",
+    "meaning": "44",
+    "example": "四十四个"
+  },
+  {
+    "type": "word",
+    "term": "四十五",
+    "pinyin": "sìshíwǔ",
+    "meaning": "45",
+    "example": "四十五个"
+  },
+  {
+    "type": "word",
+    "term": "四十六",
+    "pinyin": "sìshíliù",
+    "meaning": "46",
+    "example": "四十六个"
+  },
+  {
+    "type": "word",
+    "term": "四十七",
+    "pinyin": "sìshíqī",
+    "meaning": "47",
+    "example": "四十七个"
+  },
+  {
+    "type": "word",
+    "term": "四十八",
+    "pinyin": "sìshíbā",
+    "meaning": "48",
+    "example": "四十八个"
+  },
+  {
+    "type": "word",
+    "term": "四十九",
+    "pinyin": "sìshíjiǔ",
+    "meaning": "49",
+    "example": "四十九个"
+  },
+  {
+    "type": "word",
+    "term": "五十",
+    "pinyin": "wǔshí",
+    "meaning": "50",
+    "example": "五十个"
+  },
+  {
+    "type": "word",
+    "term": "五十一",
+    "pinyin": "wǔshíyī",
+    "meaning": "51",
+    "example": "五十一个"
+  },
+  {
+    "type": "word",
+    "term": "五十二",
+    "pinyin": "wǔshíèr",
+    "meaning": "52",
+    "example": "五十二个"
+  },
+  {
+    "type": "word",
+    "term": "五十三",
+    "pinyin": "wǔshísān",
+    "meaning": "53",
+    "example": "五十三个"
+  },
+  {
+    "type": "word",
+    "term": "五十四",
+    "pinyin": "wǔshísì",
+    "meaning": "54",
+    "example": "五十四个"
+  },
+  {
+    "type": "word",
+    "term": "五十五",
+    "pinyin": "wǔshíwǔ",
+    "meaning": "55",
+    "example": "五十五个"
+  },
+  {
+    "type": "word",
+    "term": "五十六",
+    "pinyin": "wǔshíliù",
+    "meaning": "56",
+    "example": "五十六个"
+  },
+  {
+    "type": "word",
+    "term": "五十七",
+    "pinyin": "wǔshíqī",
+    "meaning": "57",
+    "example": "五十七个"
+  },
+  {
+    "type": "word",
+    "term": "五十八",
+    "pinyin": "wǔshíbā",
+    "meaning": "58",
+    "example": "五十八个"
+  },
+  {
+    "type": "word",
+    "term": "五十九",
+    "pinyin": "wǔshíjiǔ",
+    "meaning": "59",
+    "example": "五十九个"
+  },
+  {
+    "type": "word",
+    "term": "猫",
+    "pinyin": "māo",
+    "meaning": "mèo",
+    "example": "一只猫"
+  },
+  {
+    "type": "word",
+    "term": "狗",
+    "pinyin": "gǒu",
+    "meaning": "chó",
+    "example": "一只狗"
+  },
+  {
+    "type": "word",
+    "term": "鸟",
+    "pinyin": "niǎo",
+    "meaning": "chim",
+    "example": "一只鸟"
+  },
+  {
+    "type": "word",
+    "term": "鸡",
+    "pinyin": "jī",
+    "meaning": "gà",
+    "example": "一只鸡"
+  },
+  {
+    "type": "word",
+    "term": "鸭",
+    "pinyin": "yā",
+    "meaning": "vịt",
+    "example": "一只鸭"
+  },
+  {
+    "type": "word",
+    "term": "鹅",
+    "pinyin": "é",
+    "meaning": "ngỗng",
+    "example": "一只鹅"
+  },
+  {
+    "type": "word",
+    "term": "猪",
+    "pinyin": "zhū",
+    "meaning": "lợn",
+    "example": "一头猪"
+  },
+  {
+    "type": "word",
+    "term": "牛",
+    "pinyin": "niú",
+    "meaning": "bò",
+    "example": "一头牛"
+  },
+  {
+    "type": "word",
+    "term": "羊",
+    "pinyin": "yáng",
+    "meaning": "cừu/dê",
+    "example": "一只羊"
+  },
+  {
+    "type": "word",
+    "term": "马",
+    "pinyin": "mǎ",
+    "meaning": "ngựa",
+    "example": "一匹马"
+  },
+  {
+    "type": "word",
+    "term": "兔子",
+    "pinyin": "tùzi",
+    "meaning": "thỏ",
+    "example": "一只兔子"
+  },
+  {
+    "type": "word",
+    "term": "老鼠",
+    "pinyin": "lǎoshǔ",
+    "meaning": "chuột",
+    "example": "一只老鼠"
+  },
+  {
+    "type": "word",
+    "term": "老虎",
+    "pinyin": "lǎohǔ",
+    "meaning": "hổ",
+    "example": "一只老虎"
+  },
+  {
+    "type": "word",
+    "term": "狮子",
+    "pinyin": "shīzi",
+    "meaning": "sư tử",
+    "example": "一只狮子"
+  },
+  {
+    "type": "word",
+    "term": "熊",
+    "pinyin": "xióng",
+    "meaning": "gấu",
+    "example": "一只熊"
+  },
+  {
+    "type": "word",
+    "term": "大象",
+    "pinyin": "dàxiàng",
+    "meaning": "voi",
+    "example": "一头大象"
+  },
+  {
+    "type": "word",
+    "term": "猴子",
+    "pinyin": "hóuzi",
+    "meaning": "khỉ",
+    "example": "一只猴子"
+  },
+  {
+    "type": "word",
+    "term": "熊猫",
+    "pinyin": "xióngmāo",
+    "meaning": "gấu trúc",
+    "example": "一只熊猫"
+  },
+  {
+    "type": "word",
+    "term": "蛇",
+    "pinyin": "shé",
+    "meaning": "rắn",
+    "example": "一条蛇"
+  },
+  {
+    "type": "word",
+    "term": "青蛙",
+    "pinyin": "qīngwā",
+    "meaning": "ếch",
+    "example": "一只青蛙"
+  },
+  {
+    "type": "word",
+    "term": "蝴蝶",
+    "pinyin": "húdié",
+    "meaning": "bướm",
+    "example": "一只蝴蝶"
+  },
+  {
+    "type": "word",
+    "term": "蜜蜂",
+    "pinyin": "mìfēng",
+    "meaning": "ong",
+    "example": "一只蜜蜂"
+  },
+  {
+    "type": "word",
+    "term": "蚂蚁",
+    "pinyin": "mǎyǐ",
+    "meaning": "kiến",
+    "example": "一只蚂蚁"
+  },
+  {
+    "type": "word",
+    "term": "蜘蛛",
+    "pinyin": "zhīzhū",
+    "meaning": "nhện",
+    "example": "一只蜘蛛"
+  },
+  {
+    "type": "word",
+    "term": "蚊子",
+    "pinyin": "wénzi",
+    "meaning": "muỗi",
+    "example": "一只蚊子"
+  },
+  {
+    "type": "word",
+    "term": "苍蝇",
+    "pinyin": "cāngying",
+    "meaning": "ruồi",
+    "example": "一只苍蝇"
+  },
+  {
+    "type": "word",
+    "term": "脸",
+    "pinyin": "liǎn",
+    "meaning": "mặt",
+    "example": "脸"
+  },
+  {
+    "type": "word",
+    "term": "牙",
+    "pinyin": "yá",
+    "meaning": "răng",
+    "example": "牙齿"
+  },
+  {
+    "type": "word",
+    "term": "舌头",
+    "pinyin": "shétou",
+    "meaning": "lưỡi",
+    "example": "舌头"
+  },
+  {
+    "type": "word",
+    "term": "耳朵",
+    "pinyin": "ěrduo",
+    "meaning": "tai",
+    "example": "耳朵"
+  },
+  {
+    "type": "word",
+    "term": "头发",
+    "pinyin": "tóufa",
+    "meaning": "tóc",
+    "example": "头发"
+  },
+  {
+    "type": "word",
+    "term": "脖子",
+    "pinyin": "bózi",
+    "meaning": "cổ",
+    "example": "脖子"
+  },
+  {
+    "type": "word",
+    "term": "肩膀",
+    "pinyin": "jiānbǎng",
+    "meaning": "vai",
+    "example": "肩膀"
+  },
+  {
+    "type": "word",
+    "term": "胳膊",
+    "pinyin": "gēbo",
+    "meaning": "cánh tay",
+    "example": "胳膊"
+  },
+  {
+    "type": "word",
+    "term": "手指",
+    "pinyin": "shǒuzhǐ",
+    "meaning": "ngón tay",
+    "example": "手指"
+  },
+  {
+    "type": "word",
+    "term": "指甲",
+    "pinyin": "zhǐjia",
+    "meaning": "móng tay",
+    "example": "指甲"
+  },
+  {
+    "type": "word",
+    "term": "腿",
+    "pinyin": "tuǐ",
+    "meaning": "chân",
+    "example": "腿"
+  },
+  {
+    "type": "word",
+    "term": "膝盖",
+    "pinyin": "xīgài",
+    "meaning": "đầu gối",
+    "example": "膝盖"
+  },
+  {
+    "type": "word",
+    "term": "脚趾",
+    "pinyin": "jiǎozhǐ",
+    "meaning": "ngón chân",
+    "example": "脚趾"
+  },
+  {
+    "type": "word",
+    "term": "背",
+    "pinyin": "bèi",
+    "meaning": "lưng",
+    "example": "背"
+  },
+  {
+    "type": "word",
+    "term": "胸",
+    "pinyin": "xiōng",
+    "meaning": "ngực",
+    "example": "胸"
+  },
+  {
+    "type": "word",
+    "term": "肚子",
+    "pinyin": "dùzi",
+    "meaning": "bụng",
+    "example": "肚子"
+  },
+  {
+    "type": "word",
+    "term": "腰",
+    "pinyin": "yāo",
+    "meaning": "eo",
+    "example": "腰"
+  },
+  {
+    "type": "word",
+    "term": "皮肤",
+    "pinyin": "pífū",
+    "meaning": "da",
+    "example": "皮肤"
+  },
+  {
+    "type": "word",
+    "term": "骨头",
+    "pinyin": "gǔtou",
+    "meaning": "xương",
+    "example": "骨头"
+  },
+  {
+    "type": "word",
+    "term": "肌肉",
+    "pinyin": "jīròu",
+    "meaning": "cơ",
+    "example": "肌肉"
+  },
+  {
+    "type": "word",
+    "term": "血",
+    "pinyin": "xiě",
+    "meaning": "máu",
+    "example": "血"
+  },
+  {
+    "type": "word",
+    "term": "肺",
+    "pinyin": "fèi",
+    "meaning": "phổi",
+    "example": "肺"
+  },
+  {
+    "type": "word",
+    "term": "胃",
+    "pinyin": "wèi",
+    "meaning": "dạ dày",
+    "example": "胃"
+  },
+  {
+    "type": "word",
+    "term": "肝",
+    "pinyin": "gān",
+    "meaning": "gan",
+    "example": "肝"
+  },
+  {
+    "type": "word",
+    "term": "肾",
+    "pinyin": "shèn",
+    "meaning": "thận",
+    "example": "肾"
+  },
+  {
+    "type": "word",
+    "term": "笔",
+    "pinyin": "bǐ",
+    "meaning": "bút",
+    "example": "一支笔"
+  },
+  {
+    "type": "word",
+    "term": "铅笔",
+    "pinyin": "qiānbǐ",
+    "meaning": "bút chì",
+    "example": "一支铅笔"
+  },
+  {
+    "type": "word",
+    "term": "钢笔",
+    "pinyin": "gāngbǐ",
+    "meaning": "bút mực",
+    "example": "一支钢笔"
+  },
+  {
+    "type": "word",
+    "term": "圆珠笔",
+    "pinyin": "yuánzhūbǐ",
+    "meaning": "bút bi",
+    "example": "一支圆珠笔"
+  },
+  {
+    "type": "word",
+    "term": "橡皮",
+    "pinyin": "xiàngpí",
+    "meaning": "tẩy",
+    "example": "一块橡皮"
+  },
+  {
+    "type": "word",
+    "term": "尺子",
+    "pinyin": "chǐzi",
+    "meaning": "thước",
+    "example": "一把尺子"
+  },
+  {
+    "type": "word",
+    "term": "剪刀",
+    "pinyin": "jiǎndāo",
+    "meaning": "kéo",
+    "example": "一把剪刀"
+  },
+  {
+    "type": "word",
+    "term": "胶水",
+    "pinyin": "jiāoshuǐ",
+    "meaning": "keo dán",
+    "example": "胶水"
+  },
+  {
+    "type": "word",
+    "term": "胶带",
+    "pinyin": "jiāodài",
+    "meaning": "băng dính",
+    "example": "胶带"
+  },
+  {
+    "type": "word",
+    "term": "订书机",
+    "pinyin": "dìngshūjī",
+    "meaning": "máy đóng sách",
+    "example": "订书机"
+  },
+  {
+    "type": "word",
+    "term": "回形针",
+    "pinyin": "huíxíngzhēn",
+    "meaning": "kẹp giấy",
+    "example": "回形针"
+  },
+  {
+    "type": "word",
+    "term": "文件夹",
+    "pinyin": "wénjiànjiá",
+    "meaning": "bìa hồ sơ",
+    "example": "文件夹"
+  },
+  {
+    "type": "word",
+    "term": "信封",
+    "pinyin": "xìnfēng",
+    "meaning": "phong bì",
+    "example": "一个信封"
+  },
+  {
+    "type": "word",
+    "term": "邮票",
+    "pinyin": "yóupiào",
+    "meaning": "tem",
+    "example": "一张邮票"
+  },
+  {
+    "type": "word",
+    "term": "纸",
+    "pinyin": "zhǐ",
+    "meaning": "giấy",
+    "example": "一张纸"
+  },
+  {
+    "type": "word",
+    "term": "报纸",
+    "pinyin": "bàozhǐ",
+    "meaning": "báo",
+    "example": "一份报纸"
+  },
+  {
+    "type": "word",
+    "term": "杂志",
+    "pinyin": "zázhì",
+    "meaning": "tạp chí",
+    "example": "一本杂志"
+  },
+  {
+    "type": "word",
+    "term": "字典",
+    "pinyin": "zìdiǎn",
+    "meaning": "từ điển",
+    "example": "一本字典"
+  },
+  {
+    "type": "word",
+    "term": "笔记本",
+    "pinyin": "bǐjìběn",
+    "meaning": "sổ tay",
+    "example": "一本笔记本"
+  },
+  {
+    "type": "word",
+    "term": "日历",
+    "pinyin": "rìlì",
+    "meaning": "lịch",
+    "example": "一本日历"
+  },
+  {
+    "type": "word",
+    "term": "钟",
+    "pinyin": "zhōng",
+    "meaning": "đồng hồ",
+    "example": "一个钟"
+  },
+  {
+    "type": "word",
+    "term": "手表",
+    "pinyin": "shǒubiǎo",
+    "meaning": "đồng hồ đeo tay",
+    "example": "一块手表"
+  },
+  {
+    "type": "word",
+    "term": "闹钟",
+    "pinyin": "nàozhōng",
+    "meaning": "đồng hồ báo thức",
+    "example": "一个闹钟"
+  },
+  {
+    "type": "word",
+    "term": "镜子",
+    "pinyin": "jìngzi",
+    "meaning": "gương",
+    "example": "一面镜子"
+  },
+  {
+    "type": "word",
+    "term": "梳子",
+    "pinyin": "shūzi",
+    "meaning": "lược",
+    "example": "一把梳子"
+  },
+  {
+    "type": "word",
+    "term": "牙刷",
+    "pinyin": "yáshuā",
+    "meaning": "bàn chải đánh răng",
+    "example": "一把牙刷"
+  },
+  {
+    "type": "word",
+    "term": "牙膏",
+    "pinyin": "yágāo",
+    "meaning": "kem đánh răng",
+    "example": "牙膏"
+  },
+  {
+    "type": "word",
+    "term": "肥皂",
+    "pinyin": "féizào",
+    "meaning": "xà phòng",
+    "example": "一块肥皂"
+  },
+  {
+    "type": "word",
+    "term": "洗发水",
+    "pinyin": "xǐfàshuǐ",
+    "meaning": "dầu gội",
+    "example": "洗发水"
+  },
+  {
+    "type": "word",
+    "term": "毛巾",
+    "pinyin": "máojīn",
+    "meaning": "khăn mặt",
+    "example": "一条毛巾"
+  },
+  {
+    "type": "word",
+    "term": "浴巾",
+    "pinyin": "yùjīn",
+    "meaning": "khăn tắm",
+    "example": "一条浴巾"
+  },
+  {
+    "type": "word",
+    "term": "杯子",
+    "pinyin": "bēizi",
+    "meaning": "cốc",
+    "example": "一个杯子"
+  },
+  {
+    "type": "word",
+    "term": "碗",
+    "pinyin": "wǎn",
+    "meaning": "bát",
+    "example": "一个碗"
+  },
+  {
+    "type": "word",
+    "term": "盘子",
+    "pinyin": "pánzi",
+    "meaning": "đĩa",
+    "example": "一个盘子"
+  },
+  {
+    "type": "word",
+    "term": "筷子",
+    "pinyin": "kuàizi",
+    "meaning": "đũa",
+    "example": "一双筷子"
+  },
+  {
+    "type": "word",
+    "term": "勺子",
+    "pinyin": "sháozi",
+    "meaning": "thìa",
+    "example": "一把勺子"
+  },
+  {
+    "type": "word",
+    "term": "叉子",
+    "pinyin": "chāzi",
+    "meaning": "nĩa",
+    "example": "一把叉子"
+  },
+  {
+    "type": "word",
+    "term": "刀",
+    "pinyin": "dāo",
+    "meaning": "dao",
+    "example": "一把刀"
+  },
+  {
+    "type": "word",
+    "term": "锅",
+    "pinyin": "guō",
+    "meaning": "nồi",
+    "example": "一口锅"
+  },
+  {
+    "type": "word",
+    "term": "平底锅",
+    "pinyin": "píngdǐguō",
+    "meaning": "chảo",
+    "example": "一个平底锅"
+  },
+  {
+    "type": "word",
+    "term": "水壶",
+    "pinyin": "shuǐhú",
+    "meaning": "ấm nước",
+    "example": "一个水壶"
+  },
+  {
+    "type": "word",
+    "term": "茶壶",
+    "pinyin": "cháhú",
+    "meaning": "ấm trà",
+    "example": "一个茶壶"
+  },
+  {
+    "type": "word",
+    "term": "瓶子",
+    "pinyin": "píngzi",
+    "meaning": "chai",
+    "example": "一个瓶子"
+  },
+  {
+    "type": "word",
+    "term": "罐子",
+    "pinyin": "guànzi",
+    "meaning": "hộp",
+    "example": "一个罐子"
+  },
+  {
+    "type": "word",
+    "term": "盒子",
+    "pinyin": "hézi",
+    "meaning": "hộp",
+    "example": "一个盒子"
+  },
+  {
+    "type": "word",
+    "term": "袋子",
+    "pinyin": "dàizi",
+    "meaning": "túi",
+    "example": "一个袋子"
+  },
+  {
+    "type": "word",
+    "term": "篮子",
+    "pinyin": "lánzi",
+    "meaning": "rổ",
+    "example": "一个篮子"
+  },
+  {
+    "type": "word",
+    "term": "垃圾桶",
+    "pinyin": "lājītǒng",
+    "meaning": "thùng rác",
+    "example": "一个垃圾桶"
+  },
+  {
+    "type": "word",
+    "term": "扫帚",
+    "pinyin": "sàozhou",
+    "meaning": "chổi",
+    "example": "一把扫帚"
+  },
+  {
+    "type": "word",
+    "term": "拖把",
+    "pinyin": "tuōbǎ",
+    "meaning": "cây lau nhà",
+    "example": "一把拖把"
+  },
+  {
+    "type": "word",
+    "term": "抹布",
+    "pinyin": "mābù",
+    "meaning": "khăn lau",
+    "example": "一块抹布"
+  },
+  {
+    "type": "word",
+    "term": "吸尘器",
+    "pinyin": "xīchénqì",
+    "meaning": "máy hút bụi",
+    "example": "一台吸尘器"
+  },
+  {
+    "type": "word",
+    "term": "洗衣机",
+    "pinyin": "xǐyījī",
+    "meaning": "máy giặt",
+    "example": "一台洗衣机"
+  },
+  {
+    "type": "word",
+    "term": "冰箱",
+    "pinyin": "bīngxiāng",
+    "meaning": "tủ lạnh",
+    "example": "一台冰箱"
+  },
+  {
+    "type": "word",
+    "term": "微波炉",
+    "pinyin": "wēibōlú",
+    "meaning": "lò vi sóng",
+    "example": "一台微波炉"
+  },
+  {
+    "type": "word",
+    "term": "烤箱",
+    "pinyin": "kǎoxiāng",
+    "meaning": "lò nướng",
+    "example": "一台烤箱"
+  },
+  {
+    "type": "word",
+    "term": "电饭煲",
+    "pinyin": "diànfànbāo",
+    "meaning": "nồi cơm điện",
+    "example": "一个电饭煲"
+  },
+  {
+    "type": "word",
+    "term": "热水器",
+    "pinyin": "rèshuǐqì",
+    "meaning": "máy nước nóng",
+    "example": "一台热水器"
+  },
+  {
+    "type": "word",
+    "term": "空调",
+    "pinyin": "kōngtiáo",
+    "meaning": "điều hòa",
+    "example": "一台空调"
+  },
+  {
+    "type": "word",
+    "term": "电扇",
+    "pinyin": "diànshàn",
+    "meaning": "quạt điện",
+    "example": "一台电扇"
+  },
+  {
+    "type": "word",
+    "term": "台灯",
+    "pinyin": "táidēng",
+    "meaning": "đèn bàn",
+    "example": "一盏台灯"
+  },
+  {
+    "type": "word",
+    "term": "灯泡",
+    "pinyin": "dēngpào",
+    "meaning": "bóng đèn",
+    "example": "一个灯泡"
+  },
+  {
+    "type": "word",
+    "term": "插头",
+    "pinyin": "chātóu",
+    "meaning": "phích cắm",
+    "example": "一个插头"
+  },
+  {
+    "type": "word",
+    "term": "电线",
+    "pinyin": "diànxiàn",
+    "meaning": "dây điện",
+    "example": "一根电线"
+  },
+  {
+    "type": "word",
+    "term": "电池",
+    "pinyin": "diànchí",
+    "meaning": "pin",
+    "example": "一节电池"
+  },
+  {
+    "type": "word",
+    "term": "充电器",
+    "pinyin": "chōngdiànqì",
+    "meaning": "sạc",
+    "example": "一个充电器"
+  },
+  {
+    "type": "word",
+    "term": "耳机",
+    "pinyin": "ěrjī",
+    "meaning": "tai nghe",
+    "example": "一副耳机"
+  },
+  {
+    "type": "word",
+    "term": "音箱",
+    "pinyin": "yīnxiāng",
+    "meaning": "loa",
+    "example": "一个音箱"
+  },
+  {
+    "type": "word",
+    "term": "遥控器",
+    "pinyin": "yáokòngqì",
+    "meaning": "điều khiển",
+    "example": "一个遥控器"
+  },
+  {
+    "type": "word",
+    "term": "照相机",
+    "pinyin": "zhàoxiàngjī",
+    "meaning": "máy ảnh",
+    "example": "一台照相机"
+  },
+  {
+    "type": "word",
+    "term": "摄像机",
+    "pinyin": "shèxiàngjī",
+    "meaning": "máy quay phim",
+    "example": "一台摄像机"
+  },
+  {
+    "type": "word",
+    "term": "打印机",
+    "pinyin": "dǎyìnjī",
+    "meaning": "máy in",
+    "example": "一台打印机"
+  },
+  {
+    "type": "word",
+    "term": "扫描仪",
+    "pinyin": "sǎomiáoyí",
+    "meaning": "máy quét",
+    "example": "一台扫描仪"
+  },
+  {
+    "type": "word",
+    "term": "键盘",
+    "pinyin": "jiànpán",
+    "meaning": "bàn phím",
+    "example": "一个键盘"
+  },
+  {
+    "type": "word",
+    "term": "鼠标",
+    "pinyin": "shǔbiāo",
+    "meaning": "chuột máy tính",
+    "example": "一个鼠标"
+  },
+  {
+    "type": "word",
+    "term": "显示器",
+    "pinyin": "xiǎnshìqì",
+    "meaning": "màn hình",
+    "example": "一台显示器"
+  },
+  {
+    "type": "word",
+    "term": "主机",
+    "pinyin": "zhǔjī",
+    "meaning": "máy tính",
+    "example": "一台主机"
+  },
+  {
+    "type": "word",
+    "term": "笔记本电脑",
+    "pinyin": "bǐjìběn diànnǎo",
+    "meaning": "laptop",
+    "example": "一台笔记本电脑"
+  },
+  {
+    "type": "word",
+    "term": "平板电脑",
+    "pinyin": "píngbǎn diànnǎo",
+    "meaning": "máy tính bảng",
+    "example": "一台平板电脑"
+  },
+  {
+    "type": "word",
+    "term": "智能手机",
+    "pinyin": "zhìnéng shǒujī",
+    "meaning": "smartphone",
+    "example": "一部智能手机"
+  },
+  {
+    "type": "word",
+    "term": "充电宝",
+    "pinyin": "chōngdiànbǎo",
+    "meaning": "pin dự phòng",
+    "example": "一个充电宝"
+  },
+  {
+    "type": "word",
+    "term": "数据线",
+    "pinyin": "shùjùxiàn",
+    "meaning": "cáp sạc",
+    "example": "一根数据线"
+  },
+  {
+    "type": "word",
+    "term": "U盘",
+    "pinyin": "U pán",
+    "meaning": "USB",
+    "example": "一个U盘"
+  },
+  {
+    "type": "word",
+    "term": "硬盘",
+    "pinyin": "yìngpán",
+    "meaning": "ổ cứng",
+    "example": "一个硬盘"
+  },
+  {
+    "type": "word",
+    "term": "光盘",
+    "pinyin": "guāngpán",
+    "meaning": "đĩa CD",
+    "example": "一张光盘"
+  },
+  {
+    "type": "word",
+    "term": "DVD",
+    "pinyin": "DVD",
+    "meaning": "DVD",
+    "example": "一张DVD"
+  },
+  {
+    "type": "word",
+    "term": "蓝光",
+    "pinyin": "lánguāng",
+    "meaning": "Blu-ray",
+    "example": "一张蓝光"
+  },
+  {
+    "type": "word",
+    "term": "游戏机",
+    "pinyin": "yóuxìjī",
+    "meaning": "máy chơi game",
+    "example": "一台游戏机"
+  },
+  {
+    "type": "word",
+    "term": "手柄",
+    "pinyin": "shǒubǐng",
+    "meaning": "tay cầm",
+    "example": "一个手柄"
+  },
+  {
+    "type": "word",
+    "term": "游戏卡",
+    "pinyin": "yóuxìkǎ",
+    "meaning": "thẻ game",
+    "example": "一张游戏卡"
+  },
+  {
+    "type": "word",
+    "term": "游戏盘",
+    "pinyin": "yóuxìpán",
+    "meaning": "đĩa game",
+    "example": "一张游戏盘"
+  },
+  {
+    "type": "word",
+    "term": "游戏下载",
+    "pinyin": "yóuxì xiàzài",
+    "meaning": "tải game",
+    "example": "游戏下载"
+  },
+  {
+    "type": "word",
+    "term": "游戏安装",
+    "pinyin": "yóuxì ānzhuāng",
+    "meaning": "cài game",
+    "example": "游戏安装"
+  },
+  {
+    "type": "word",
+    "term": "游戏卸载",
+    "pinyin": "yóuxì xièzài",
+    "meaning": "gỡ game",
+    "example": "游戏卸载"
+  },
+  {
+    "type": "word",
+    "term": "游戏更新",
+    "pinyin": "yóuxì gēngxīn",
+    "meaning": "cập nhật game",
+    "example": "游戏更新"
+  },
+  {
+    "type": "word",
+    "term": "游戏存档",
+    "pinyin": "yóuxì cúndàng",
+    "meaning": "lưu game",
+    "example": "游戏存档"
+  },
+  {
+    "type": "word",
+    "term": "游戏读档",
+    "pinyin": "yóuxì dúdàng",
+    "meaning": "đọc game",
+    "example": "游戏读档"
+  },
+  {
+    "type": "word",
+    "term": "游戏设置",
+    "pinyin": "yóuxì shèzhì",
+    "meaning": "cài đặt game",
+    "example": "游戏设置"
+  },
+  {
+    "type": "word",
+    "term": "游戏开始",
+    "pinyin": "yóuxì kāishǐ",
+    "meaning": "bắt đầu game",
+    "example": "游戏开始"
+  },
+  {
+    "type": "word",
+    "term": "游戏结束",
+    "pinyin": "yóuxì jiéshù",
+    "meaning": "kết thúc game",
+    "example": "游戏结束"
+  },
+  {
+    "type": "word",
+    "term": "游戏暂停",
+    "pinyin": "yóuxì zàntíng",
+    "meaning": "tạm dừng game",
+    "example": "游戏暂停"
+  },
+  {
+    "type": "word",
+    "term": "游戏继续",
+    "pinyin": "yóuxì jìxù",
+    "meaning": "tiếp tục game",
+    "example": "游戏继续"
+  },
+  {
+    "type": "word",
+    "term": "游戏重玩",
+    "pinyin": "yóuxì chóngwán",
+    "meaning": "chơi lại game",
+    "example": "游戏重玩"
+  },
+  {
+    "type": "word",
+    "term": "游戏退出",
+    "pinyin": "yóuxì tuìchū",
+    "meaning": "thoát game",
+    "example": "游戏退出"
+  },
+  {
+    "type": "word",
+    "term": "游戏保存",
+    "pinyin": "yóuxì bǎocún",
+    "meaning": "lưu game",
+    "example": "游戏保存"
+  },
+  {
+    "type": "word",
+    "term": "游戏加载",
+    "pinyin": "yóuxì jiāzài",
+    "meaning": "tải game",
+    "example": "游戏加载"
+  },
+  {
+    "type": "word",
+    "term": "游戏删除",
+    "pinyin": "yóuxì shānchú",
+    "meaning": "xóa game",
+    "example": "游戏删除"
+  },
+  {
+    "type": "word",
+    "term": "游戏复制",
+    "pinyin": "yóuxì fùzhì",
+    "meaning": "sao chép game",
+    "example": "游戏复制"
+  },
+  {
+    "type": "word",
+    "term": "游戏移动",
+    "pinyin": "yóuxì yídòng",
+    "meaning": "di chuyển game",
+    "example": "游戏移动"
+  },
+  {
+    "type": "word",
+    "term": "游戏重命名",
+    "pinyin": "yóuxì chóngmíngmíng",
+    "meaning": "đổi tên game",
+    "example": "游戏重命名"
+  },
+  {
+    "type": "word",
+    "term": "游戏属性",
+    "pinyin": "yóuxì shǔxìng",
+    "meaning": "thuộc tính game",
+    "example": "游戏属性"
+  },
+  {
+    "type": "word",
+    "term": "游戏信息",
+    "pinyin": "yóuxì xìnxī",
+    "meaning": "thông tin game",
+    "example": "游戏信息"
+  },
+  {
+    "type": "word",
+    "term": "游戏版本",
+    "pinyin": "yóuxì bǎnběn",
+    "meaning": "phiên bản game",
+    "example": "游戏版本"
+  },
+  {
+    "type": "word",
+    "term": "游戏大小",
+    "pinyin": "yóuxì dàxiǎo",
+    "meaning": "kích thước game",
+    "example": "游戏大小"
+  },
+  {
+    "type": "word",
+    "term": "游戏类型",
+    "pinyin": "yóuxì lèixíng",
+    "meaning": "loại game",
+    "example": "游戏类型"
+  },
+  {
+    "type": "word",
+    "term": "游戏平台",
+    "pinyin": "yóuxì píngtái",
+    "meaning": "nền tảng game",
+    "example": "游戏平台"
+  },
+  {
+    "type": "word",
+    "term": "游戏开发商",
+    "pinyin": "yóuxì kāifāshāng",
+    "meaning": "nhà phát triển game",
+    "example": "游戏开发商"
+  },
+  {
+    "type": "word",
+    "term": "游戏发行商",
+    "pinyin": "yóuxì fāxíngshāng",
+    "meaning": "nhà phát hành game",
+    "example": "游戏发行商"
+  },
+  {
+    "type": "word",
+    "term": "游戏发布日期",
+    "pinyin": "yóuxì fābù rìqī",
+    "meaning": "ngày phát hành game",
+    "example": "游戏发布日期"
+  },
+  {
+    "type": "word",
+    "term": "游戏评分",
+    "pinyin": "yóuxì píngfēn",
+    "meaning": "đánh giá game",
+    "example": "游戏评分"
+  },
+  {
+    "type": "word",
+    "term": "游戏评论",
+    "pinyin": "yóuxì pínglùn",
+    "meaning": "bình luận game",
+    "example": "游戏评论"
+  },
+  {
+    "type": "word",
+    "term": "游戏截图",
+    "pinyin": "yóuxì jiétú",
+    "meaning": "ảnh chụp game",
+    "example": "游戏截图"
+  },
+  {
+    "type": "word",
+    "term": "游戏视频",
+    "pinyin": "yóuxì shìpín",
+    "meaning": "video game",
+    "example": "游戏视频"
+  },
+  {
+    "type": "word",
+    "term": "游戏直播",
+    "pinyin": "yóuxì zhíbō",
+    "meaning": "phát trực tiếp game",
+    "example": "游戏直播"
+  },
+  {
+    "type": "word",
+    "term": "游戏录制",
+    "pinyin": "yóuxì lùzhì",
+    "meaning": "ghi lại game",
+    "example": "游戏录制"
+  },
+  {
+    "type": "word",
+    "term": "游戏分享",
+    "pinyin": "yóuxì fēnxiǎng",
+    "meaning": "chia sẻ game",
+    "example": "游戏分享"
+  },
+  {
+    "type": "word",
+    "term": "游戏推荐",
+    "pinyin": "yóuxì tuījiàn",
+    "meaning": "giới thiệu game",
+    "example": "游戏推荐"
+  },
+  {
+    "type": "word",
+    "term": "游戏收藏",
+    "pinyin": "yóuxì shōucáng",
+    "meaning": "lưu game",
+    "example": "游戏收藏"
+  },
+  {
+    "type": "word",
+    "term": "游戏购买",
+    "pinyin": "yóuxì gòumǎi",
+    "meaning": "mua game",
+    "example": "游戏购买"
+  },
+  {
+    "type": "word",
+    "term": "十",
+    "pinyin": "shí",
+    "meaning": "10",
+    "example": "十个"
+  },
+  {
+    "type": "word",
+    "term": "十一",
+    "pinyin": "shíyī",
+    "meaning": "11",
+    "example": "十一个"
+  },
+  {
+    "type": "word",
+    "term": "十二",
+    "pinyin": "shíèr",
+    "meaning": "12",
+    "example": "十二个"
+  },
+  {
+    "type": "word",
+    "term": "十三",
+    "pinyin": "shísān",
+    "meaning": "13",
+    "example": "十三个"
+  },
+  {
+    "type": "word",
+    "term": "十四",
+    "pinyin": "shísì",
+    "meaning": "14",
+    "example": "十四个"
+  },
+  {
+    "type": "word",
+    "term": "十五",
+    "pinyin": "shíwǔ",
+    "meaning": "15",
+    "example": "十五个"
+  },
+  {
+    "type": "word",
+    "term": "十六",
+    "pinyin": "shíliù",
+    "meaning": "16",
+    "example": "十六个"
+  },
+  {
+    "type": "word",
+    "term": "十七",
+    "pinyin": "shíqī",
+    "meaning": "17",
+    "example": "十七个"
+  },
+  {
+    "type": "word",
+    "term": "十八",
+    "pinyin": "shíbā",
+    "meaning": "18",
+    "example": "十八个"
+  },
+  {
+    "type": "word",
+    "term": "十九",
+    "pinyin": "shíjiǔ",
+    "meaning": "19",
+    "example": "十九个"
+  },
+  {
+    "type": "word",
+    "term": "二十",
+    "pinyin": "èrshí",
+    "meaning": "20",
+    "example": "二十个"
+  },
+  {
+    "type": "word",
+    "term": "二十一",
+    "pinyin": "èrshíyī",
+    "meaning": "21",
+    "example": "二十一个"
+  },
+  {
+    "type": "word",
+    "term": "二十二",
+    "pinyin": "èrshíèr",
+    "meaning": "22",
+    "example": "二十二个"
+  },
+  {
+    "type": "word",
+    "term": "二十三",
+    "pinyin": "èrshísān",
+    "meaning": "23",
+    "example": "二十三个"
+  },
+  {
+    "type": "word",
+    "term": "二十四",
+    "pinyin": "èrshísì",
+    "meaning": "24",
+    "example": "二十四个"
+  },
+  {
+    "type": "word",
+    "term": "二十五",
+    "pinyin": "èrshíwǔ",
+    "meaning": "25",
+    "example": "二十五个"
+  },
+  {
+    "type": "word",
+    "term": "二十六",
+    "pinyin": "èrshíliù",
+    "meaning": "26",
+    "example": "二十六个"
+  },
+  {
+    "type": "word",
+    "term": "二十七",
+    "pinyin": "èrshíqī",
+    "meaning": "27",
+    "example": "二十七个"
+  },
+  {
+    "type": "word",
+    "term": "二十八",
+    "pinyin": "èrshíbā",
+    "meaning": "28",
+    "example": "二十八个"
+  },
+  {
+    "type": "word",
+    "term": "二十九",
+    "pinyin": "èrshíjiǔ",
+    "meaning": "29",
+    "example": "二十九个"
+  },
+  {
+    "type": "word",
+    "term": "三十",
+    "pinyin": "sānshí",
+    "meaning": "30",
+    "example": "三十个"
+  },
+  {
+    "type": "word",
+    "term": "三十一",
+    "pinyin": "sānshíyī",
+    "meaning": "31",
+    "example": "三十一个"
+  },
+  {
+    "type": "word",
+    "term": "三十二",
+    "pinyin": "sānshíèr",
+    "meaning": "32",
+    "example": "三十二个"
+  },
+  {
+    "type": "word",
+    "term": "三十三",
+    "pinyin": "sānshísān",
+    "meaning": "33",
+    "example": "三十三个"
+  },
+  {
+    "type": "word",
+    "term": "三十四",
+    "pinyin": "sānshísì",
+    "meaning": "34",
+    "example": "三十四个"
+  },
+  {
+    "type": "word",
+    "term": "三十五",
+    "pinyin": "sānshíwǔ",
+    "meaning": "35",
+    "example": "三十五个"
+  },
+  {
+    "type": "word",
+    "term": "三十六",
+    "pinyin": "sānshíliù",
+    "meaning": "36",
+    "example": "三十六个"
+  },
+  {
+    "type": "word",
+    "term": "三十七",
+    "pinyin": "sānshíqī",
+    "meaning": "37",
+    "example": "三十七个"
+  },
+  {
+    "type": "word",
+    "term": "三十八",
+    "pinyin": "sānshíbā",
+    "meaning": "38",
+    "example": "三十八个"
+  },
+  {
+    "type": "word",
+    "term": "三十九",
+    "pinyin": "sānshíjiǔ",
+    "meaning": "39",
+    "example": "三十九个"
+  },
+  {
+    "type": "word",
+    "term": "四十",
+    "pinyin": "sìshí",
+    "meaning": "40",
+    "example": "四十个"
+  },
+  {
+    "type": "word",
+    "term": "四十一",
+    "pinyin": "sìshíyī",
+    "meaning": "41",
+    "example": "四十一个"
+  },
+  {
+    "type": "word",
+    "term": "四十二",
+    "pinyin": "sìshíèr",
+    "meaning": "42",
+    "example": "四十二个"
+  },
+  {
+    "type": "word",
+    "term": "四十三",
+    "pinyin": "sìshísān",
+    "meaning": "43",
+    "example": "四十三个"
+  },
+  {
+    "type": "word",
+    "term": "四十四",
+    "pinyin": "sìshísì",
+    "meaning": "44",
+    "example": "四十四个"
+  },
+  {
+    "type": "word",
+    "term": "四十五",
+    "pinyin": "sìshíwǔ",
+    "meaning": "45",
+    "example": "四十五个"
+  },
+  {
+    "type": "word",
+    "term": "四十六",
+    "pinyin": "sìshíliù",
+    "meaning": "46",
+    "example": "四十六个"
+  },
+  {
+    "type": "word",
+    "term": "四十七",
+    "pinyin": "sìshíqī",
+    "meaning": "47",
+    "example": "四十七个"
+  },
+  {
+    "type": "word",
+    "term": "四十八",
+    "pinyin": "sìshíbā",
+    "meaning": "48",
+    "example": "四十八个"
+  },
+  {
+    "type": "word",
+    "term": "四十九",
+    "pinyin": "sìshíjiǔ",
+    "meaning": "49",
+    "example": "四十九个"
+  },
+  {
+    "type": "word",
+    "term": "五十",
+    "pinyin": "wǔshí",
+    "meaning": "50",
+    "example": "五十个"
+  },
+  {
+    "type": "word",
+    "term": "五十一",
+    "pinyin": "wǔshíyī",
+    "meaning": "51",
+    "example": "五十一个"
+  },
+  {
+    "type": "word",
+    "term": "五十二",
+    "pinyin": "wǔshíèr",
+    "meaning": "52",
+    "example": "五十二个"
+  },
+  {
+    "type": "word",
+    "term": "五十三",
+    "pinyin": "wǔshísān",
+    "meaning": "53",
+    "example": "五十三个"
+  },
+  {
+    "type": "word",
+    "term": "五十四",
+    "pinyin": "wǔshísì",
+    "meaning": "54",
+    "example": "五十四个"
+  },
+  {
+    "type": "word",
+    "term": "五十五",
+    "pinyin": "wǔshíwǔ",
+    "meaning": "55",
+    "example": "五十五个"
+  },
+  {
+    "type": "word",
+    "term": "五十六",
+    "pinyin": "wǔshíliù",
+    "meaning": "56",
+    "example": "五十六个"
+  },
+  {
+    "type": "word",
+    "term": "五十七",
+    "pinyin": "wǔshíqī",
+    "meaning": "57",
+    "example": "五十七个"
+  },
+  {
+    "type": "word",
+    "term": "五十八",
+    "pinyin": "wǔshíbā",
+    "meaning": "58",
+    "example": "五十八个"
+  },
+  {
+    "type": "word",
+    "term": "五十九",
+    "pinyin": "wǔshíjiǔ",
+    "meaning": "59",
+    "example": "五十九个"
+  },
+  {
+    "type": "word",
+    "term": "开心",
+    "pinyin": "kāixīn",
+    "meaning": "vui",
+    "example": "很开心"
+  },
+  {
+    "type": "word",
+    "term": "兴奋",
+    "pinyin": "xīngfèn",
+    "meaning": "hào hứng",
+    "example": "很兴奋"
+  },
+  {
+    "type": "word",
+    "term": "满意",
+    "pinyin": "mǎnyì",
+    "meaning": "hài lòng",
+    "example": "很满意"
+  },
+  {
+    "type": "word",
+    "term": "骄傲",
+    "pinyin": "jiāo'ào",
+    "meaning": "tự hào",
+    "example": "很骄傲"
+  },
+  {
+    "type": "word",
+    "term": "自豪",
+    "pinyin": "zìháo",
+    "meaning": "tự hào",
+    "example": "很自豪"
+  },
+  {
+    "type": "word",
+    "term": "感激",
+    "pinyin": "gǎnjī",
+    "meaning": "biết ơn",
+    "example": "很感激"
+  },
+  {
+    "type": "word",
+    "term": "感谢",
+    "pinyin": "gǎnxiè",
+    "meaning": "cảm ơn",
+    "example": "感谢"
+  },
+  {
+    "type": "word",
+    "term": "想念",
+    "pinyin": "xiǎngniàn",
+    "meaning": "nhớ",
+    "example": "想念"
+  },
+  {
+    "type": "word",
+    "term": "思念",
+    "pinyin": "sīniàn",
+    "meaning": "nhớ",
+    "example": "思念"
+  },
+  {
+    "type": "word",
+    "term": "期待",
+    "pinyin": "qīdài",
+    "meaning": "mong đợi",
+    "example": "期待"
+  },
+  {
+    "type": "word",
+    "term": "担心",
+    "pinyin": "dānxīn",
+    "meaning": "lo lắng",
+    "example": "担心"
+  },
+  {
+    "type": "word",
+    "term": "焦虑",
+    "pinyin": "jiāolǜ",
+    "meaning": "lo âu",
+    "example": "很焦虑"
+  },
+  {
+    "type": "word",
+    "term": "紧张",
+    "pinyin": "jǐnzhāng",
+    "meaning": "căng thẳng",
+    "example": "很紧张"
+  },
+  {
+    "type": "word",
+    "term": "害怕",
+    "pinyin": "hàipà",
+    "meaning": "sợ",
+    "example": "害怕"
+  },
+  {
+    "type": "word",
+    "term": "恐惧",
+    "pinyin": "kǒngjù",
+    "meaning": "sợ hãi",
+    "example": "恐惧"
+  },
+  {
+    "type": "word",
+    "term": "忧虑",
+    "pinyin": "yōulǜ",
+    "meaning": "ưu tư",
+    "example": "忧虑"
+  },
+  {
+    "type": "word",
+    "term": "烦恼",
+    "pinyin": "fánnǎo",
+    "meaning": "phiền não",
+    "example": "烦恼"
+  },
+  {
+    "type": "word",
+    "term": "生气",
+    "pinyin": "shēngqì",
+    "meaning": "tức giận",
+    "example": "生气"
+  },
+  {
+    "type": "word",
+    "term": "愤怒",
+    "pinyin": "fènnù",
+    "meaning": "phẫn nộ",
+    "example": "愤怒"
+  },
+  {
+    "type": "word",
+    "term": "恼火",
+    "pinyin": "nǎohuǒ",
+    "meaning": "bực mình",
+    "example": "恼火"
+  },
+  {
+    "type": "word",
+    "term": "失望",
+    "pinyin": "shīwàng",
+    "meaning": "thất vọng",
+    "example": "失望"
+  },
+  {
+    "type": "word",
+    "term": "沮丧",
+    "pinyin": "jǔsàng",
+    "meaning": "chán nản",
+    "example": "沮丧"
+  },
+  {
+    "type": "word",
+    "term": "悲伤",
+    "pinyin": "bēishāng",
+    "meaning": "đau buồn",
+    "example": "悲伤"
+  },
+  {
+    "type": "word",
+    "term": "痛苦",
+    "pinyin": "tòngkǔ",
+    "meaning": "đau khổ",
+    "example": "痛苦"
+  },
+  {
+    "type": "word",
+    "term": "孤独",
+    "pinyin": "gūdú",
+    "meaning": "cô đơn",
+    "example": "孤独"
+  },
+  {
+    "type": "word",
+    "term": "寂寞",
+    "pinyin": "jìmò",
+    "meaning": "cô đơn",
+    "example": "寂寞"
+  },
+  {
+    "type": "word",
+    "term": "无聊",
+    "pinyin": "wúliáo",
+    "meaning": "buồn chán",
+    "example": "无聊"
+  },
+  {
+    "type": "word",
+    "term": "厌倦",
+    "pinyin": "yànjuàn",
+    "meaning": "chán",
+    "example": "厌倦"
+  },
+  {
+    "type": "word",
+    "term": "疲惫",
+    "pinyin": "píbèi",
+    "meaning": "mệt mỏi",
+    "example": "疲惫"
+  },
+  {
+    "type": "word",
+    "term": "痒",
+    "pinyin": "yǎng",
+    "meaning": "ngứa",
+    "example": "痒"
+  },
+  {
+    "type": "word",
+    "term": "生病",
+    "pinyin": "shēngbìng",
+    "meaning": "ốm",
+    "example": "生病"
+  },
+  {
+    "type": "word",
+    "term": "发烧",
+    "pinyin": "fāshāo",
+    "meaning": "sốt",
+    "example": "发烧"
+  },
+  {
+    "type": "word",
+    "term": "感冒",
+    "pinyin": "gǎnmào",
+    "meaning": "cảm",
+    "example": "感冒"
+  },
+  {
+    "type": "word",
+    "term": "咳嗽",
+    "pinyin": "késou",
+    "meaning": "ho",
+    "example": "咳嗽"
+  },
+  {
+    "type": "word",
+    "term": "头疼",
+    "pinyin": "tóuténg",
+    "meaning": "đau đầu",
+    "example": "头疼"
+  },
+  {
+    "type": "word",
+    "term": "肚子疼",
+    "pinyin": "dùzi téng",
+    "meaning": "đau bụng",
+    "example": "肚子疼"
+  },
+  {
+    "type": "word",
+    "term": "牙疼",
+    "pinyin": "yáténg",
+    "meaning": "đau răng",
+    "example": "牙疼"
+  },
+  {
+    "type": "word",
+    "term": "背疼",
+    "pinyin": "bèiténg",
+    "meaning": "đau lưng",
+    "example": "背疼"
+  },
+  {
+    "type": "word",
+    "term": "腿疼",
+    "pinyin": "tuǐténg",
+    "meaning": "đau chân",
+    "example": "腿疼"
+  },
+  {
+    "type": "word",
+    "term": "胳膊疼",
+    "pinyin": "gēbo téng",
+    "meaning": "đau tay",
+    "example": "胳膊疼"
+  },
+  {
+    "type": "word",
+    "term": "脖子疼",
+    "pinyin": "bózi téng",
+    "meaning": "đau cổ",
+    "example": "脖子疼"
+  },
+  {
+    "type": "word",
+    "term": "肩膀疼",
+    "pinyin": "jiānbǎng téng",
+    "meaning": "đau vai",
+    "example": "肩膀疼"
+  },
+  {
+    "type": "word",
+    "term": "膝盖疼",
+    "pinyin": "xīgài téng",
+    "meaning": "đau đầu gối",
+    "example": "膝盖疼"
+  },
+  {
+    "type": "word",
+    "term": "手腕疼",
+    "pinyin": "shǒuwàn téng",
+    "meaning": "đau cổ tay",
+    "example": "手腕疼"
+  },
+  {
+    "type": "word",
+    "term": "脚踝疼",
+    "pinyin": "jiǎohuái téng",
+    "meaning": "đau mắt cá chân",
+    "example": "脚踝疼"
+  },
+  {
+    "type": "word",
+    "term": "手指疼",
+    "pinyin": "shǒuzhǐ téng",
+    "meaning": "đau ngón tay",
+    "example": "手指疼"
+  },
+  {
+    "type": "word",
+    "term": "脚趾疼",
+    "pinyin": "jiǎozhǐ téng",
+    "meaning": "đau ngón chân",
+    "example": "脚趾疼"
+  },
+  {
+    "type": "word",
+    "term": "眼睛疼",
+    "pinyin": "yǎnjing téng",
+    "meaning": "đau mắt",
+    "example": "眼睛疼"
+  },
+  {
+    "type": "word",
+    "term": "耳朵疼",
+    "pinyin": "ěrduo téng",
+    "meaning": "đau tai",
+    "example": "耳朵疼"
+  },
+  {
+    "type": "word",
+    "term": "鼻子疼",
+    "pinyin": "bízi téng",
+    "meaning": "đau mũi",
+    "example": "鼻子疼"
+  },
+  {
+    "type": "word",
+    "term": "喉咙疼",
+    "pinyin": "hóulóng téng",
+    "meaning": "đau họng",
+    "example": "喉咙疼"
+  },
+  {
+    "type": "word",
+    "term": "胸口疼",
+    "pinyin": "xiōngkǒu téng",
+    "meaning": "đau ngực",
+    "example": "胸口疼"
+  },
+  {
+    "type": "word",
+    "term": "胃疼",
+    "pinyin": "wèiténg",
+    "meaning": "đau dạ dày",
+    "example": "胃疼"
+  },
+  {
+    "type": "word",
+    "term": "肝疼",
+    "pinyin": "gānténg",
+    "meaning": "đau gan",
+    "example": "肝疼"
+  },
+  {
+    "type": "word",
+    "term": "肾疼",
+    "pinyin": "shènténg",
+    "meaning": "đau thận",
+    "example": "肾疼"
+  },
+  {
+    "type": "word",
+    "term": "肺疼",
+    "pinyin": "fèiténg",
+    "meaning": "đau phổi",
+    "example": "肺疼"
+  },
+  {
+    "type": "word",
+    "term": "心疼",
+    "pinyin": "xīnténg",
+    "meaning": "đau tim",
+    "example": "心疼"
+  },
+  {
+    "type": "word",
+    "term": "皮肤疼",
+    "pinyin": "pífū téng",
+    "meaning": "đau da",
+    "example": "皮肤疼"
+  },
+  {
+    "type": "word",
+    "term": "肌肉疼",
+    "pinyin": "jīròu téng",
+    "meaning": "đau cơ",
+    "example": "肌肉疼"
+  },
+  {
+    "type": "word",
+    "term": "骨头疼",
+    "pinyin": "gǔtou téng",
+    "meaning": "đau xương",
+    "example": "骨头疼"
+  },
+  {
+    "type": "word",
+    "term": "关节疼",
+    "pinyin": "guānjié téng",
+    "meaning": "đau khớp",
+    "example": "关节疼"
+  },
+  {
+    "type": "word",
+    "term": "神经疼",
+    "pinyin": "shénjīng téng",
+    "meaning": "đau thần kinh",
+    "example": "神经疼"
+  },
+  {
+    "type": "word",
+    "term": "血管疼",
+    "pinyin": "xuèguǎn téng",
+    "meaning": "đau mạch máu",
+    "example": "血管疼"
+  },
+  {
+    "type": "word",
+    "term": "淋巴疼",
+    "pinyin": "línbā téng",
+    "meaning": "đau hạch",
+    "example": "淋巴疼"
+  },
+  {
+    "type": "word",
+    "term": "腺体疼",
+    "pinyin": "xiàntǐ téng",
+    "meaning": "đau tuyến",
+    "example": "腺体疼"
+  },
+  {
+    "type": "word",
+    "term": "组织疼",
+    "pinyin": "zǔzhī téng",
+    "meaning": "đau mô",
+    "example": "组织疼"
+  },
+  {
+    "type": "word",
+    "term": "细胞疼",
+    "pinyin": "xìbāo téng",
+    "meaning": "đau tế bào",
+    "example": "细胞疼"
+  },
+  {
+    "type": "word",
+    "term": "器官疼",
+    "pinyin": "qìguān téng",
+    "meaning": "đau cơ quan",
+    "example": "器官疼"
+  },
+  {
+    "type": "word",
+    "term": "系统疼",
+    "pinyin": "xìtǒng téng",
+    "meaning": "đau hệ thống",
+    "example": "系统疼"
+  },
+  {
+    "type": "word",
+    "term": "功能疼",
+    "pinyin": "gōngnéng téng",
+    "meaning": "đau chức năng",
+    "example": "功能疼"
+  },
+  {
+    "type": "word",
+    "term": "结构疼",
+    "pinyin": "jiégòu téng",
+    "meaning": "đau cấu trúc",
+    "example": "结构疼"
+  },
+  {
+    "type": "word",
+    "term": "形态疼",
+    "pinyin": "xíngtài téng",
+    "meaning": "đau hình thái",
+    "example": "形态疼"
+  },
+  {
+    "type": "word",
+    "term": "状态疼",
+    "pinyin": "zhuàngtài téng",
+    "meaning": "đau trạng thái",
+    "example": "状态疼"
+  },
+  {
+    "type": "word",
+    "term": "过程疼",
+    "pinyin": "guòchéng téng",
+    "meaning": "đau quá trình",
+    "example": "过程疼"
+  },
+  {
+    "type": "word",
+    "term": "阶段疼",
+    "pinyin": "jiēduàn téng",
+    "meaning": "đau giai đoạn",
+    "example": "阶段疼"
+  },
+  {
+    "type": "word",
+    "term": "时期疼",
+    "pinyin": "shíqī téng",
+    "meaning": "đau thời kỳ",
+    "example": "时期疼"
+  },
+  {
+    "type": "word",
+    "term": "时代疼",
+    "pinyin": "shídài téng",
+    "meaning": "đau thời đại",
+    "example": "时代疼"
+  },
+  {
+    "type": "word",
+    "term": "年代疼",
+    "pinyin": "niándài téng",
+    "meaning": "đau thập kỷ",
+    "example": "年代疼"
+  },
+  {
+    "type": "word",
+    "term": "世纪疼",
+    "pinyin": "shìjì téng",
+    "meaning": "đau thế kỷ",
+    "example": "世纪疼"
+  },
+  {
+    "type": "word",
+    "term": "千年疼",
+    "pinyin": "qiānnián téng",
+    "meaning": "đau thiên niên kỷ",
+    "example": "千年疼"
+  },
+  {
+    "type": "word",
+    "term": "万年疼",
+    "pinyin": "wànnián téng",
+    "meaning": "đau vạn niên",
+    "example": "万年疼"
+  },
+  {
+    "type": "word",
+    "term": "亿年疼",
+    "pinyin": "yìnián téng",
+    "meaning": "đau ức niên",
+    "example": "亿年疼"
+  },
+  {
+    "type": "word",
+    "term": "兆年疼",
+    "pinyin": "zhàonián téng",
+    "meaning": "đau triệu niên",
+    "example": "兆年疼"
+  },
+  {
+    "type": "word",
+    "term": "京年疼",
+    "pinyin": "jīngnián téng",
+    "meaning": "đau kinh niên",
+    "example": "京年疼"
+  },
+  {
+    "type": "word",
+    "term": "垓年疼",
+    "pinyin": "gāinián téng",
+    "meaning": "đau cai niên",
+    "example": "垓年疼"
+  },
+  {
+    "type": "word",
+    "term": "秭年疼",
+    "pinyin": "zǐnián téng",
+    "meaning": "đau tỷ niên",
+    "example": "秭年疼"
+  },
+  {
+    "type": "word",
+    "term": "穰年疼",
+    "pinyin": "rángnián téng",
+    "meaning": "đau nhương niên",
+    "example": "穰年疼"
+  },
+  {
+    "type": "word",
+    "term": "沟年疼",
+    "pinyin": "gōunián téng",
+    "meaning": "đau câu niên",
+    "example": "沟年疼"
+  },
+  {
+    "type": "word",
+    "term": "涧年疼",
+    "pinyin": "jiànnián téng",
+    "meaning": "đau giản niên",
+    "example": "涧年疼"
+  },
+  {
+    "type": "word",
+    "term": "正年疼",
+    "pinyin": "zhèngnián téng",
+    "meaning": "đau chính niên",
+    "example": "正年疼"
+  },
+  {
+    "type": "word",
+    "term": "载年疼",
+    "pinyin": "zǎinián téng",
+    "meaning": "đau tải niên",
+    "example": "载年疼"
+  },
+  {
+    "type": "word",
+    "term": "极年疼",
+    "pinyin": "jínián téng",
+    "meaning": "đau cực niên",
+    "example": "极年疼"
+  },
+  {
+    "type": "word",
+    "term": "恒河沙年疼",
+    "pinyin": "hénghéshā nián téng",
+    "meaning": "đau hằng hà sa niên",
+    "example": "恒河沙年疼"
+  },
+  {
+    "type": "word",
+    "term": "阿僧祇年疼",
+    "pinyin": "āsēngqí nián téng",
+    "meaning": "đau a tăng kỳ niên",
+    "example": "阿僧祇年疼"
+  },
+  {
+    "type": "word",
+    "term": "那由他年疼",
+    "pinyin": "nàyóutā nián téng",
+    "meaning": "đau na do tha niên",
+    "example": "那由他年疼"
+  },
+  {
+    "type": "word",
+    "term": "不可思议年疼",
+    "pinyin": "bùkěsīyì nián téng",
+    "meaning": "đau bất khả tư nghì niên",
+    "example": "不可思议年疼"
+  },
+  {
+    "type": "word",
+    "term": "无量大数年疼",
+    "pinyin": "wúliàng dàshù nián téng",
+    "meaning": "đau vô lượng đại số niên",
+    "example": "无量大数年疼"
+  }
+]
